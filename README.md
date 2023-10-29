@@ -4,9 +4,9 @@
 >
 > 这是本人的学习周报记录，参考的是[Skr-Learning](https://github.com/Kiprey/Skr_Learning)学习周报。这里定期记录一些学习的内容与进度。
 
-# Week 1: 2023.10.30-2023.11.5
+## Week 1: 2023.10.30-2023.11.5
 
-## 主要任务
+### 主要任务
 
 1. Modern C++ 学习
    - [ ] CS368 课程学习
@@ -20,7 +20,7 @@
    - [ ] CPP Crash Course
    - [ ] 15-445 C++ Bootcamp
 
-## Tasks
+### Tasks
 
 - [ ] [CS 368: C++ Lecture 0 Slides](https://docs.google.com/presentation/d/1oS6CSHrY12xfYI7NNVhhzAHoNLecw7hDakyxTXTTHDk/edit#slide=id.p)
 - [ ] [CS 368: C++ Lecture 1 Slides](https://docs.google.com/presentation/d/1PjMiyuYpdD2ol4dMIKrkaePe2iUtjYSH8vNEFkGCeQU/edit?usp=sharing)
