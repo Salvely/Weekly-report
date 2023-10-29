@@ -22,5 +22,5 @@
 
 ### [Tasks](./week1/)
 
-- [CS368 Tasks](./week1/tasks.md#cs368)
+- [CS368 Tasks](./week1/CS368.md)
 
