@@ -9,7 +9,7 @@
 ### 主要任务
 
 1. Modern C++ 学习
-   - [ ] CS368 课程学习
+   - [ ] [CS368 课程学习](./week1/CS368.md)
    - [ ] Bonn 课程学习
    - [ ] Stanford CS106L 课程学习
    - [ ] CIS1900 课程学习
@@ -20,7 +20,6 @@
    - [ ] CPP Crash Course
    - [ ] 15-445 C++ Bootcamp
 
-### [Tasks](./week1/)
+### Logs
 
-- [CS368 Tasks](./week1/CS368.md)
-
+- [2023.10.30](./week1/journal/day1.md): 哎哟，啥也没干，郁闷。。。

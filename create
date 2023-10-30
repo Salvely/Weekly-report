@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ $# -ne 1 ]
+then
+    echo "Usage: ./create <week>"
+    exit 1
+fi
+
+cp -r template week$1/journal
