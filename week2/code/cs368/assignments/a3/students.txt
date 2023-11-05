@@ -1,0 +1,11 @@
+G,Soosai Raj,2000,80,91,75,91,93,92,95,97,Teacher Education,Thomas
+U,Amal Shalini,1993,55,71,71,63,60,78,83,89,Sellery,Senior
+U,Diya Rajesh,1995,92,66,77,95,90,96,59,97,Ogg,Junior
+G,Kasama Ketsuriyonk,1993,94,63,59,55,72,54,63,95,Aerospace,Rob
+G,N.R.Auxilia,1993,51,75,87,71,88,85,68,89,Food Science,Rayappa
+U,Vinodh Balasubramaniam,1988,100,54,100,83,94,53,79,59,Waters,Sophomore
+U,Bharathi Sriramulu,1992,66,76,93,66,50,89,69,59,Waters,Sophomore
+U,Kaviya Lakshmipathy,1996,60,87,80,68,70,80,92,91,Leopold,Freshman
+G,Hemanthkumar Santhamoorthy,1997,51,57,73,80,69,97,57,69,Operating Systems,Remzi Arpaci-Dusseau
+G,Rex Fernando,1997,57,90,81,96,80,95,78,68,Cryptography,Amit Sahai
+U,Shiyam,1989,72,96,57,55,40,96,99,47,Ogg,Junior

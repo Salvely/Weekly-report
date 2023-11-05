@@ -5,4 +5,8 @@ then
     exit 1
 fi
 
+mkdir week$1
 cp -r template week$1/journal
+cat weekly.md >> README.md
+cd week$1
+mkdir code tasks

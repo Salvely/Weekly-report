@@ -1,5 +1,5 @@
-#ifndef _DFA_HH_
-#define _DFA_HH_
+#ifndef _NFA_HH_
+#define _NFA_HH_
 
 #include <vector>
 #include <set>
@@ -8,14 +8,14 @@
 #include <algorithm>
 
 /**
- * Before implementing the dfa, assuming that:
+ * Before implementing the nfa, assuming that:
  * 1. The transisiton alpha is character
  * 2. The states are represented by integer.
  * 3. A states and their transitions is represented by a multimap,
  *  each state with different input char has a different transision
  */
 
-// define the struct for dfa
+// define the struct for nfa
 typedef struct
 {
     // an alpha list
@@ -32,15 +32,28 @@ typedef struct
 
     // the ending states
     std::set<int> end_states;
-} dfa_t;
+} nfa_t;
 
-// 
 /**
- * @brief get user input and initialize the dfa
- * @return the dfa_t struct
+ * @brief get user input and initialize the nfa
+ * @return the nfa_t struct
  */
-dfa_t init_dfa()
+nfa_t init_nfa();
 
+/**
+ * @brief print the alpha list, states, nfa transitions, start state and end states of the nfa
+ * 
+ * @param d the nfa we have initialized
+ */
+void nfa_info(nfa_t& d);
 
-
+/**
+ * @brief simulate the nfa according to the input string
+ * 
+ * @param d the nfa to be simulate
+ * @param s the input string
+ * 
+ * @return if s is a valid string according to the nfa
+ */
+bool simulate(nfa_t& d, std::string& s);
 #endif
