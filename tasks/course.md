@@ -1,8 +1,8 @@
 1. Modern C++ 学习
-   - [ ] [Bonn 课程学习](./week2/tasks/Bonn_CPP.md)
+   - [ ] [Bonn 课程学习](./tasks/Bonn_CPP.md)
    - [ ] CIS1900 课程学习
    - [ ] 南方科技大学 CPP 课程学习
-   - [ ] [CS368 课程学习](./week2/tasks/CS368.md)
+   - [ ] [CS368 课程学习](./tasks/CS368.md)
    - [ ] Stanford CS106L 课程学习
    - [ ] AmirKabir University of Technology AP1400-2: Advanced Programming
 2. Modern C++ 复习

@@ -7,14 +7,14 @@
 
 ## Week 1: 2023.10.30-2023.11.5
 
-### 主要任务: [C++ Basics](./week1/code/)学习
+### 主要任务: C++ Basics 学习
 
 ### Logs
 
 - [2023.10.30](./week1/journal/day1.md): 哎哟，啥也没干，郁闷。。。
-- [2023.10.31](./week1/journal/day2.md): 用`STL`实现了[贪吃蛇小游戏](./week1/code/snake/)
+- [2023.10.31](./week1/journal/day2.md): 用`STL`实现了[贪吃蛇小游戏](./code/snake/)
 - [2023.11.1](./week1/journal/day3.md): 完成了`STL Vectors`一章的`Reading`,今天因为出去了，效率不是太高
-- [2023.11.2](./week1/journal/day4.md): `STL Associative Containers Reading`完成，用`STL Multimap`实现了一个[`NFA`](./week1/code/nfa/)
+- [2023.11.2](./week1/journal/day4.md): `STL Associative Containers Reading`完成，用`STL Multimap`实现了一个[`NFA`](./code/nfa/)
 - [2023.11.3](./week1/journal/day5.md): 杂事很多，很累，今天摆烂了。。。
 - [2023.11.4](./week1/journal/day6.md): 阅读了`STL Algorithms`
 - [2023.11.5](./week1/journal/day7.md): 身体不太舒服，没有学习。。。
