@@ -1,5 +1,5 @@
 1. Modern C++ 学习
-   - [ ] [Bonn 课程学习](./tasks/Bonn_CPP.md)
+   - [ ] [Bonn 课程学习](./tasks/Bonn_CPP.md) - 暂时搁置（作业原因）
    - [ ] CIS1900 课程学习
    - [ ] 南方科技大学 CPP 课程学习
    - [ ] [CS368 课程学习](./tasks/CS368.md)
@@ -50,13 +50,13 @@
    - [ ] [CS 225 | Home (illinois.edu)](https://courses.engr.illinois.edu/cs225/sp2023/)(理论)
 
 8. 系统入门
-   - [ ] Brown CI0300 2023
-   - [ ] [CS 61 (harvard.edu)](https://cs61.seas.harvard.edu/site/2022/#gsc.tab=0)
    - [ ] 九曲阑干深入理解计算机系统导读 + 华盛顿大学 CSE351
    - [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230)
    - [ ] [计算机系统概论(加州理工学院，无字幕)：Caltech - Introduction to Computing Systems；公开课推荐：CMU 15-213\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/av8707332/?vd_source=85acf0a59ded02e4c75ae1158baca207)
          [https://com.puter.systems/20fa/](https://com.puter.systems/20fa/) Caltech ICS
          实验网址：[cs24-20fa · GitLab (caltech.edu)](https://gitlab.caltech.edu/cs24-20fa)
+   - [ ] Brown CI0300 2023
+   - [ ] [CS 61 (harvard.edu)](https://cs61.seas.harvard.edu/site/2022/#gsc.tab=0)
    - [ ] DDCA/COD 阅读 + 华中科技大学数字逻辑设计实验完成 + 华中科技大学组成原理实验完成（配合台湾清华大学计算机结构课程）
    - [ ] UCB CS61C
    - [ ] MIT 6.004
@@ -74,14 +74,12 @@
    - [ ] 南京大学计算机系统基础课程学习+ ICS PA
    - [ ] 一生一芯项目完成
 10. Rust 语言基础学习
-
-- [ ] [Penn Rust Course](http://cis198-2016s.github.io/)
-- [ ] Stanford CS110L:Rust
-- [ ] Comprehensive Rust Google
-- [ ] [os2edu/rust-basics-course: rust-basics course of https://rust.os2edu.cn (github.com)](https://github.com/os2edu/rust-basics-course)
-- [ ] https://github.com/kaist-cp/cs431
-- [ ] 开源操作系统训练营第一阶段任务完成并提交
-
+    - [ ] [Penn Rust Course](http://cis198-2016s.github.io/)
+    - [ ] Stanford CS110L:Rust
+    - [ ] Comprehensive Rust Google
+    - [ ] [os2edu/rust-basics-course: rust-basics course of https://rust.os2edu.cn (github.com)](https://github.com/os2edu/rust-basics-course)
+    - [ ] https://github.com/kaist-cp/cs431
+    - [ ] 开源操作系统训练营第一阶段任务完成并提交
 11. 操作系统
 12. 计算机网络
 13. 编译原理

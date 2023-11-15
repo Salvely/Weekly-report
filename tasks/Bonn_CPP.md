@@ -26,21 +26,21 @@
 
 ### Part III: Modern C++
 
-- [ ] Lecture: Classes
-- [ ] Week 6 Tutorial
+- [x] Lecture: Classes
+- [x] Week 6 Tutorial
 - [ ] Homework 6
-- [ ] Lecture: OOP
-- [ ] Week 7 Tutorial
+- [x] Lecture: OOP
+- [x] Week 7 Tutorial
 - [ ] Homework 7
-- [ ] Lecture: Memory Managment
-- [ ] Week 8 Tutorial
+- [x] Lecture: Memory Managment
+- [x] Week 8 Tutorial
 - [ ] Homework 8
-- [ ] Lecture: Generics Programing
-- [ ] Week 9 Tutorial
+- [x] Lecture: Generics Programing
+- [x] Week 9 Tutorial
 - [ ] Homework 9
 
 ### Part IV: Final Project “Place recognition using Bag of Visual Words in C++”
 
-- [ ] Lecture: Bag of Visual Words
+- [x] Lecture: Bag of Visual Words
 - [ ] Week 10 Tutorial
 - [ ] Final Project

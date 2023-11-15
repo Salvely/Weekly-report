@@ -33,7 +33,7 @@
 - [2023.11.8](./week2/journal/day3.md): 实现了`CMake`多文件多目录项目构建，了解了基本的一些`CMAKE_DIR`,`CMake shared library`构建，以及`CMake install`，了解了一些`GDB`高级用法
 - [2023.11.9](./week2/journal/day4.md): 学习了`C++ Functions`，以及`clang-format`和`clang-tidy`的用法
 - [2023.11.10](./week2/journal/day5.md): 学习了`C++ Containers & Iterators & Algorithms`，完成了`Bonn Modern C++ hw3`和一部分`hw4`
-- [2023.11.11](./week2/journal/day6.md): 实现`hw4`，还需要参考一下《STL 源码剖析》中的实现
+- [2023.11.11](./week2/journal/day6.md): 实现`hw4`，还需要参考一下《STL 源码剖析》中的实现，按照作业测试来看他的需求就是在自己的实现里面套壳，没什么意思，就不管他了
 - [2023.11.12](./week2/journal/day7.md): 学习了一些`C++ Utilities & Library & Classes & visual words & opencv tutorial`，不是很多，下周加油！
 
 ## Week 3: 2023.11.13-2023.11.19
@@ -44,4 +44,6 @@
 
 ### Logs
 
-- [2023.11.13](./week3/journal/day1.md): 
+- [2023.11.13](./week3/journal/day1.md): `googletest`使用学习，`C++ Classes`，修复了`hw4`的一些小问题，安装了`opencv`
+- [2023.11.14](./week3/journal/day2.md): 学习了`C++ Inheritance, Static, Numbers, Arrays, Pointers, Stack and Heap, Memory Leak, Smart Pointers`，今天主要是在看lecture, assignment倒没怎么做。
+- [2023.11.15](./week3/journal/day3.md): `Modern C++ Basics`理论部分全部学完，`opencv`环境还没完全配好，`C++`还需要复习。

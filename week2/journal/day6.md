@@ -20,11 +20,13 @@
 - 18:22:34 `Test`中给的测试是基于`Catch2`了，而现在`Catch`已经更新到了`v3`，因此需要根据[Catch 文档](https://github.com/catchorg/Catch2/blob/devel/docs/migrate-v2-to-v3.md#top)做一些调整
 - 18:37:57 下载了`catch_amalgamated.hpp`和`catch_amalgamated.cpp`，并将所有的`catch/catch2.hpp`替换成了`catch_amalgamated.hpp`，开始编译测试
 - 18:49:29 所有算法实现完成，`vscode ssh`又连不上了，呜呜呜
-- 19:08:56 `hw4`完成，不太清楚它的`vector`是如何实现的，后期看《STL 源码剖析》
+- 19:08:56 `hw4`完成，作业的测试基本上就是希望你在自己的实现里面套个`std::vector`，就不管他了，后期看《STL 源码剖析》，学一下标准的`std::vector`实现
 - 21:27:15 用`pandas`弄完了时间统计
 - 22:05:38 学不动了，准备洗个澡
 
 # Minor-tasks
+
+- [x] 帮我爸把表格的事情完成
 
 # Summary
 

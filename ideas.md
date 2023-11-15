@@ -20,7 +20,8 @@
 - gitlab 
 - agile-development
 - STL源码剖析阅读，看看`std::vector`是如何实现的
-- 
+- 数学：微积分/微分方程/线性代数/概率论强化
+- debug memory allocator
 
 # 需要完成的工程项目
 
