@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gwen/Documents/courses/Bonn_CPP/assignments/hw2/task_1/src/main.cpp
+cstdio
+-
+cstdlib
+-
+iostream
+-
+random
+-
+

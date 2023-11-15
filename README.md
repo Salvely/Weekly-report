@@ -7,7 +7,9 @@
 
 ## Week 1: 2023.10.30-2023.11.5
 
-### 主要任务: C++ Basics 学习
+### 主要任务
+
+- C++ Basics 学习
 
 ### Logs
 
@@ -23,8 +25,9 @@
 
 ### 主要任务
 
-- `Modern C++基础`
-- `CMake基础`
+- Modern C++基础
+  - [Bonn Modern C++ for image processing](./code/Bonn_CPP/)
+- [CMake 基础](./code/cmake/)
 
 ### Logs
 
@@ -40,10 +43,15 @@
 
 ### 主要任务
 
-- `Modern C++基础`
+- Modern C++基础
+  - [Bonn Modern C++ for image processing](./code/Bonn_CPP/)
+  - [CIS1900](./code/cis1900/)
+- [OpenCV C++学习](./code/opencv_test/)
+- [Google Test 测试框架学习](./code/gTest/)
 
 ### Logs
 
 - [2023.11.13](./week3/journal/day1.md): `googletest`使用学习，`C++ Classes`，修复了`hw4`的一些小问题，安装了`opencv`
-- [2023.11.14](./week3/journal/day2.md): 学习了`C++ Inheritance, Static, Numbers, Arrays, Pointers, Stack and Heap, Memory Leak, Smart Pointers`，今天主要是在看lecture, assignment倒没怎么做。
-- [2023.11.15](./week3/journal/day3.md): `Modern C++ Basics`理论部分全部学完，`opencv`环境还没完全配好，`C++`还需要复习。
+- [2023.11.14](./week3/journal/day2.md): 学习了`C++ Inheritance, Static, Numbers, Arrays, Pointers, Stack and Heap, Memory Leak, Smart Pointers`，今天主要是在看 lecture, assignment 倒没怎么做。
+- [2023.11.15](./week3/journal/day3.md): `Modern C++ Basics`理论部分全部学完，`opencv`环境配置完成，尚未测试，，`CIS1900 C++`前三个`lecture`复习。
+- [2023.11.16](./week3/journal/day4.md): 

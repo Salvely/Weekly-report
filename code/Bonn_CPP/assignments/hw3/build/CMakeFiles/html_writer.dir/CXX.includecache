@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../api/html_writer.hpp
+iostream
+-
+string
+-
+
+/home/gwen/Documents/courses/Bonn_CPP/assignments/hw3/src/html_writer.cpp
+html_writer.hpp
+/home/gwen/Documents/courses/Bonn_CPP/assignments/hw3/src/html_writer.hpp
+fmt/core.h
+-
+cstdlib
+-
+experimental/filesystem
+-
+iostream
+-
+sstream
+-
+string
+-
+

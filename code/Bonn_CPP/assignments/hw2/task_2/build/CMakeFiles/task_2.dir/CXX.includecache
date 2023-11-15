@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gwen/Documents/courses/Bonn_CPP/assignments/hw2/task_2/src/main.cpp
+stdlib.h
+-
+algorithm
+-
+iostream
+-
+numeric
+-
+sstream
+-
+string
+-
+vector
+-
+

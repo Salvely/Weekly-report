@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/homework_4.h
+algorithm
+-
+array
+-
+initializer_list
+-
+iostream
+-
+string
+-
+
+/home/gwen/Documents/courses/Bonn_CPP/assignments/hw4/src/homework_4.cpp
+homework_4.h
+/home/gwen/Documents/courses/Bonn_CPP/assignments/hw4/src/homework_4.h
+initializer_list
+-
+string
+-
+

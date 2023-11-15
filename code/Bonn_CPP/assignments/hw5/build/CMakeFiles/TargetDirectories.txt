@@ -1,0 +1,4 @@
+/home/gwen/Documents/courses/Bonn_CPP/assignments/hw5/build/CMakeFiles/rebuild_cache.dir
+/home/gwen/Documents/courses/Bonn_CPP/assignments/hw5/build/CMakeFiles/edit_cache.dir
+/home/gwen/Documents/courses/Bonn_CPP/assignments/hw5/build/CMakeFiles/main.dir
+/home/gwen/Documents/courses/Bonn_CPP/assignments/hw5/build/CMakeFiles/mat_serialization.dir

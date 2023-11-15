@@ -1,5 +1,5 @@
 1. Modern C++ 学习
-   - [ ] [Bonn 课程学习](./tasks/Bonn_CPP.md) - 暂时搁置（作业原因）
+   - [ ] [Bonn 课程学习](./tasks/Bonn_CPP.md)
    - [ ] CIS1900 课程学习
    - [ ] 南方科技大学 CPP 课程学习
    - [ ] [CS368 课程学习](./tasks/CS368.md)
