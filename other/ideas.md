@@ -26,3 +26,12 @@
 # 需要完成的工程项目
 
 > 上述技能点学会后，转移到下列列表中，或自行添加项目。例如：学完 CMake 后，下方列表添加`自己写一个CMake`
+- 实现一个函数式语言的编译器(rust/scala/haskell/scheme/lisp/OCmal)
+- 学习抽象代数，形式语言与自动机
+- 实现一个正则引擎
+- 学习javascript & full stack development
+- 实现一个v8引擎
+- 实现一个go语言编译器
+- 自己实现一个make
+- 自己实现一个`cmake`
+- 自己实现一个风格排版工具

@@ -1,17 +1,17 @@
 #ifndef NODE_HPP
 #define NODE_HPP
 
-class node
-{
+class node {
 private:
-    int val;
-    node * left = nullptr;
-    node * right = nullptr;
-public:
-    node(int);
+  int val;
+  node *left = nullptr;
+  node *right = nullptr;
 
-    bool search(int) const;
-    void insert(int);
+public:
+  node(int);
+  ~node();
+  bool search(int) const;
+  void insert(int);
 };
 
 #endif
