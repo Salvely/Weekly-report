@@ -1,0 +1,5 @@
+reset
+as strlen strlen
+ld strlen
+set PC 0
+break set END
