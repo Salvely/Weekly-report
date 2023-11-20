@@ -48,6 +48,8 @@
   - [CIS1900](./code/cis1900/)
 - [OpenCV C++学习](./code/opencv_test/)
 - [Google Test 测试框架学习](./code/gTest/)
+- 系统入门
+  - [CIS2400](./code/CIS2400/)
 
 ### Logs
 
@@ -55,4 +57,18 @@
 - [2023.11.14](./week3/journal/day2.md): 学习了`C++ Inheritance, Static, Numbers, Arrays, Pointers, Stack and Heap, Memory Leak, Smart Pointers`，今天主要是在看 lecture, assignment 倒没怎么做。
 - [2023.11.15](./week3/journal/day3.md): `Modern C++ Basics`理论部分全部学完，`opencv`环境配置完成，尚未测试，，`CIS1900 C++`前三个`lecture`复习。今天效率不是很高。
 - [2023.11.16](./week3/journal/day4.md): 身体不太舒服，头有点疼，可能是昨天睡太晚了，效率不高，今天早点睡。
-- 
+- [2023.11.17](./week3/journal/day5.md): 效率不高，搞虚拟机搞了半天，明天加油！
+- [2023.11.18](./week3/journal/day6.md): 复习了点系统基础，其他的啥也没干，又是摆烂的一天。唉，运动多了，膝盖搞疼了，明天一定要加油！早睡早起，打起精神来！
+- [2023.11.19](./week3/journal/day7.md): LC4汇编程序作业完成，复习数据通路，MIPS I-type和J-type指令跳转实现。
+
+
+## Week 4: 2023.11.20-2023.11.26
+
+### 主要任务
+
+1. 系统基础复习
+   - [CIS2400](./code/CIS2400/)
+
+### Logs
+
+- [2023.11.20](./week4/journal/day1.md): 

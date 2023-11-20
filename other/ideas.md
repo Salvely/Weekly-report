@@ -15,23 +15,34 @@
 - C++ 元构建工具，CMake 进阶用法
 - clang & 编译原理 & llvm tutorial & llvm toolchain
 - `CMake`还不够熟练，需要再多写几个大型工程，勤加练习！
-- 实现一个Tiny STL
+- 实现一个 Tiny STL
 - clang-tidy & clang-format
-- gitlab 
+- gitlab
 - agile-development
-- STL源码剖析阅读，看看`std::vector`是如何实现的
+- STL 源码剖析阅读，看看`std::vector`是如何实现的
 - 数学：微积分/微分方程/线性代数/概率论强化
 - debug memory allocator
+
+## 需要学习的课程
+
+- 微积分
+- 微分方程
+- 线性代数
+- 概率论
+- 大学物理学习
+- 电子电路学习
+- 
 
 # 需要完成的工程项目
 
 > 上述技能点学会后，转移到下列列表中，或自行添加项目。例如：学完 CMake 后，下方列表添加`自己写一个CMake`
+
 - 实现一个函数式语言的编译器(rust/scala/haskell/scheme/lisp/OCmal)
 - 学习抽象代数，形式语言与自动机
 - 实现一个正则引擎
-- 学习javascript & full stack development
-- 实现一个v8引擎
-- 实现一个go语言编译器
-- 自己实现一个make
+- 学习 javascript & full stack development
+- 实现一个 v8 引擎
+- 实现一个 go 语言编译器
+- 自己实现一个 make
 - 自己实现一个`cmake`
 - 自己实现一个风格排版工具

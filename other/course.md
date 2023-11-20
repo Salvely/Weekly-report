@@ -41,6 +41,7 @@
 - [嵌入式](#嵌入式)
 - [宾夕法尼亚大学课程](#宾夕法尼亚大学课程)
 - [其他课程](#其他课程)
+- [其他资料](#其他资料)
 
 # 计算机工具使用
 
@@ -150,6 +151,8 @@
 
 # 前后端开发
 
+- [Javascript course](https://javascriptclass.org/)
+
 # 数据结构与算法
 
 ## 数据结构
@@ -206,19 +209,20 @@
 ## 系统入门
 
 - [ ] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/22fa/)
-- [ ] Brown CI0300 2023
-- [ ] [CS 61 (harvard.edu)](https://cs61.seas.harvard.edu/site/2022/#gsc.tab=0)
-- [ ] 九曲阑干深入理解计算机系统导读 + 华盛顿大学 CSE351
-- [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230)
 - [ ] [计算机系统概论(加州理工学院，无字幕)：Caltech - Introduction to Computing Systems；公开课推荐：CMU 15-213\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/av8707332/?vd_source=85acf0a59ded02e4c75ae1158baca207)
       [https://com.puter.systems/20fa/](https://com.puter.systems/20fa/) Caltech ICS
       实验网址：[cs24-20fa · GitLab (caltech.edu)](https://gitlab.caltech.edu/cs24-20fa)
+- [ ] 九曲阑干深入理解计算机系统导读 + 华盛顿大学 CSE351
+- [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230)
+- [ ] Brown CI0300 2023
+- [ ] [CS 61 (harvard.edu)](https://cs61.seas.harvard.edu/site/2022/#gsc.tab=0)
 - [ ] DDCA/COD 阅读 + 华中科技大学数字逻辑设计实验完成 + 华中科技大学组成原理实验完成（配合台湾清华大学计算机结构课程）
 - [ ] UCB CS61C
 - [ ] MIT 6.004
 - [ ] [MIT 6.033 Spring 2021: Computer System 计算机系统\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV12T4y1R78D/?vd_source=85acf0a59ded02e4c75ae1158baca207)
       MIT 6.039 [Syllabus | Computer System Engineering | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/)
 - [ ] [上海交通大学 CSE](https://ipads.se.sjtu.edu.cn/courses/cse/2022/)
+      [实验平台网址](https://ipads.se.sjtu.edu.cn:1312/lab/cse-2022-fall)
 - [ ] [CS 439, Spring 2013: Principles of Computer Systems (nyu.edu)](https://cs.nyu.edu/~mwalfish/classes/ut/s13-cs439/index.html)
 - [ ] [CS 439 Spring 2012 <BR>Principles of Computer Systems (utexas.edu)](https://www.cs.utexas.edu/~dahlin/Classes/439/index.html)
 - [ ] [CSE 333 23sp (washington.edu)](https://courses.cs.washington.edu/courses/cse333/23sp/) （已 fork，可做）
@@ -236,7 +240,7 @@
 
 - [ ] 华科数字逻辑实验完成
 - [ ] 台湾清华大学体系结构课程学习(MIPS COA)(理论) + 华科计算机组成原理实验完成(MIPS COA)(实验)
-- [ ] DDCA 阅读 + DDCA配套实验 + EECS151（ASIC）
+- [ ] DDCA 阅读 + DDCA 配套实验 + EECS151（ASIC）
 - [ ] MIT 6.175 + MIT 6.375
 - [ ] ETH Design of circuits
 - [ ] ETH Digital Design and Computer Architecture 学习并完成实验
@@ -256,6 +260,7 @@
 - [ ] 一生一芯项目完成
 - [ ] ETH Seminar on Computer Architecture
 - [ ] [FDU ICS](https://fducslg.github.io/Arch-2022Spring-FDU/)
+- [ ] [Cornell](https://www.csl.cornell.edu/courses/ece4750/index.html)
 
 ## 操作系统
 
@@ -329,6 +334,8 @@
 - [ ] [CS 4411/5411 - Fall 2022 (cornell.edu)](https://www.cs.cornell.edu/courses/cs4411/2022fa/) 理论
 - [ ] [CS 423: Operating System Design (Spring 2021) (illinois.edu)](https://courses.engr.illinois.edu/cs423/sp2021/) （改 Linux 内核源码）
       [CS 423 -- Operating System Design (Fall 2022) (cs423-uiuc.github.io)](https://cs423-uiuc.github.io/fall22/)
+- [ ] [SJTU JOS](https://ipads.se.sjtu.edu.cn:1312/lab/jos-2019-spring)
+- [ ] [SJTU chCore](https://ipads.se.sjtu.edu.cn/courses/os/schedule.shtml)
 
 ## 计算机网络
 
@@ -422,6 +429,8 @@
       [CMSC 430: Design and Implementation of Programming Languages (umd.edu)](https://www.cs.umd.edu/class/spring2022/cmsc430/index.html)
       [CMSC 430: Design and Implementation of Programming Languages (umd.edu)](https://www.cs.umd.edu/class/spring2021/cmsc430/index.html)
 - [ ] [Calendar & Readings | Fundamentals of Program Analysis | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-820-fundamentals-of-program-analysis-fall-2015/pages/calendar-readings/)
+- [ ] [SJTU Tiger Compiler](https://ipads.se.sjtu.edu.cn:1312/lab/tiger-compiler-2019-fall)
+      [其他网址](https://github.com/ShenJiahuan/SE302_Compilers)
 - 编译优化
   - [ ] [CSCD70](https://uoft-ecosystem.github.io/CSCD70/)
   - [ ] [CS243: Program Analysis and Optimizations](https://suif.stanford.edu/~courses/cs243/)
@@ -641,12 +650,14 @@ Stanford AI 系列课程：
 # 宾夕法尼亚大学课程
 
 - [ ] [CIS 1200: Programming Languages and Techniques (upenn.edu)](https://www.seas.upenn.edu/~cis120/23sp/)
+- [ ] [CIS 1210 Data Structures](https://www.cis.upenn.edu/~cis1210/current/index.html)
 - [ ] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/current/)
 - [ ] [CIS 198: Rust Programming (cis198-2016f.github.io)](https://cis198-2016f.github.io/)
 - [ ] [CSE 240: Introduction to Computer Architecture (upenn.edu)](https://acg.cis.upenn.edu/milom/cse240-Fall06/)
 - [ ] [CIS 5530: Networked Systems (upenn.edu)](https://www.seas.upenn.edu/~cis5530/)
 - [ ] [CIS 1200: Programming Languages and Techniques (upenn.edu)](https://www.seas.upenn.edu/~cis120/23sp/)
 - [ ] [CIS 4710/5710: Computer Organization and Design Spring 2023 (upenn.edu)](https://www.cis.upenn.edu/~cis5710/current/)
+- [ ] [CIS3410 Compiler](https://www.seas.upenn.edu/~cis3410/current/index.html)
 - [ ] [CIS 5050: Software Systems (Spring 2023) (upenn.edu)](https://www.seas.upenn.edu/~cis5050/)
 - [ ] [CIS 4210/5210 - Artificial Intelligence - University of Pennsylvania (artificial-intelligence-class.org)](http://artificial-intelligence-class.org/index.html)
 - [ ] [CIS520 Machine Learning | Main / HomePage (upenn.edu)](https://alliance.seas.upenn.edu/~cis520/dynamic/2022/wiki/index.php)
@@ -666,6 +677,12 @@ Stanford AI 系列课程：
 - [awesome-courses](https://github.com/prakhar1989/awesome-courses)
 - [hackway-roadmap](https://hackway.org/docs/cs/intro)
 - [Shanghai Tech](https://i-techx.github.io/iTechX/dashboard)
+- [KAIST 系列课程](https://cs.kaist.ac.kr/education/undergraduate)
 - [数据结构课程合集](https://zhuanlan.zhihu.com/p/100310942)
 - [伯克利课程探索](https://www.zhihu.com/tardis/zm/art/392093161?source_id=1005)
 - [斯坦福课程合集](https://docs.google.com/spreadsheets/d/1zfw8nPvJeewxcFUBpKUKmAVE8PjnJI7H0CKimdQXxr0/htmlview)
+
+# 其他资料
+
+- [体系结构课程学习路线](https://zhuanlan.zhihu.com/p/654821469)
+- [嵌入式学习路线](https://zhuanlan.zhihu.com/p/457772251)
