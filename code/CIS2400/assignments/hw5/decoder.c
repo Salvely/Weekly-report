@@ -37,26 +37,94 @@ signals decode_signals(INSTR instr) {
     return res;
   }
 
-  // TODO: Implement the function to handle the instruction types:
   // - ADDI
   if(instr.type == ADDI) {
-    
+    res.PCMuxCTL = 1;
+    res.rsMuxCTL = 0;
+    res.rdMuxCTL = 0;
+    res.regFileWE = 1;
+    res.regInputMuxCTL = 0;
+    res.NZPWE = 1;
+    res.DATAWE = 0;
+    res.PrivilegeCTL = 2;
+    res.ALUInputMuxCTL = 1;
+    res.ALUCTL = 6;
+
+    res.rtMuxCTL = ANY_SIGNAL;
   }
   // - JSR
   else if(instr.type == JSR) {
+    res.rsMuxCTL = ANY_SIGNAL;
+    res.rtMuxCTL = ANY_SIGNAL;
+    res.rdMuxCTL = ANY_SIGNAL;
+    res.regFileWE = 0;
+    res.ALUCTL = ANY_SIGNAL;
+    res.ALUInputMuxCTL = ANY_SIGNAL;
+    res.DATAWE = 0;
+    res.regInputMuxCTL = ANY_SIGNAL;
+    res.NZPWE = 0;
 
+    res.PrivilegeCTL = 2;
+    res.PCMuxCTL = 5;
   }
   // - BRnz
   else if(instr.type == BRnz) {
+    res.rsMuxCTL = ANY_SIGNAL;
+    res.rtMuxCTL = ANY_SIGNAL;
+    res.rdMuxCTL = ANY_SIGNAL;
+    res.regFileWE = 0;
+    res.ALUCTL = ANY_SIGNAL;
+    res.DATAWE = 0;
+    res.ALUInputMuxCTL = ANY_SIGNAL;
+    res.regInputMuxCTL = ANY_SIGNAL;
+    res.NZPWE = 0;
 
+    res.PrivilegeCTL = 2;
+    res.PCMuxCTL = 0;
   }
-  // - CMPU
+  // - CMPIU
   else if(instr.type == CMPU) {
+    res.rdMuxCTL = ANY_SIGNAL;
+    res.regFileWE = 0;
+    res.DATAWE = 0;
+    res.PrivilegeCTL = 2;
 
+    res.rsMuxCTL = 2;
+    res.rtMuxCTL = 0;
+    res.ALUInputMuxCTL = 0;
+    res.ALUCTL = 2;
+    res.regInputMuxCTL = 0;
+    res.NZPWE = 1;
+    res.PCMuxCTL = 0;
   }
   // - STR
   else if(instr.type == STR) {
+    res.rdMuxCTL = ANY_SIGNAL;
+    res.DATAWE = 0;
+    res.NZPWE = 0;
 
+    res.rsMuxCTL = 0;
+    res.rtMuxCTL = 1;
+    res.regFileWE = 1;
+    res.ALUCTL = 6;
+    res.ALUInputMuxCTL = 1;
+    res.regInputMuxCTL = 1;
+    res.PrivilegeCTL = 2;
+    res.PCMuxCTL = 0;
+  }
+  else if(instr.type == LDR) {
+    res.rtMuxCTL = ANY_SIGNAL;
+    res.DATAWE = 0;
+    res.NZPWE = 0;
+
+    res.rsMuxCTL = 0;
+    res.rdMuxCTL = 0;
+    res.regFileWE = 1;
+    res.ALUCTL = 6;
+    res.ALUInputMuxCTL = 1;
+    res.regInputMuxCTL = 1;
+    res.PrivilegeCTL = 2;
+    res.PCMuxCTL = 0;
   }
 
   // return resulting control signals
