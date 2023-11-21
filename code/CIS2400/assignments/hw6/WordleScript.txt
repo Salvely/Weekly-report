@@ -1,0 +1,7 @@
+clear
+reset
+as os os
+as Wordle libc Wordle
+ld os
+ld Wordle
+break set TRAP_HALT
