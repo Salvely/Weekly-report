@@ -15,13 +15,16 @@
    dq->front = new_node;
    ```
 
-2. `Pop_Front`时也需要检查
+2. `Pop_Front`时也需要检查，此外，还需要警惕pop到0时，除了需要充置front，还要重置dq->back
 
    ```C++
        DequeNode *node = dq->front;
        dq->front = dq->front->next;
        if(dq->front != NULL)
            dq->front->prev = NULL;
+        if(Deque_Size(dq) == 0) {
+		    dq->back = NULL;
+	    }
        dq->num_elements -= 1;
    ```
 
@@ -103,5 +106,5 @@
 - [x] every command line will contain **no more than 100 characters.**
 - [x] **fgets** command to safely read the command line that the user typed.
 - [x] whether the characters are **upper case or lower case or a mixture of both**
-- [ ] If there are not a sufficient number of entries in the deque to perform the requested operation your program should print out “**STACK ERROR” and terminate the program** cleanly **freeing all memory** that you have allocated.
+- [x] If there are not a sufficient number of entries in the deque to perform the requested operation your program should print out “**STACK ERROR” and terminate the program** cleanly **freeing all memory** that you have allocated.
 - [x] At the end of every numeric entry, command that does not produce an error, and is not the quit command your code must **print the value currently at the back of the deque followed by a newline** (ie ‘\n’). The numeric value should be in the form **numerator/denominator egs**. 19/6.

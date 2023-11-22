@@ -71,6 +71,9 @@ bool Deque_Pop_Front(Deque *dq, rat_num *payload_ptr)
 	if(dq->front != NULL)
 		dq->front->prev = NULL;
 	dq->num_elements -= 1;
+	if(Deque_Size(dq) == 0) {
+		dq->back = NULL;
+	}
 
 	payload_ptr->denominator = node->payload.denominator;
 	payload_ptr->numerator = node->payload.numerator;
@@ -114,6 +117,9 @@ bool Deque_Pop_Back(Deque *dq, rat_num *payload_ptr)
 	if(dq->back != NULL)
 		dq->back->next = NULL;
 	dq->num_elements -= 1;
+	if(Deque_Size(dq) == 0) {
+		dq->front = NULL;
+	}
 	payload_ptr->denominator = node->payload.denominator;
 	payload_ptr->numerator = node->payload.numerator;
 	free(node);

@@ -134,12 +134,14 @@ bool dispatch_command(Deque *d, char *command)
 			success = Deque_Pop_Back(d, &num1);
 			if(!success) {
 				fprintf(stderr,"STACK ERROR\n");
+				Deque_Free(d);
 				exit(EXIT_FAILURE);
 			}
 			rat_num num2;
 			success = Deque_Pop_Back(d, &num2);
 			if(!success) {
 				fprintf(stderr,"STACK ERROR\n");
+				Deque_Free(d);
 				exit(EXIT_FAILURE);
 			}
 			
