@@ -184,6 +184,7 @@ bool DQIterator_Remove(DQIterator *iter)
 		node->prev = NULL;
 		node->next = NULL;
 		iter->deque->num_elements -= 1;
+		free(node);
 		return false;
 	}
 	else {
@@ -208,7 +209,7 @@ bool DQIterator_Remove(DQIterator *iter)
 	if(iter->node == NULL) {
 		iter->node = node->prev;
 	}
-
+	free(node);
 	iter->deque->num_elements -= 1;
 	return true;
 }
