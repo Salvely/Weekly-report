@@ -1,0 +1,5 @@
+as os os
+as only_bitwise libc printnum only_bitwise
+ld os
+ld only_bitwise
+quit

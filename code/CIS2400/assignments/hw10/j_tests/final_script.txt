@@ -1,0 +1,5 @@
+as os os
+as final libc printnum final
+ld os
+ld final
+quit

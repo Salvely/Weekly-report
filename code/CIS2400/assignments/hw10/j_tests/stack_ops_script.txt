@@ -1,0 +1,7 @@
+as os os
+as stack_ops libc stack_ops
+ld os
+ld stack_ops
+break set TRAP_HALT
+continue
+dump xC300 xFE00 stack_ops_dump.txt

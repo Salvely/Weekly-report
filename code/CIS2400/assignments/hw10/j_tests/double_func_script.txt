@@ -1,0 +1,7 @@
+as os os
+as double_func libc double_func
+ld os
+ld double_func
+break set TRAP_HALT
+continue
+dump xC300 xFE00 double_func_dump.txt

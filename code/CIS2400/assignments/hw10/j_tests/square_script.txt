@@ -1,0 +1,8 @@
+clear
+reset
+as os os
+as square libc printnum square
+ld os
+ld square
+break set TRAP_HALT
+quit

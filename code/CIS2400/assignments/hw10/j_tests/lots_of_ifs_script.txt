@@ -1,0 +1,8 @@
+clear
+reset
+as os os
+as lots_of_ifs libc printnum lots_of_ifs
+ld os
+ld lots_of_ifs
+break set TRAP_HALT
+quit

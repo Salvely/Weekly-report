@@ -1,0 +1,8 @@
+clear
+reset
+as os os
+as prime libc printnum prime
+ld os
+ld prime
+break set TRAP_HALT
+quit

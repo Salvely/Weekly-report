@@ -11,7 +11,14 @@
   - [LC4 Intro](#lc4-intro)
   - [LC4 Single Cycle Processor](#lc4-single-cycle-processor)
   - [Intro to OS](#intro-to-os)
-  - [I/O Devices and LC4 Overview](#io-devices-and-lc4-overview)
+  - [I/O and subroutines in LC4](#io-and-subroutines-in-lc4)
+  - [TRAP Instruction](#trap-instruction)
+  - [C Intro](#c-intro)
+  - [C Tools \& Compilation](#c-tools--compilation)
+  - [Makefiles \& File I/O](#makefiles--file-io)
+  - [History, Processors, ISAs](#history-processors-isas)
+  - [C to ASM](#c-to-asm)
+  - [J compiler Overview](#j-compiler-overview)
 
 ## Introductions, Binary, 2's Compliment, Integer Operations, Floats
 
@@ -362,12 +369,14 @@
   - Single Cycle
 
 ## Intro to OS
+
 - 3 advantages
   - isolation: isolate each process memory space from each other
   - abstract: abstract away the details of various devices and provide a standarlized and portable interface
   - manages hardware resources
 
-## I/O Devices and LC4 Overview
+## I/O and subroutines in LC4
+
 - I/O Devices & I/O Controller
   - Intro
     - I/O Devices have their own hardware
@@ -375,7 +384,7 @@
     - I/O Devies(analog/digital mix) <-> I/O Controller <-> CPU(digital)
     - Controller acts as a translator
   - I/O Controller to CPU Interface
-    - abstract Devices as `device registers` 
+    - abstract Devices as `device registers`
     - a register consists of 2 parts
       - Control/Status bit
         - status: if data is ready to be written/read
@@ -394,8 +403,110 @@
     - 128x124 RGB Pixel display
     - Timer
 - Interacting with I/O in LC4 Asm
-  - Memory Mapped I/O
+  - Memory Mapped I/O (use LDR/STR for LC4)
   - Keyboard && ASCII Display
   - Timer
   - Video Display
 - Subroutines in LC4
+  - functions -> subroutines
+  - JSR
+  - JSRR
+  - RET
+
+## TRAP Instruction
+
+- Introduction
+  - OS code segment(signed with `.CODE`) and user program is separated
+  - When a **user program** wants a piece of data from OS(the console memory I/O, for example), it cannot reach ths OS memory **(privilage bit = 0)**
+  - When **OS** perform the operation, it's **privilage bit = 1**, it cannot call a subroutine from user space
+  - What can we do? **Use a TRAP instruction to change the privilage bit from 0 to 1 in CPU!**
+- What is trap?
+  - subroutines in OS code
+  - Allow a program running in USER Program Memory, to call a subroutine installed in OS Program Memory by calling `TRAP <trap_number>`
+- TRAP vs JSR
+  - 3 steps
+    1. pc = pc + 1
+    2. pc = the new directive address
+       **3. PRIVILAGE BIT = 1 (ONLY TRAP INSTRUCTION HAS THIS STEP)**
+- Limitation
+  - only the first 256 memory locations of the OS program
+  - To control what portion of OS memory the USER can jump to
+  - In this example: PC = (x8000 | UIMM8)
+  - thus we cannot have os memory starting from 0x8000
+  - make the first 256 lines of os program memory a trap table(`JMP <label>`), when a user program calls a trap, it jumps to the according starting position of the trap routine
+  - os program memory is after the trap table
+- Trap process
+  ![Trap Proces](image.png)
+  - When a TRAP is called:
+    1. CPU sets PSR[15]=1,
+    2. stores PC+1 in R7 and Jumps to entry in the TRAP Table
+    3. This address is a JMP instruction which redirects to the TRAP routine
+  - After the TRAP routine is complete:
+    1. it returns by using RTI, which sets the PC to R7
+    2. which should contain the return address and sets PSR[15] = 0
+- Trap vs Subroutines
+  - Common
+    - Pass data the same way
+    - may overwrite values
+    - traps can access user data
+    - R7 contains the return address
+  - Differences
+    - Differenct instructions
+    - cannot call multiple traps
+    - trap exists in os and needs os privilage
+
+## C Intro
+
+- Pointers, Arrays, Strings
+- Memory Allocation & Structs
+  - Memory map & stack & heap
+  - Static & Automatic & Dynamic
+
+## C Tools & Compilation
+
+- Memory Errors, Valgrind & gdb
+  - Buffer Overflow(forgot string's `\0` terminated)
+  - Not checking for NULL
+  - `free()` a pointer in the middle of a block
+  - double free
+  - malloc not initialize memory
+- C header files & Modules
+- C compilation, definitions & declarations, Cpp
+  - Cpp preprocess the source file
+    - saves the `define` value in the preprocessor states
+    - append the `typedef` and other header file lines into the result source files
+- Makefiles
+
+## Makefiles & File I/O
+
+- Makefiles
+- Command Line Args
+- File I/O
+- Binary files & Endianness
+
+## History, Processors, ISAs
+
+- Some History on Computer Systems
+- Modern Processors & ISAs
+
+## C to ASM
+
+- Global in ASM
+- Stack
+  - maintaining the stack in asm
+    - A Frame holds a few things
+      - Local variables, return value, arguments
+      - Return address (where to return to after this function)
+      - A copy of the previous frame pointer (so we can restore it after 
+      this function finishes)
+      - Temporary Data
+      - Arguments to other functions we call from this function (callees)
+  - prologue
+  - epilogue
+  - register spilling
+  - implications of the stack system
+- Compilation Process
+- Control Structures
+
+## J compiler Overview
+.j -> .asm

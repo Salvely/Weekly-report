@@ -1,0 +1,7 @@
+as os os
+as arith_rect libc arith_rect
+ld os
+ld arith_rect
+break set TRAP_HALT
+continue
+dump xC300 xFE00 arith_rect_dump.txt

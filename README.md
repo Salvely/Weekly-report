@@ -59,8 +59,7 @@
 - [2023.11.16](./week3/journal/day4.md): 身体不太舒服，头有点疼，可能是昨天睡太晚了，效率不高，今天早点睡。
 - [2023.11.17](./week3/journal/day5.md): 效率不高，搞虚拟机搞了半天，明天加油！
 - [2023.11.18](./week3/journal/day6.md): 复习了点系统基础，其他的啥也没干，又是摆烂的一天。唉，运动多了，膝盖搞疼了，明天一定要加油！早睡早起，打起精神来！
-- [2023.11.19](./week3/journal/day7.md): LC4汇编程序作业完成，复习数据通路，MIPS I-type和J-type指令跳转实现。
-
+- [2023.11.19](./week3/journal/day7.md): LC4 汇编程序作业完成，复习数据通路，MIPS I-type 和 J-type 指令跳转实现。
 
 ## Week 4: 2023.11.20-2023.11.26
 
@@ -71,4 +70,21 @@
 
 ### Logs
 
-- [2023.11.20](./week4/journal/day1.md): 
+- [2023.11.20](./week4/journal/day1.md): LC4 数据通路和信号，完成指令译码，学习 I/O 设备和控制器，Memory Mapped I/O, Subroutines, TRAP 指令过程以及 TRAP 指令和 JSR 指令的比较，巩固 C 基础
+- [2023.11.21](./week4/journal/day2.md): I/O Memory Mapped Console & Video Display 部分复习，完成`hw6`，复习 Memory leaks & C 程序结构 & 预处理过程 & makefile
+- [2023.11.22](./week4/journal/day3.md): Makefiles & Command Line Arguments & File I/O & Binary Files & Endianness 复习，完成 hw7，总体效率不高
+- [2023.11.23](./week4/journal/day4.md): 完成了反汇编器的大部分工作，还有一些立即数和打印的问题需要修改一下。
+- [2023.11.24](./week4/journal/day5.md): 实现反汇编器，修复了指令结构打印，立即数等一些问题
+- [2023.11.25](./week4/journal/day6.md): 出去逛街了，今天没有学习。。。
+
+## Week 5: 2023.11.27-2023.12.3
+
+### 主要任务
+
+1. 系统基础复习
+    - [CIS2400](./code/CIS2400/)
+
+### Logs
+
+- [2023.11.27](./week5/journal/day1.md): 去东湖骑单车了，太累了，没怎么学习
+- [2023.11.28](./week5/journal/day2.md): 

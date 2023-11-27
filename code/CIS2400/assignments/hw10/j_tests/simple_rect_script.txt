@@ -1,0 +1,7 @@
+as os os
+as simple_rect libc simple_rect
+ld os
+ld simple_rect
+break set TRAP_HALT
+continue
+dump xC300 xFE00 simple_rect_dump.txt

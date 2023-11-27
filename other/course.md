@@ -43,6 +43,9 @@
 - [其他课程](#其他课程)
 - [其他资料](#其他资料)
 
+路线：系统类 -> 数学学习 -> 数据结构与算法 -> AI 类 -> 宾大/其他学校课程刷完 -> 物理学 -> 图形学 -> 嵌入式
+中途：前后端开发，工具使用
+
 # 计算机工具使用
 
 - [x] Stanford Practical Unix
@@ -209,6 +212,8 @@
 ## 系统入门
 
 - [ ] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/22fa/)
+- [ ] [CIT 5950 (upenn edu)](https://www.seas.upenn.edu/~cit5950/23sp/)
+- [ ] [CIS 371 (upen edu)](https://acg.cis.upenn.edu/milom/cis371-Spring13/)
 - [ ] [计算机系统概论(加州理工学院，无字幕)：Caltech - Introduction to Computing Systems；公开课推荐：CMU 15-213\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/av8707332/?vd_source=85acf0a59ded02e4c75ae1158baca207)
       [https://com.puter.systems/20fa/](https://com.puter.systems/20fa/) Caltech ICS
       实验网址：[cs24-20fa · GitLab (caltech.edu)](https://gitlab.caltech.edu/cs24-20fa)
