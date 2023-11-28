@@ -19,10 +19,10 @@ int main(int argc, char* argv[])
     }
     input = fopen("token.txt", "r");
     FILE *output = fopen(argv[1], "w+");
-    // // TODO: implement compile() function in compile.c, input = token, output = asm
-    // success = compile(input,output);
-    // if(success) {
-    //     exit(EXIT_SUCCESS);
-    // }
+    // TODO: implement compile() function in compile.c, input = token, output = asm
+    success = compile(input,output);
+    if(success) {
+        exit(EXIT_SUCCESS);
+    }
     exit(EXIT_FAILURE);
 }

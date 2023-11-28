@@ -10,10 +10,10 @@ bool next_token(FILE *j_file, token *output)
     char str[MAX_TOKEN_LENGTH];
     int size = fscanf(j_file, "%s", str);
     if(size <= 0) {
-        return true;
+        return false;
     }
     // if it's a comment
-    if (!strcmp(str, ";;"))
+    if (!strcmp(str, ";;") || strstr(str, ";") != 0)
     {
         strcpy(output->str, str);
         fgets(str, MAX_TOKEN_LENGTH, j_file);
@@ -151,7 +151,7 @@ bool next_token(FILE *j_file, token *output)
             output->type = IDENT;
     }
     // deal with literal
-    else if (!strcmp(str, "0") || atoi(str) != 0)
+    else if (atoi(str) != 0 || strstr(str, "0x") != 0)
     {
         output->type = LITERAL;
         output->literal_value = atoi(str);
@@ -169,14 +169,16 @@ bool next_token(FILE *j_file, token *output)
 
 void print_token(FILE *f, token to_print)
 {
-    fprintf(f, "%s: %d", to_print.str, to_print.type);
-    if(to_print.type == LITERAL) {
-        fprintf(f, " %x", to_print.literal_value);
+    if(to_print.type != COMMENT) {
+        fprintf(f, "%s %d", to_print.str, to_print.type);
+        if(to_print.type == LITERAL) {
+            fprintf(f, " %#x", to_print.literal_value);
+        }
+        else if(to_print.type == ARG) {
+            fprintf(f, " %d", to_print.arg_no);
+        }
+        fprintf(f, "\n");        
     }
-    else if(to_print.type == ARG) {
-        fprintf(f, " %d", to_print.arg_no);
-    }
-    fprintf(f, "\n");
 }
 
 void write_token(FILE* j_file, FILE* token_out)

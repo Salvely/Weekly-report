@@ -1,6 +1,8 @@
 /*
  * token.h
  */
+#ifndef __TOKEN_H__
+#define __TOKEN_H__
 
 // the maximum length of a token is 250
 #define MAX_TOKEN_LENGTH 250
@@ -68,3 +70,5 @@ void print_token (FILE* f, token to_print);
 // Arguments:
 // - f: a file to write all tokens to
 void write_token(FILE* j_file, FILE* token_out);
+
+#endif
