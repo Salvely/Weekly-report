@@ -1,5 +1,6 @@
 #include "compile.h"
 #include "token.h"
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -19,13 +20,13 @@ bool compile(FILE *input, FILE *output)
         else if(t.type == PLUS || t.type == MINUS || t.type == MUL || t.type == DIV || t.type == MOD) {
             success = arithmetic(&t,output);
         }
-        else if(t.type == LT || t.type == LE || t.type == EQ || t.type == GE || t.type ==GT) {
+        else if(t.type == LT || t.type == LE || t.type == EQ || t.type == GE || t.type == GT) {
             success = comparison(&t,output);
         }
         else if(t.type == AND || t.type == OR || t.type == NOT) {
             success = logical(&t,output);
         }
-        else if(t.type == DROP || t.type == DUP || t.type == SWAP || t.type == ROT) {
+        else if(t.type == DROP || t.type == DUP || t.type == SWAP || t.type == ROT || t.type == ARG) {
             success = stack_operation(&t,output);
         }
         else if(t.type == IF) {
@@ -35,10 +36,7 @@ bool compile(FILE *input, FILE *output)
             success = process_while(&t,input,output);
         }
         else if(t.type == DEFUN) {
-            success = function_define(&t,output);
-        }
-        else if(t.type == RETURN) {
-            success = function_return(&t,output);
+            success = function_define(&t,input,output);
         }
         else if(t.type == IDENT) {
             success = function_call(&t,output);
@@ -68,7 +66,7 @@ bool read_token(FILE *input, token *token_output)
     char *val = strtok(NULL, delim);
     // if type == LITERAL
     if(token_output->type == LITERAL) {
-        token_output->literal_value = atoi(val);
+        token_output->literal_value = strtol(val,NULL,16);
     }
     // if type == ARG
     else if(token_output->type == ARG) {
@@ -82,9 +80,13 @@ bool process_literal(token *input, FILE* output)
 {
     // literals are pushed onto the stack(where is the stack base and the stack pointer)
     // store the literal in a register first(R0)
-    fprintf(output, "   CONST R0, %#x\n", input->literal_value);
+    int lower_bits = input->literal_value & 0xff;
+    int high_bits = (input->literal_value & 0xff00) >> 8;
+    fprintf(output, "   CONST R0, %#04x\n", lower_bits);
+    fprintf(output, "   HICONST R0, %#04x\n", high_bits);
     fprintf(output, "   STR R0, R6, #0\n");
-    fprintf(output, "   SUB R6, R6, #2\n");
+    fprintf(output, "   CONST R1, #2\n");
+    fprintf(output, "   SUB R6, R6, R1\n");
     return true;
 }
 
@@ -119,7 +121,8 @@ bool arithmetic(token *input, FILE* output)
 
     // then push the result onto the stack
     fprintf(output, "   STR R0, R6, #0\n");
-    fprintf(output, "   SUB R6, R6, #2\n");
+    fprintf(output, "   CONST R1, #2\n");
+    fprintf(output, "   SUB R6, R6, R1\n");
     return true;
 }
 
@@ -138,60 +141,70 @@ bool comparison(token *input, FILE* output)
         fprintf(output, "   Brn LT%d\n", label_num);
         fprintf(output, "   CONST R0, #0\n");
         fprintf(output, "   STR R0, R6, #0\n");
-        fprintf(output, "   SUB R6, R6, #2\n");        
+        fprintf(output, "   CONST R1, #2\n");
+        fprintf(output, "   SUB R6, R6, R1\n");        
         fprintf(output, "   JMP ENDLT%d\n", label_num);
         fprintf(output, "LT%d\n", label_num);
         fprintf(output, "   CONST R0, #1\n");
         fprintf(output, "   STR R0, R6, #0\n");
-        fprintf(output, "   SUB R6, R6, #2\n");
+        fprintf(output, "   CONST R1, #2\n");
+        fprintf(output, "   SUB R6, R6, R1\n");
         fprintf(output, "ENDLT%d\n", label_num);
         break;
     case LE: // < || ==
         fprintf(output, "   Brnz LE%d\n", label_num);
         fprintf(output, "   CONST R0, #0\n");
         fprintf(output, "   STR R0, R6, #0\n");
-        fprintf(output, "   SUB R6, R6, #2\n");        
+        fprintf(output, "   CONST R1, #2\n");
+        fprintf(output, "   SUB R6, R6, R1\n");        
         fprintf(output, "   JMP ENDLE%d\n", label_num);
         fprintf(output, "LE%d\n", label_num);
         fprintf(output, "   CONST R0, #1\n");
         fprintf(output, "   STR R0, R6, #0\n");
-        fprintf(output, "   SUB R6, R6, #2\n");
+        fprintf(output, "   CONST R1, #2\n");
+        fprintf(output, "   SUB R6, R6, R1\n");
         fprintf(output, "ENDLE%d\n", label_num);
         break;
     case EQ: // ==
         fprintf(output, "   Brz EQ%d\n", label_num);
         fprintf(output, "   CONST R0, #0\n");
         fprintf(output, "   STR R0, R6, #0\n");
-        fprintf(output, "   SUB R6, R6, #2\n");        
+        fprintf(output, "   CONST R1, #2\n");
+        fprintf(output, "   SUB R6, R6, R1\n");        
         fprintf(output, "   JMP ENDEQ%d\n", label_num);
         fprintf(output, "EQ%d\n", label_num);
         fprintf(output, "   CONST R0, #1\n");
         fprintf(output, "   STR R0, R6, #0\n");
-        fprintf(output, "   SUB R6, R6, #2\n");
+        fprintf(output, "   CONST R1, #2\n");
+        fprintf(output, "   SUB R6, R6, R1\n");
         fprintf(output, "ENDEQ%d\n", label_num);
         break;
     case GE: // > || ==
         fprintf(output, "   Brzp GE%d\n", label_num);
         fprintf(output, "   CONST R0, #0\n");
         fprintf(output, "   STR R0, R6, #0\n");
-        fprintf(output, "   SUB R6, R6, #2\n");        
+        fprintf(output, "   CONST R1, #2\n");
+        fprintf(output, "   SUB R6, R6, R1\n");        
         fprintf(output, "   JMP ENDGE%d\n", label_num);
         fprintf(output, "GE%d\n", label_num);
         fprintf(output, "   CONST R0, #1\n");
         fprintf(output, "   STR R0, R6, #0\n");
-        fprintf(output, "   SUB R6, R6, #2\n");
+        fprintf(output, "   CONST R1, #2\n");
+        fprintf(output, "   SUB R6, R6, R1\n");
         fprintf(output, "ENDGE%d\n", label_num);
         break;
     case GT: // >
         fprintf(output, "   Brp GT%d\n", label_num);
         fprintf(output, "   CONST R0, #0\n");
         fprintf(output, "   STR R0, R6, #0\n");
-        fprintf(output, "   SUB R6, R6, #2\n");        
+        fprintf(output, "   CONST R1, #2\n");
+        fprintf(output, "   SUB R6, R6, R1\n");        
         fprintf(output, "   JMP ENDGT%d\n", label_num);
         fprintf(output, "GT%d\n", label_num);
         fprintf(output, "   CONST R0, #1\n");
         fprintf(output, "   STR R0, R6, #0\n");
-        fprintf(output, "   SUB R6, R6, #2\n");
+        fprintf(output, "   CONST R1, #2\n");
+        fprintf(output, "   SUB R6, R6, R1\n");
         fprintf(output, "ENDGT%d\n", label_num);
         break;
     default:
@@ -230,7 +243,8 @@ bool logical(token *input, FILE* output)
 
     // then push the result onto the stack
     fprintf(output, "   STR R0, R6, #0\n");
-    fprintf(output, "   SUB R6, R6, #2\n");
+    fprintf(output, "   CONST R1, #2\n");
+    fprintf(output, "   SUB R6, R6, R1\n");
     return true;
 }
 
@@ -255,29 +269,40 @@ bool stack_operation(token *input, FILE* output)
             break;
         case DUP:
             fprintf(output, "   STR R0, R6, #0\n");
-            fprintf(output, "   SUB R6, R6, #2\n");
+            fprintf(output, "   CONST R3, #2\n");
+            fprintf(output, "   SUB R6, R6, R3\n");
             break;
         case SWAP:
             fprintf(output, "   STR R0, R6, #0\n");
-            fprintf(output, "   SUB R6, R6, #2\n");
+            fprintf(output, "   CONST R3, #2\n");
+            fprintf(output, "   SUB R6, R6, R3\n");
             fprintf(output, "   STR R1, R6, #0\n");
-            fprintf(output, "   SUB R6, R6, #2\n");
+            fprintf(output, "   SUB R6, R6, R3\n");
             break;
         case ROT:
             fprintf(output, "   STR R1, R6, #0\n");
-            fprintf(output, "   SUB R6, R6, #2\n");
+            fprintf(output, "   CONST R3, #2\n");
+            fprintf(output, "   SUB R6, R6, R3\n");
             fprintf(output, "   STR R0, R6, #0\n");
-            fprintf(output, "   SUB R6, R6, #2\n");
+            fprintf(output, "   SUB R6, R6, R3\n");
             fprintf(output, "   STR R2, R6, #0\n");
-            fprintf(output, "   SUB R6, R6, #2\n");
+            fprintf(output, "   SUB R6, R6, R3\n");
+            break;
+        case ARG:
+            {
+                fprintf(output, "   CONST R3, #2\n");
+                int offset = 4 + 2 * input->arg_no;
+                fprintf(output, "   LDR R7, R5, #%d\n",offset);
+                fprintf(output, "   STR R7, R6, #0\n");
+                fprintf(output, "   SUB R6, R6, R3\n");
+            }
             break;
         default:
             fprintf(stderr, "Stack operator error!\n");
             return false;
     }
-    
-    // TODO: argN not yet implemented
-    return false;
+
+    return true;
 }
 
 bool process_if(token *input_token, FILE* input, FILE* output)
@@ -318,17 +343,48 @@ bool process_while(token *input_token, FILE* input, FILE* output)
     return true;
 }
 
-bool function_define(token *input, FILE* output)
+// for callee
+bool function_define(token *input_token, FILE* input, FILE* output)
 {
-    return false;
+    fprintf(output, "   .CODE\n");
+    fprintf(output, "   .FALIGN\n");
+    token t;
+    // read in the function name
+    if(!read_token(input, &t)) {
+        return false;
+    }
+    fprintf(output, "%s\n", t.str);
+
+    // setup the stack for the function(prolog)
+    fprintf(output, "   STR R7, R6, #-2\n"); // store the return address
+    fprintf(output, "   STR R5, R6, #-4\n"); // store the R5(frame pointer)
+    fprintf(output, "   CONST R3, #4\n");
+    fprintf(output, "   SUB R6, R6, R3\n"); // stack pointer points to the new top
+    fprintf(output, "   ADD R5, R6, #0\n"); // make the frame pointer points here
+    
+    while(compile(input, output)) {}
+
+    // read in the return keyword
+    // get the return value, store it in R7
+    fprintf(output, "   LDR R7, R6, #2\n");
+    // stack pointer = base pointer
+    fprintf(output, "   ADD R6, R5, #0\n");
+    // store the Return value in mem[R5 + 4]
+    fprintf(output, "   STR R7, R5, #4\n");
+    // set the return address in R7
+    fprintf(output, "   LDR R7, R5, #2\n");
+    // set the frame pointer points to the previous frame base
+    fprintf(output, "   LDR R5, R5, #0\n");
+    // return
+    fprintf(output, "   RET\n");
+    fprintf(output, "\n");
+    return true;
 }
 
-bool function_return(token *input, FILE* output)
-{
-    return false;
-}
-
+// for caller
 bool function_call(token *input, FILE* output)
 {
-    return false;
+    fprintf(output, "   JSR %s\n", input->str);
+    fprintf(output, "   ADD R6, R6, #2\n");
+    return true;
 }

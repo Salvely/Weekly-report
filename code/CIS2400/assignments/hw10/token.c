@@ -86,6 +86,11 @@ bool next_token(FILE *j_file, token *output)
     {
         output->type = GT;
     }
+    else if (strstr(str, "endif"))
+    {
+        output->type = ENDIF;
+    }
+
     else if (strstr(str, "if"))
     {
         output->type = IF;
@@ -94,17 +99,13 @@ bool next_token(FILE *j_file, token *output)
     {
         output->type = ELSE;
     }
-    else if (strstr(str, "endif"))
+    else if (strstr(str, "endwhile"))
     {
-        output->type = ENDIF;
+        output->type = ENDWHILE;
     }
     else if (strstr(str, "while"))
     {
         output->type = WHILE;
-    }
-    else if (strstr(str, "endwhile"))
-    {
-        output->type = ENDWHILE;
     }
     else if (strstr(str, "drop"))
     {
