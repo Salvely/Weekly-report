@@ -211,16 +211,15 @@
 
 ## 系统入门
 
-- [ ] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/22fa/)
+- [x] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/22fa/)
 - [ ] [CIT 5950 (upenn edu)](https://www.seas.upenn.edu/~cit5950/23sp/)
 - [ ] [CIS 371 (upen edu)](https://acg.cis.upenn.edu/milom/cis371-Spring13/)
+- [ ] Nand2Tetris
 - [ ] [计算机系统概论(加州理工学院，无字幕)：Caltech - Introduction to Computing Systems；公开课推荐：CMU 15-213\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/av8707332/?vd_source=85acf0a59ded02e4c75ae1158baca207)
       [https://com.puter.systems/20fa/](https://com.puter.systems/20fa/) Caltech ICS
       实验网址：[cs24-20fa · GitLab (caltech.edu)](https://gitlab.caltech.edu/cs24-20fa)
 - [ ] 九曲阑干深入理解计算机系统导读 + 华盛顿大学 CSE351
 - [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230)
-- [ ] Brown CI0300 2023
-- [ ] [CS 61 (harvard.edu)](https://cs61.seas.harvard.edu/site/2022/#gsc.tab=0)
 - [ ] DDCA/COD 阅读 + 华中科技大学数字逻辑设计实验完成 + 华中科技大学组成原理实验完成（配合台湾清华大学计算机结构课程）
 - [ ] UCB CS61C
 - [ ] MIT 6.004
@@ -232,6 +231,8 @@
 - [ ] [CS 439 Spring 2012 <BR>Principles of Computer Systems (utexas.edu)](https://www.cs.utexas.edu/~dahlin/Classes/439/index.html)
 - [ ] [CSE 333 23sp (washington.edu)](https://courses.cs.washington.edu/courses/cse333/23sp/) （已 fork，可做）
 - [ ] [Fall 2007 CS 194-3/16x: Introduction to Computer Systems. (berkeley.edu)](https://people.eecs.berkeley.edu/~adj/cs16x/)
+- [ ] Brown CI0300 2023
+- [ ] [CS 61 (harvard.edu)](https://cs61.seas.harvard.edu/site/2022/#gsc.tab=0)
 - [ ] [CS 240: Introduction to Computer Systems (Spring 2022) (illinois.edu)](https://courses.grainger.illinois.edu/cs240/sp2022/)(理论)
 - [ ] Foundations of Computer Systems [CS 240: Calendar (wellesley.edu)](https://cs.wellesley.edu/~cs240/f22/)(理论)
 - [ ] [CS0330 | Brown University (cs0330-fall2022.github.io)](https://cs0330-fall2022.github.io/)（理论）
@@ -239,7 +240,6 @@
 - [ ] [CS4414 Fall 2021 Schedule of lectures (cornell.edu)](https://www.cs.cornell.edu/courses/cs4414/2021fa/Schedule.htm)(理论)
 - [ ] 上海交通大学 ICS (理论)
 - [ ] [15-123 Systems Skills in C and Unix (cmu.edu)](https://www.cs.cmu.edu/~guna/15-123S11/)
-- [ ] Nand2Tetris
 
 ## 组成原理
 

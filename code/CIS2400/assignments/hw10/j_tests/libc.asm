@@ -45,9 +45,9 @@ lc4_puts
 	LDR R5, R6, #0
 	ADD R6, R6, #2
 	RET
-	
+
 	.FALIGN
-lc4_get_event 
+lc4_getc 
 	;; R5 is the base pointer as well as the 
 	;; TRAP return register.  If the trap returns
 	;; a value, we have to save and restore the user's
@@ -59,7 +59,33 @@ lc4_get_event
 	LEA R7, STACK_SAVER
 	STR R6, R7, #0
 
-	TRAP x09
+	TRAP x00
+	
+	LEA R7, STACK_SAVER
+	LDR R6, R7, #0	
+
+	LDR R7, R6, #1
+	;; save TRAP return value on stack
+	STR R1, R6, #1
+	;; restore user base-pointer
+	LDR R5, R6, #0
+	ADD R6, R6, #2
+	RET
+	
+	.FALIGN
+lc4_getc_echo 
+	;; R5 is the base pointer as well as the 
+	;; TRAP return register.  If the trap returns
+	;; a value, we have to save and restore the user's
+	;; base-pointer
+	ADD R6, R6, #-2	
+	STR R5, R6, #0
+	STR R7, R6, #1
+
+	LEA R7, STACK_SAVER
+	STR R6, R7, #0
+
+	TRAP x04
 	
 	LEA R7, STACK_SAVER
 	LDR R6, R7, #0	
@@ -73,7 +99,7 @@ lc4_get_event
 	RET
 
 	.FALIGN
-lc4_draw_rect
+lc4_draw_square
 	;; prologue
 	ADD R6, R6, #-2
 	STR R5, R6, #0
@@ -82,8 +108,7 @@ lc4_draw_rect
 	LDR R0, R6, #2		; x
 	LDR R1, R6, #3		; y
 	LDR R2, R6, #4		; width
-	LDR R3, R6, #5		; height
-	LDR R4, R6, #6		; color
+	LDR R3, R6, #5		; color
 
 	LEA R7, STACK_SAVER
 	STR R6, R7, #0
@@ -164,6 +189,50 @@ lc4_blt_vmem
 	;; epilogue
 	LDR R5, R6, #0
 	LDR R7, R6, #1
+	ADD R6, R6, #2
+	RET
+
+        .FALIGN
+lc4_get_seed_status
+	ADD R6, R6, #-2	
+	STR R5, R6, #0
+	STR R7, R6, #1
+
+	LEA R7, STACK_SAVER
+	STR R6, R7, #0
+
+	TRAP x0F
+	
+	LEA R7, STACK_SAVER
+	LDR R6, R7, #0	
+
+	LDR R7, R6, #1
+	;; save TRAP return value on stack
+	STR R0, R6, #1
+	;; restore user base-pointer
+	LDR R5, R6, #0
+	ADD R6, R6, #2
+	RET
+
+        .FALIGN
+lc4_get_seed
+	ADD R6, R6, #-2	
+	STR R5, R6, #0
+	STR R7, R6, #1
+
+	LEA R7, STACK_SAVER
+	STR R6, R7, #0
+
+	TRAP x10
+	
+	LEA R7, STACK_SAVER
+	LDR R6, R7, #0	
+
+	LDR R7, R6, #1
+	;; save TRAP return value on stack
+	STR R0, R6, #1
+	;; restore user base-pointer
+	LDR R5, R6, #0
 	ADD R6, R6, #2
 	RET
 

@@ -83,8 +83,26 @@
 
 1. 系统基础复习
     - [CIS2400](./code/CIS2400/)
+    - [CIT5950](./code/CIT5950/)
 
 ### Logs
 
 - [2023.11.27](./week5/journal/day1.md): 去东湖骑单车了，太累了，没怎么学习
-- [2023.11.28](./week5/journal/day2.md): 
+- [2023.11.28](./week5/journal/day2.md): 完成J语言->LC4汇编器，除了函数调用以外的大部分工作
+- [2023.11.29](./week5/journal/day3.md): 完成了汇编器。复习了一下C/C++。
+- [2023.11.30](./week5/journal/day4.md): 出去逛街了，今天没有学习。。。
+- [2023.12.1](./week5/journal/day5.md): HashTable实现（因为一些小bug，卡了比较长时间，其实效率还可以更高）
+- [2023.12.2](./week5/journal/day6.md): HashTable Iterator实现
+- [2023.12.3](./week5/journal/day7.md): 摆烂了， 啥也没干，呜呜呜
+
+
+## Week 6: 2023.12.4-2023.12.10
+
+### 主要任务
+
+1. Big Task
+   - [ ] [Minor Tasks](task_link)
+
+### Logs
+
+- [2023.12.4](./week6/journal/day1.md): 

@@ -1,5 +1,5 @@
 # Time log
 
-# Minor-tasks
-
 # Summary
+
+- 摆烂了，啥也没干，呜呜呜
