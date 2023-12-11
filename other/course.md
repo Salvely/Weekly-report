@@ -40,6 +40,8 @@
 - [AI 类](#ai-类)
 - [嵌入式](#嵌入式)
 - [宾夕法尼亚大学课程](#宾夕法尼亚大学课程)
+- [Harvey Mudd 课程](#harvey-mudd-课程)
+- [Gatech 课程](#gatech-课程)
 - [其他课程](#其他课程)
 - [其他资料](#其他资料)
 
@@ -656,7 +658,7 @@ Stanford AI 系列课程：
 
 - [ ] [CIS 1200: Programming Languages and Techniques (upenn.edu)](https://www.seas.upenn.edu/~cis120/23sp/)
 - [ ] [CIS 1210 Data Structures](https://www.cis.upenn.edu/~cis1210/current/index.html)
-- [ ] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/current/)
+- [x] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/current/)
 - [ ] [CIS 198: Rust Programming (cis198-2016f.github.io)](https://cis198-2016f.github.io/)
 - [ ] [CSE 240: Introduction to Computer Architecture (upenn.edu)](https://acg.cis.upenn.edu/milom/cse240-Fall06/)
 - [ ] [CIS 5530: Networked Systems (upenn.edu)](https://www.seas.upenn.edu/~cis5530/)
@@ -668,7 +670,6 @@ Stanford AI 系列课程：
 - [ ] [CIS520 Machine Learning | Main / HomePage (upenn.edu)](https://alliance.seas.upenn.edu/~cis520/dynamic/2022/wiki/index.php)
 - [ ] [CIS 4190/5190: Applied Machine Learning (Spring 2023) (upenn.edu)](https://www.seas.upenn.edu/~cis5190/spring2023/)
 - [ ] [Deep learning](https://github.com/CIS-522/course-content)
-
 - [ ] [CIS 530 - Computational Linguistics - University of Pennsylvania (upenn.edu)](https://www.cis.upenn.edu/~myatskar/teaching/cis530_fa22//index.html)
 - [ ] [CIS 700-001 - Interactive Fiction and Text Generation - University of Pennsylvania (interactive-fiction-class.org)](https://interactive-fiction-class.org/)
 - [ ] [CIS 530 - Computational Linguistics - University of Pennsylvania (upenn.edu)](https://www.cis.upenn.edu/~myatskar/teaching/cis530_fa22//index.html)
@@ -677,15 +678,74 @@ Stanford AI 系列课程：
 - [ ] [Data structure and algorithms](https://www.seas.upenn.edu/~cis1210/current/index.html)
 - [ ] [Web System](https://cis5550.seas.upenn.edu/)
 
+# Harvey Mudd 课程
+
+- [ ] [Computer Systems](https://www.cs.hmc.edu/~geoff/classes/hmc.cs105.202301/)
+      [Sp20](https://www.cs.hmc.edu/~geoff/classes/hmc.cs105.202301/)
+      [Sp22](https://www.cs.hmc.edu/~geoff/classes/hmc.cs105.202201/syllabus.html)
+- [ ] [CS134 Operating System Sp19](https://www.cs.hmc.edu/~rhodes/courses/cs134/sp19/syllabus.html)
+      [Fa12](https://www.cs.hmc.edu/~geoff/classes/hmc.cs134.201209/)
+      [Fa20](https://www.cs.hmc.edu/~rhodes/cs134/schedule.html)
+      [Sp14](https://www.cs.hmc.edu/~rhodes/courses/cs134/sp14/index.html)
+- [ ] [Database](https://www.cs.hmc.edu/~beth/courses/cs133/fall2019/index.shtml)
+- [ ] [Web Design](https://www.cs.hmc.edu/~rhodes/courses/cs124/fa21/schedule.html)
+- [ ] [File System](https://www.cs.hmc.edu/~geoff/classes/hmc.cs137.202001/)
+- [ ] [DB Sp23](https://www.cs.hmc.edu/~beth/courses/cs133/spring2023/)
+      [DB Fa19](https://www.cs.hmc.edu/~beth/courses/cs133/fall2019/index.shtml)
+- [ ] [Programming Languages](https://hmc-cs-131-spring2020.github.io/)
+- [ ] [Computer Networks](https://www.cs.hmc.edu/~mike/public_html/courses/cs125/f19/)
+      [Fa21](https://www.cs.hmc.edu/~geoff/classes/hmc.cs125.202109/)
+      [Fa17](https://www.cs.hmc.edu/~geoff/classes/hmc.cs125.201709/)
+      [Win16](https://www.cs.toronto.edu/~ahchinaei/teaching/2016jan/csc358/)
+- [ ] [Machine Learning](https://www.cs.hmc.edu/~yjw/teaching/cs158/)
+- [ ] [Neural Networks](https://www.cs.hmc.edu/~rhodes/cs152/schedule.html)
+
+# Gatech 课程
+
+- [ ] [Object & Design](https://cs2340.gitlab.io/)
+- [ ] [Computational Foundations for Data Analytics](https://datamastery.gitlab.io/de/)
+- [ ] [Intro to System](https://faculty.cc.gatech.edu/~rama/CS2200-External/)
+- [ ] CS3210 Operating System
+- [ ] [Machine Learning](https://faculty.cc.gatech.edu/~zk15/ML2017/)
+      [CS 4641LinkSearchMenuExpandDocument](https://aritter.github.io/CS-4641/)
+      https://cs4641.gitlab.io/summer2019berlin.html
+      https://mahdi-roozbahani.github.io/CS46417641-spring2021/#schedule
+- [ ] [Intro to Intelligent Systems](https://sites.cc.gatech.edu/classes/AY2006/cs3600_fall/)
+      https://sites.cc.gatech.edu/classes/AY2011/cs3600_spring/handouts.html
+- [ ] [Game AI](https://faculty.cc.gatech.edu/~surban6/2018sp-gameAI/index.html)
+      https://faculty.cc.gatech.edu/~surban6/2019fa-gameAI/
+      https://faculty.cc.gatech.edu/~surban6/2016-cs4731/
+      https://faculty.cc.gatech.edu/~riedl/classes/2015/gameai/
+      https://faculty.cc.gatech.edu/~riedl/classes/2017/gameai/
+- [ ] [Computer Vision](https://faculty.cc.gatech.edu/~hays/compvision2021fall/)
+      https://faculty.cc.gatech.edu/~hays/compvision2017/
+      https://faculty.cc.gatech.edu/~hays/compvision/
+      https://sites.cc.gatech.edu/classes/AY2016/cs4476_fall/
+      https://dellaert.github.io/19F-4476/schedule.html
+      https://dellaert.github.io/21F-x476/projects.html
+      https://dellaert.github.io/20F-6476/schedule.html
+      https://dellaert.github.io/19F-4476/projects.html
+      https://dellaert.github.io/19F-4476/projects.html
+- [ ] [Automata & Complexity](https://cryptolab.gtisc.gatech.edu/ladha/CS4510SU21.html)
+      https://santoshv.github.io/2019CS4510/toc.html
+      https://cryptolab.gtisc.gatech.edu/ladha/CS4510S23.html
+- [ ] [Machine Learning For Trading](https://lucylabs.gatech.edu/ml4t/)
+- [ ] [Knowledge Based System](https://lucylabs.gatech.edu/kbai/spring-2023/)
+      [Video](https://www.youtube.com/watch?v=onRUvL2SBG8&list=PLAwxTw4SYaPkdANSntXhY0btWkpPglDGD&index=2)
+- [ ] [Computer Simulation](https://cx4230.gatech.edu/sp17/)
+      [lab](https://github.com/rvuduc/cx4230sp17labs)
+- [ ] [Computer Graphics](https://cs3451-f21.github.io/schedule/)
+
 # 其他课程
 
+- [KAIST 系列课程](https://cs.kaist.ac.kr/education/undergraduate)
 - [awesome-courses](https://github.com/prakhar1989/awesome-courses)
 - [hackway-roadmap](https://hackway.org/docs/cs/intro)
 - [Shanghai Tech](https://i-techx.github.io/iTechX/dashboard)
-- [KAIST 系列课程](https://cs.kaist.ac.kr/education/undergraduate)
 - [数据结构课程合集](https://zhuanlan.zhihu.com/p/100310942)
 - [伯克利课程探索](https://www.zhihu.com/tardis/zm/art/392093161?source_id=1005)
 - [斯坦福课程合集](https://docs.google.com/spreadsheets/d/1zfw8nPvJeewxcFUBpKUKmAVE8PjnJI7H0CKimdQXxr0/htmlview)
+- [Gatech 课程合集](https://gt-student-wiki.org/mediawiki/index.php/Category:Courses)
 
 # 其他资料
 
