@@ -1,4 +1,4 @@
 #!/bin/bash
 cd temp
-latexmk -C ../Calculus.tex
-pdflatex ../Calculus.tex
+latexmk -C ../Notes.tex
+pdflatex ../Notes.tex

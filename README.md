@@ -103,7 +103,6 @@
    - [CIT65950](./code/CIT5950/)
 2. 基础数学修炼
    - [微积分](./mathematics/Calculus)
-   -
 
 ### Logs
 
@@ -112,7 +111,7 @@
 - [2023.12.6](./week6/journal/day3.md): 又摆了一天，呜呜呜。。。。
 - [2023.12.7](./week6/journal/day4.md): File I/O 实现一部分(SimpleFileReader 实现，Buffered 实现了一部分), 今天效率相较，前几天的摆烂有所提升，明天继续加油！
 - [2023.12.8](./week6/journal/day5.md): BufferedFileReader 实现，效率还是低
-- [2023.12.9](./week6/journal/day6.md): 就装了个Ubuntu 20.04 Latex环境，最近是怎么回事啊哎哟喂。。。。
+- [2023.12.9](./week6/journal/day6.md): 就装了个 Ubuntu 20.04 Latex 环境，最近是怎么回事啊哎哟喂。。。。
 - [2023.12.10](./week6/journal/day7.md): 就复习了点微积分，又摆了一天，这周是怎么回事啊，唉。。。
 
 ## Week 7: 2023.12.11-2023.12.17
@@ -120,8 +119,29 @@
 ### 主要任务
 
 1. 基础数学修炼
-  - [微积分](./mathematics/Calculus/)
+
+- [微积分](./mathematics/Calculus)
+
+2. 基础物理修炼
+3. 系统基础修炼
+4. 图形学学习
+5. 前后端开发学习
+6. 移动应用开发学习
+7. 数据结构与算法修炼
+8. AI 修炼
+9. 嵌入式修炼
+10. 哲学学习
+11. 历史学习
+12. 经济学学习
+13. 政治复习
+14. 英语修炼
 
 ### Logs
 
-- [2023.12.11](./week7/journal/day1.md): 
+- [2023.12.11](./week7/journal/day1.md): 数与函数、图，微积分的基本概念复习，切线的定义、计算及存在性学习，可微分定义，可微分函数定义，以及一些 Notation 的由来学习，极限的标准定义，定义中的注意事项，左极限和右极限，极限存在条件，计算定律，以及一些重要的三角极限学习，点的连续，函数连续，连续的严格定义，函数微分必有函数连续，连续函数的 3 个定理学习(MVT,EVT,IVT)，导数的定义、计算学习（Calculus with Analytic Geometry 第1、2、3章）
+- [2023.12.12](./week7/journal/day2.md): 导数的应用(图像绘制、凹凸性、其他应用)、根据dy/dx的切线近似曲线的微分思想、不定积分的计算(换元法、分离分式法)学习，不定积分的应用，定积分的思想(面积累加和)，微积分三大基本定理，定积分的性质学习(Calculus with Analytic Geometry 第3、4、5、6章)
+- [2023.12.13](./week7/journal/day3.md): 中国近现代史纲要复习
+- [2023.12.14](./week7/journal/day4.md): Calculus with Analytic Geometry第六章习题完成，Chapter 7.8复习，第9章看了个开头，实在是学不动了
+- [2023.12.15](./week7/journal/day5.md): Calculus with Analytic Geometry三角函数部分复习+托马斯微积分参数方程和极坐标一章复习
+- [2023.12.16](./week7/journal/day6.md): Thomas Calculus参数方程习题看完，Chapter 12搞完
+- [2023.12.17](./week7/journal/day7.md): Thomas Calculus Chapter 13.14.15复习，15章复习了一半

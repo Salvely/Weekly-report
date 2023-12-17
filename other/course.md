@@ -172,6 +172,7 @@
 - [ ] 清华大学邓俊辉 数据结构学习
 - [ ] MIT 6.046 算法设计与分析
 - [ ] MIT 6.851 高级数据结构
+- [ ] Stanford CS106B
 
 ## 算法
 
@@ -215,32 +216,45 @@
 
 - [x] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/22fa/)
 - [ ] [CIT 5950 (upenn edu)](https://www.seas.upenn.edu/~cit5950/23sp/)
-- [ ] [CIS 371 (upen edu)](https://acg.cis.upenn.edu/milom/cis371-Spring13/)
 - [ ] Nand2Tetris
+- [ ] UCB CS61C
+- [ ] DDCA/COD 阅读 + 华中科技大学数字逻辑设计实验完成 + 华中科技大学组成原理实验完成（配合台湾清华大学计算机结构课程）
 - [ ] [计算机系统概论(加州理工学院，无字幕)：Caltech - Introduction to Computing Systems；公开课推荐：CMU 15-213\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/av8707332/?vd_source=85acf0a59ded02e4c75ae1158baca207)
       [https://com.puter.systems/20fa/](https://com.puter.systems/20fa/) Caltech ICS
       实验网址：[cs24-20fa · GitLab (caltech.edu)](https://gitlab.caltech.edu/cs24-20fa)
 - [ ] 九曲阑干深入理解计算机系统导读 + 华盛顿大学 CSE351
 - [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230)
-- [ ] DDCA/COD 阅读 + 华中科技大学数字逻辑设计实验完成 + 华中科技大学组成原理实验完成（配合台湾清华大学计算机结构课程）
-- [ ] UCB CS61C
-- [ ] MIT 6.004
 - [ ] [MIT 6.033 Spring 2021: Computer System 计算机系统\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV12T4y1R78D/?vd_source=85acf0a59ded02e4c75ae1158baca207)
       MIT 6.039 [Syllabus | Computer System Engineering | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/)
+- [ ] [CS0330 | Brown University (cs0330-fall2022.github.io)](https://cs0330-fall2022.github.io/)（理论）
+- [ ] 上海交通大学 ICS (理论)
+- [ ] 海交通大学 ICS 课程所有期末习题刷完
+- [ ] 考研复习资料所有指定题目刷完
+- [ ] Brown CI0300 2023
+- [ ] [CS 61 (harvard.edu)](https://cs61.seas.harvard.edu/site/2022/#gsc.tab=0)
+
+- [ ] MIT 6.004
+- [ ] [CIS 371 (upen edu)](https://acg.cis.upenn.edu/milom/cis371-Spring13/)
+- [ ] mit 6.175 + 6.375
+- [ ] 重庆大学 CPU 实验
+- [ ] 雷自己动手写 CPU
+- [ ] 汪文详 CPU 设计实战
+- [ ] 姚勇斌 超标量处理器设计
+- [ ] 龙芯杯 CPU 赛道
+- [ ] 中科院计算所一生一芯
+
 - [ ] [上海交通大学 CSE](https://ipads.se.sjtu.edu.cn/courses/cse/2022/)
       [实验平台网址](https://ipads.se.sjtu.edu.cn:1312/lab/cse-2022-fall)
+- [ ] MIT CSE
 - [ ] [CS 439, Spring 2013: Principles of Computer Systems (nyu.edu)](https://cs.nyu.edu/~mwalfish/classes/ut/s13-cs439/index.html)
 - [ ] [CS 439 Spring 2012 <BR>Principles of Computer Systems (utexas.edu)](https://www.cs.utexas.edu/~dahlin/Classes/439/index.html)
 - [ ] [CSE 333 23sp (washington.edu)](https://courses.cs.washington.edu/courses/cse333/23sp/) （已 fork，可做）
 - [ ] [Fall 2007 CS 194-3/16x: Introduction to Computer Systems. (berkeley.edu)](https://people.eecs.berkeley.edu/~adj/cs16x/)
-- [ ] Brown CI0300 2023
-- [ ] [CS 61 (harvard.edu)](https://cs61.seas.harvard.edu/site/2022/#gsc.tab=0)
+
 - [ ] [CS 240: Introduction to Computer Systems (Spring 2022) (illinois.edu)](https://courses.grainger.illinois.edu/cs240/sp2022/)(理论)
 - [ ] Foundations of Computer Systems [CS 240: Calendar (wellesley.edu)](https://cs.wellesley.edu/~cs240/f22/)(理论)
-- [ ] [CS0330 | Brown University (cs0330-fall2022.github.io)](https://cs0330-fall2022.github.io/)（理论）
 - [ ] [https://www.cs.swarthmore.edu/courses/CS31/F21/#current(理论)](<https://www.cs.swarthmore.edu/courses/CS31/F21/#current(%E7%90%86%E8%AE%BA)>)
 - [ ] [CS4414 Fall 2021 Schedule of lectures (cornell.edu)](https://www.cs.cornell.edu/courses/cs4414/2021fa/Schedule.htm)(理论)
-- [ ] 上海交通大学 ICS (理论)
 - [ ] [15-123 Systems Skills in C and Unix (cmu.edu)](https://www.cs.cmu.edu/~guna/15-123S11/)
 
 ## 组成原理
