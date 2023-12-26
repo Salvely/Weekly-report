@@ -122,6 +122,46 @@
 
 - [微积分](./mathematics/Calculus)
 
+### Logs
+
+- [2023.12.11](./week7/journal/day1.md): 数与函数、图，微积分的基本概念复习，切线的定义、计算及存在性学习，可微分定义，可微分函数定义，以及一些 Notation 的由来学习，极限的标准定义，定义中的注意事项，左极限和右极限，极限存在条件，计算定律，以及一些重要的三角极限学习，点的连续，函数连续，连续的严格定义，函数微分必有函数连续，连续函数的 3 个定理学习(MVT,EVT,IVT)，导数的定义、计算学习（Calculus with Analytic Geometry 第 1、2、3 章）
+- [2023.12.12](./week7/journal/day2.md): 导数的应用(图像绘制、凹凸性、其他应用)、根据 dy/dx 的切线近似曲线的微分思想、不定积分的计算(换元法、分离分式法)学习，不定积分的应用，定积分的思想(面积累加和)，微积分三大基本定理，定积分的性质学习(Calculus with Analytic Geometry 第 3、4、5、6 章)
+- [2023.12.13](./week7/journal/day3.md): 中国近现代史纲要复习
+- [2023.12.14](./week7/journal/day4.md): Calculus with Analytic Geometry 第六章习题完成，Chapter 7.8 复习，第 9 章看了个开头，实在是学不动了
+- [2023.12.15](./week7/journal/day5.md): Calculus with Analytic Geometry 三角函数部分复习+托马斯微积分参数方程和极坐标一章复习
+- [2023.12.16](./week7/journal/day6.md): Thomas Calculus 参数方程习题看完，Chapter 12 搞完
+- [2023.12.17](./week7/journal/day7.md): Thomas Calculus Chapter 13.14.15 复习，15 章复习了一半
+
+## Week 8: 2023.12.18-2023.12.24
+
+### 主要任务
+
+> 重点不是考试，是知识的掌握和能力的进化！
+> 重要的不是刷题，是掌握知识本身！
+
+1. 考研复习
+
+- [微积分](./mathematics/Calculus/)
+
+2. 考研
+
+### Logs
+
+- [2023.12.18](./week8/journal/day1.md): 重积分和曲面积分复习，MIT Single Variable Calculus 复习
+- [2023.12.19](./week8/journal/day2.md): MIT Single Variable Calculus 所有内容学完
+- [2023.12.20](./week8/journal/day3.md): 单变量微积分彻底学习完
+- [2023.12.21](./week8/journal/day4.md): 单变量微积分复习，多变量微积分线积分复习，复习不完了哇哇哇
+- [2023.12.22](./week8/journal/day5.md): 肖四记忆，多变量微积分复习，感觉复习不完了哇哇哇，我太累了，每天肝上十个小时复习，但是前面刷课去了，复习搞得太晚了，复习的时间太少了，哇哇哇怎么办
+- [2023.12.23](./week8/journal/day6.md): 考研第一天
+- [2023.12.24](./week8/journal/day7.md): 考研第二天
+
+## Week 9: 2023.12.25-2023.12.31
+
+### 主要任务
+
+> 本周内刷完所有相关课程，加油！先把工作和语言成绩确定下来！
+
+1. 系统基础复习
 2. 基础物理修炼
 3. 系统基础修炼
 4. 图形学学习
@@ -138,10 +178,5 @@
 
 ### Logs
 
-- [2023.12.11](./week7/journal/day1.md): 数与函数、图，微积分的基本概念复习，切线的定义、计算及存在性学习，可微分定义，可微分函数定义，以及一些 Notation 的由来学习，极限的标准定义，定义中的注意事项，左极限和右极限，极限存在条件，计算定律，以及一些重要的三角极限学习，点的连续，函数连续，连续的严格定义，函数微分必有函数连续，连续函数的 3 个定理学习(MVT,EVT,IVT)，导数的定义、计算学习（Calculus with Analytic Geometry 第1、2、3章）
-- [2023.12.12](./week7/journal/day2.md): 导数的应用(图像绘制、凹凸性、其他应用)、根据dy/dx的切线近似曲线的微分思想、不定积分的计算(换元法、分离分式法)学习，不定积分的应用，定积分的思想(面积累加和)，微积分三大基本定理，定积分的性质学习(Calculus with Analytic Geometry 第3、4、5、6章)
-- [2023.12.13](./week7/journal/day3.md): 中国近现代史纲要复习
-- [2023.12.14](./week7/journal/day4.md): Calculus with Analytic Geometry第六章习题完成，Chapter 7.8复习，第9章看了个开头，实在是学不动了
-- [2023.12.15](./week7/journal/day5.md): Calculus with Analytic Geometry三角函数部分复习+托马斯微积分参数方程和极坐标一章复习
-- [2023.12.16](./week7/journal/day6.md): Thomas Calculus参数方程习题看完，Chapter 12搞完
-- [2023.12.17](./week7/journal/day7.md): Thomas Calculus Chapter 13.14.15复习，15章复习了一半
+- [2023.12.25](./week9/journal/day1.md): 休息了一天，觉得自己考研数学考的不好，有点难过（不，是非常难过），但是我明年肯定不再考了，不会再考虑这些东西了，数学和政治的复习太折磨人了，完全是没有定数，不像英语和专业课，基本功够扎实就可以了
+- [2023.12.26](./week9/journal/day2.md):

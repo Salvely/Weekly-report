@@ -162,7 +162,6 @@
 
 ## 数据结构
 
-- [ ] 浙江大学数据结构
 - [ ] [Home - CSE 332 (washington.edu)](https://courses.cs.washington.edu/courses/cse332/23sp/)
 <!-- [Home - CSE 332 (washington.edu)](https://courses.cs.washington.edu/courses/cse332/23wi/) -->
 - [ ] [15-121 Main Page (cmu.edu)](https://www.cs.cmu.edu/~rdriley/121/index.html) Fall 2022
@@ -172,7 +171,7 @@
 - [ ] 清华大学邓俊辉 数据结构学习
 - [ ] MIT 6.046 算法设计与分析
 - [ ] MIT 6.851 高级数据结构
-- [ ] Stanford CS106B
+- [ ] Stanford CS106B/CS106X
 
 ## 算法
 
