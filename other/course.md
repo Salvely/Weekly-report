@@ -132,6 +132,8 @@
 
 # 数学学习
 
+- [UW Statistics](https://sites.stat.washington.edu/mmp/courses/391/spring21/index.html)
+
 ## 微积分
 
 ## 微分方程
@@ -164,8 +166,13 @@
 
 - [ ] [Home - CSE 332 (washington.edu)](https://courses.cs.washington.edu/courses/cse332/23sp/)
 <!-- [Home - CSE 332 (washington.edu)](https://courses.cs.washington.edu/courses/cse332/23wi/) -->
+- [ ] [Advanced Data strcture](https://courses.cs.washington.edu/courses/cse373/20wi/)
 - [ ] [15-121 Main Page (cmu.edu)](https://www.cs.cmu.edu/~rdriley/121/index.html) Fall 2022
 - [ ] Caltech [CS 2 (debuggi.ng)](https://debuggi.ng/23wi/) 实验网址：[cs2-23wi · GitLab (caltech.edu)](https://gitlab.caltech.edu/cs2-23wi)
+- [ ] [Illionis Data Structure](https://courses.engr.illinois.edu/cs225/fa2022/pages/lectures.html)
+  - [other semester](https://courses.engr.illinois.edu/cs225/sp2022/)
+  - [lab](https://github.com/cs225-illinois)
+- [ ] [CMSC Data strcture](https://www.cs.umd.edu/class/fall2019/cmsc420-0201/index.html)
 - [ ] UCB CS61B sp18
 - [ ] CS61B Sp21
 - [ ] 清华大学邓俊辉 数据结构学习
@@ -431,10 +438,16 @@
 - [ ] [book.pdf (ustc.edu.cn)](http://staff.ustc.edu.cn/~yuzhang/tpl/2008/reading/book.pdf)
 - [ ] [Theory of Programming Language (ustc.edu.cn)](http://staff.ustc.edu.cn/~yuzhang/tpl/2008/#schedule)
 - [ ] [staff.ustc.edu.cn/~yuzhang/fopl/2018s/](http://staff.ustc.edu.cn/~yuzhang/fopl/2018s/)
+- [ ] [编程语言的实验原理 PKU](https://xiongyingfei.github.io/DPPL/2021/main.htm)
+- [ ] [编程语言高级讨论](https://www.cis.upenn.edu/~stevez/cis670/index.html#projects)
 - 静态程序分析
 - [ ] [15-414 Bug Catching: Automated Program Verification and Testing (cmu.edu)](https://www.cs.cmu.edu/~15414/s22/index.html)
 - [ ] [17-355/17-665/17-819: Program Analysis (cmu-program-analysis.github.io)](https://cmu-program-analysis.github.io/2022/)
 - [ ] 静态程序分析 NJU
+- [ ] [Upenn CIS547](https://software-analysis-class.org/)
+- [ ] [NJU Pascal Lab](https://pascal-group.bitbucket.io/teaching.html)
+- [ ] [软件分析技术 PKU](https://xiongyingfei.github.io/SA_new/2023/)
+- [ ] [软件科学基础 PKU](https://xiongyingfei.github.io/SF/2023/)
 - [ ] [Overview | Tai-e (pascal-lab.net)](https://tai-e.pascal-lab.net/en/intro/overview.html)
 - [ ] [CS711 Advanced Programming Languages (cornell.edu)](https://www.cs.cornell.edu/courses/cs711/2005fa/)
 - [ ] [CSE501: Implementation of Programming Languages (washington.edu)](https://courses.cs.washington.edu/courses/cse501/)
@@ -545,6 +558,8 @@
 - [ ] [CS 6V81--005: System Security and Binary Code Analysis (ohio-state.edu)](http://web.cse.ohio-state.edu/~lin.3021/spring2012.html)
 - [ ] [https://documents.uow.edu.au/~fuchun/jow.html](https://documents.uow.edu.au/~fuchun/jow.html)
 - [ ] [Low-Level Software Security for Compiler Developers (llsoftsec.github.io)](https://llsoftsec.github.io/llsoftsecbook/?ref=nicholi.me#introduction)
+- [ ] [mobisec lab](https://mobisec.reyammer.io/)
+- [ ] [mobisec challenges](https://challs.reyammer.io/)
 
 # AI 类
 
