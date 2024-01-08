@@ -1,5 +1,6 @@
 > 只要抓住当下，一切都来得及！
 > Yesterday is a history, tomorrow is a mystery, but today is a gift, that's why we call it the present. --Oogway master
+> read others' code -> write your own wheel -> create something great
 
 - [计算机工具使用](#计算机工具使用)
 - [编程入门](#编程入门)
@@ -222,6 +223,13 @@
 
 - [x] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/22fa/)
 - [ ] [CIT 5950 (upenn edu)](https://www.seas.upenn.edu/~cit5950/23sp/)
+- [ ] CS110 Stanford(理论，已 fork)
+- [ ] [CS0330 | Brown University (cs0330-fall2022.github.io)](https://cs0330-fall2022.github.io/)（理论）
+- [ ] 上海交通大学 ICS (理论)
+- [ ] [CS 240: Introduction to Computer Systems (Spring 2022) (illinois.edu)](https://courses.grainger.illinois.edu/cs240/sp2022/)(理论)
+- [ ] Foundations of Computer Systems [CS 240: Calendar (wellesley.edu)](https://cs.wellesley.edu/~cs240/f22/)(理论)
+- [ ] [https://www.cs.swarthmore.edu/courses/CS31/F21/#current(理论)](<https://www.cs.swarthmore.edu/courses/CS31/F21/#current(%E7%90%86%E8%AE%BA)>)
+- [ ] [CS4414 Fall 2021 Schedule of lectures (cornell.edu)](https://www.cs.cornell.edu/courses/cs4414/2021fa/Schedule.htm)(理论)
 - [ ] Nand2Tetris
 - [ ] UCB CS61C
 - [ ] DDCA/COD 阅读 + 华中科技大学数字逻辑设计实验完成 + 华中科技大学组成原理实验完成（配合台湾清华大学计算机结构课程）
@@ -232,8 +240,6 @@
 - [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230)
 - [ ] [MIT 6.033 Spring 2021: Computer System 计算机系统\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV12T4y1R78D/?vd_source=85acf0a59ded02e4c75ae1158baca207)
       MIT 6.039 [Syllabus | Computer System Engineering | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/)
-- [ ] [CS0330 | Brown University (cs0330-fall2022.github.io)](https://cs0330-fall2022.github.io/)（理论）
-- [ ] 上海交通大学 ICS (理论)
 - [ ] 海交通大学 ICS 课程所有期末习题刷完
 - [ ] 考研复习资料所有指定题目刷完
 - [ ] Brown CI0300 2023
@@ -257,10 +263,6 @@
 - [ ] [CSE 333 23sp (washington.edu)](https://courses.cs.washington.edu/courses/cse333/23sp/) （已 fork，可做）
 - [ ] [Fall 2007 CS 194-3/16x: Introduction to Computer Systems. (berkeley.edu)](https://people.eecs.berkeley.edu/~adj/cs16x/)
 
-- [ ] [CS 240: Introduction to Computer Systems (Spring 2022) (illinois.edu)](https://courses.grainger.illinois.edu/cs240/sp2022/)(理论)
-- [ ] Foundations of Computer Systems [CS 240: Calendar (wellesley.edu)](https://cs.wellesley.edu/~cs240/f22/)(理论)
-- [ ] [https://www.cs.swarthmore.edu/courses/CS31/F21/#current(理论)](<https://www.cs.swarthmore.edu/courses/CS31/F21/#current(%E7%90%86%E8%AE%BA)>)
-- [ ] [CS4414 Fall 2021 Schedule of lectures (cornell.edu)](https://www.cs.cornell.edu/courses/cs4414/2021fa/Schedule.htm)(理论)
 - [ ] [15-123 Systems Skills in C and Unix (cmu.edu)](https://www.cs.cmu.edu/~guna/15-123S11/)
 
 ## 组成原理
@@ -354,7 +356,7 @@
 - [ ] [Operating Systems, Saarland University --- Winter 2017 (mpi-sws.org)](https://courses.mpi-sws.org/os-ws17/)
 - [ ] [Department of Computer Science and Technology – Course pages 2017–18: Operating Systems (cam.ac.uk)](https://www.cl.cam.ac.uk/teaching/1718/OpSystems/) （理论）
 - [ ] [15-410, Operating System Design and Implementation (cmu.edu)](https://www.cs.cmu.edu/~410/)
-- [ ] [Yajin Zhou@Zhejiang University](https://yajin.org/os2018fall/) (理论）
+- [ ] [Yajin Zhou@Zhejiang University](https://yajin.org/os2018fall/) (理论)
 - [ ] [Spring 2023 Course Overview | COMS W4118 Operating Systems I (cs4118.github.io)](https://cs4118.github.io/www/2023-1/)
       [COMS W4118 Operating Systems I (columbia.edu)](https://www.cs.columbia.edu/~jae/4118/)
       [Operating Systems II (columbia.edu)](https://www.cs.columbia.edu/~nieh/teaching/e6118_s00/)
@@ -363,6 +365,7 @@
       [CS 423 -- Operating System Design (Fall 2022) (cs423-uiuc.github.io)](https://cs423-uiuc.github.io/fall22/)
 - [ ] [SJTU JOS](https://ipads.se.sjtu.edu.cn:1312/lab/jos-2019-spring)
 - [ ] [SJTU chCore](https://ipads.se.sjtu.edu.cn/courses/os/schedule.shtml)
+- [ ] [Cornell 高级系统研讨课](https://www.cs.cornell.edu/courses/cs614/2007fa/)
 
 ## 计算机网络
 
@@ -371,6 +374,7 @@
 - [ ] USTC 计算机网络
 - 实践课
 
+  - [ ] [UPenn 计算机网络](https://www.cis.upenn.edu/~cis5530/)
   - [ ] Brown 计算机网络 [CSCI1680: Computer Networks (brown.edu)](https://cs.brown.edu/courses/csci1680/f22/)
   - [ ] **UCB CS168**
   - [ ] **CMU 15-441 [15-441/641: Computer Networks (Fall 2020) (computer-networks.github.io)](https://computer-networks.github.io/fa20/index.html#)**
@@ -422,6 +426,7 @@
       [15-745 Spring '20 Home Page (cmu.edu)](https://www.cs.cmu.edu/~15745/) Optimizing Compiler
 - [ ] [CS243 - Advanced Compilers | Spring 2022 (stanford.edu)](https://suif.stanford.edu/~courses/cs243/) Advanced Compiler
 - [ ] 上海交通大学编译课程
+- [ ] [Cornell PL](https://cornell-pl.github.io/cs6114//)
 - [ ] [Index of /class/cs242/materials (stanford.edu)](https://web.stanford.edu/class/cs242/materials/)
 - [ ] [CS 242: Programming Languages, Fall 2019 (stanford-cs242.github.io)](https://stanford-cs242.github.io/f19/)
 - [ ] [CS242 website (stanford.edu)](https://web.stanford.edu/class/cs242/coursework.html)
@@ -687,6 +692,7 @@ Stanford AI 系列课程：
 - [ ] [CIS 1200: Programming Languages and Techniques (upenn.edu)](https://www.seas.upenn.edu/~cis120/23sp/)
 - [ ] [CIS 1210 Data Structures](https://www.cis.upenn.edu/~cis1210/current/index.html)
 - [x] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/current/)
+- [ ] [CIS 5000: Software Foundations, Fall 2023](https://www.seas.upenn.edu/~cis5000/current/index.html#schedule)
 - [ ] [CIS 198: Rust Programming (cis198-2016f.github.io)](https://cis198-2016f.github.io/)
 - [ ] [CSE 240: Introduction to Computer Architecture (upenn.edu)](https://acg.cis.upenn.edu/milom/cse240-Fall06/)
 - [ ] [CIS 5530: Networked Systems (upenn.edu)](https://www.seas.upenn.edu/~cis5530/)

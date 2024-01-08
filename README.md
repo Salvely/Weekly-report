@@ -175,3 +175,19 @@
 - [2023.12.31](./week9/journal/day7.md): 和别人一块去东湖落雁岛玩
 
 ---
+
+## Week 10: 2024.1.1-2024.1.7
+
+### 主要任务
+
+1. [CIT5950课程学习](./code/CIT5950/)
+
+### Logs
+
+- [2024.1.1](./week10/journal/day1.md): 去看望爷爷奶奶
+- [2024.1.2](./week10/journal/day2.md): 见鬼，今天又摆了，怎么回事啊
+- [2024.1.3](./week10/journal/day3.md): 单线程和多线程版本图像模糊处理程序实现，今天还是挺摆的，明天加油！
+- [2024.1.4](./week10/journal/day4.md): Thread作业DoubleQueue实现
+- [2024.1.5](./week10/journal/day5.md): HW3 Page & PageTable虚拟内存模拟作业完成
+- [2024.1.6](./week10/journal/day6.md): C++语法复习，HW4 Pipe & Shell基本框架完成，Pipe读写端和STDIN及STDOUT的重定向尚未完成
+- [2024.1.7](./week10/journal/day7.md): Shell & Pipe实现

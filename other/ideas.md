@@ -31,7 +31,7 @@
 - 概率论
 - 大学物理学习
 - 电子电路学习
-- 
+-
 
 # 需要完成的工程项目
 
@@ -41,8 +41,16 @@
 - 学习抽象代数，形式语言与自动机
 - 实现一个正则引擎
 - 学习 javascript & full stack development
+- Javascript 动态语言编译器
 - 实现一个 v8 引擎
 - 实现一个 go 语言编译器
 - 自己实现一个 make
 - 自己实现一个`cmake`
 - 自己实现一个风格排版工具
+- thread pool 实现
+- HTTP 解析器
+- Web 渲染器
+- 浏览器
+- Shell实现
+- 网络套接字实现
+- FileSystem实现
