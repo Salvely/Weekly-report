@@ -8,4 +8,3 @@
 - [ ] CPP Crash Course
 - [ ] 15-445 C++ Bootcamp
 
-## C++ 练手项目实现

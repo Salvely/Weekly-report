@@ -22,6 +22,7 @@
 - STL 源码剖析阅读，看看`std::vector`是如何实现的
 - 数学：微积分/微分方程/线性代数/概率论强化
 - debug memory allocator
+- 数学求解器（类似Matlab）
 
 ## 需要学习的课程
 
@@ -31,7 +32,6 @@
 - 概率论
 - 大学物理学习
 - 电子电路学习
--
 
 # 需要完成的工程项目
 
@@ -42,7 +42,7 @@
 - 实现一个正则引擎
 - 学习 javascript & full stack development
 - Javascript 动态语言编译器
-- 实现一个 v8 引擎
+- 实现一个 v8 引擎(Event loop等)
 - 实现一个 go 语言编译器
 - 自己实现一个 make
 - 自己实现一个`cmake`
@@ -52,5 +52,7 @@
 - Web 渲染器
 - 浏览器
 - Shell实现
-- 网络套接字实现
+- 网络套接字(socket,bind,connect,close等系统调用)实现
 - FileSystem实现
+- 调制解调过程实现
+- 写一个OS，在其中实现网络栈，并且实现shell和各个命令

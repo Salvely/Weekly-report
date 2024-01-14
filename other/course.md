@@ -27,16 +27,17 @@
   - [信息论与编码](#信息论与编码)
 - [前后端开发](#前后端开发)
 - [数据结构与算法](#数据结构与算法)
-  - [数据结构](#数据结构)
-  - [算法](#算法)
+  - [数据结构：目标 -\> 各个数据结构实现](#数据结构目标---各个数据结构实现)
+  - [算法：目标 -\> 各个OJ刷完，理论计算机学习](#算法目标---各个oj刷完理论计算机学习)
 - [系统类](#系统类)
-  - [系统入门](#系统入门)
-  - [组成原理](#组成原理)
-  - [操作系统](#操作系统)
-  - [计算机网络](#计算机网络)
-  - [编译原理](#编译原理)
-  - [数据库系统](#数据库系统)
-  - [并行与分布式系统](#并行与分布式系统)
+  - [系统入门 -\> 目标:写一些基本的小系统程序](#系统入门---目标写一些基本的小系统程序)
+  - [组成原理-\> 目标: 用 Verilog 实现带五级流水的 CPU](#组成原理--目标-用-verilog-实现带五级流水的-cpu)
+  - [操作系统 -\> 目标:实现一个小型的操作系统](#操作系统---目标实现一个小型的操作系统)
+- [科研方法论](#科研方法论)
+  - [计算机网络 -\> 目标:实现一些路由算法和协议栈](#计算机网络---目标实现一些路由算法和协议栈)
+  - [编译原理 -\> 目标:实现一个小的编译器和各个语言的编译器](#编译原理---目标实现一个小的编译器和各个语言的编译器)
+  - [数据库系统 -\> 目标:实现小型的 KV 数据库,关系型数据库和分布式数据库](#数据库系统---目标实现小型的-kv-数据库关系型数据库和分布式数据库)
+  - [并行与分布式系统 -\> 目标:实现多个分布式算法和分布式数据库](#并行与分布式系统---目标实现多个分布式算法和分布式数据库)
   - [系统安全](#系统安全)
 - [AI 类](#ai-类)
 - [嵌入式](#嵌入式)
@@ -163,7 +164,7 @@
 
 # 数据结构与算法
 
-## 数据结构
+## 数据结构：目标 -> 各个数据结构实现
 
 - [ ] [Home - CSE 332 (washington.edu)](https://courses.cs.washington.edu/courses/cse332/23sp/)
 <!-- [Home - CSE 332 (washington.edu)](https://courses.cs.washington.edu/courses/cse332/23wi/) -->
@@ -181,7 +182,7 @@
 - [ ] MIT 6.851 高级数据结构
 - [ ] Stanford CS106B/CS106X
 
-## 算法
+## 算法：目标 -> 各个OJ刷完，理论计算机学习
 
 +++
 其他算法资料
@@ -219,9 +220,10 @@
 
 # 系统类
 
-## 系统入门
+## 系统入门 -> 目标:写一些基本的小系统程序
 
 - [x] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/22fa/)
+- [ ] Waterloo System Programming Slides 学完
 - [ ] [CIT 5950 (upenn edu)](https://www.seas.upenn.edu/~cit5950/23sp/)
 - [ ] CS110 Stanford(理论，已 fork)
 - [ ] [CS0330 | Brown University (cs0330-fall2022.github.io)](https://cs0330-fall2022.github.io/)（理论）
@@ -230,22 +232,38 @@
 - [ ] Foundations of Computer Systems [CS 240: Calendar (wellesley.edu)](https://cs.wellesley.edu/~cs240/f22/)(理论)
 - [ ] [https://www.cs.swarthmore.edu/courses/CS31/F21/#current(理论)](<https://www.cs.swarthmore.edu/courses/CS31/F21/#current(%E7%90%86%E8%AE%BA)>)
 - [ ] [CS4414 Fall 2021 Schedule of lectures (cornell.edu)](https://www.cs.cornell.edu/courses/cs4414/2021fa/Schedule.htm)(理论)
-- [ ] Nand2Tetris
-- [ ] UCB CS61C
-- [ ] DDCA/COD 阅读 + 华中科技大学数字逻辑设计实验完成 + 华中科技大学组成原理实验完成（配合台湾清华大学计算机结构课程）
 - [ ] [计算机系统概论(加州理工学院，无字幕)：Caltech - Introduction to Computing Systems；公开课推荐：CMU 15-213\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/av8707332/?vd_source=85acf0a59ded02e4c75ae1158baca207)
       [https://com.puter.systems/20fa/](https://com.puter.systems/20fa/) Caltech ICS
       实验网址：[cs24-20fa · GitLab (caltech.edu)](https://gitlab.caltech.edu/cs24-20fa)
 - [ ] 九曲阑干深入理解计算机系统导读 + 华盛顿大学 CSE351
 - [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230)
-- [ ] [MIT 6.033 Spring 2021: Computer System 计算机系统\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV12T4y1R78D/?vd_source=85acf0a59ded02e4c75ae1158baca207)
-      MIT 6.039 [Syllabus | Computer System Engineering | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/)
-- [ ] 海交通大学 ICS 课程所有期末习题刷完
+- [ ] 上海交通大学 ICS 课程所有期末习题刷完
 - [ ] 考研复习资料所有指定题目刷完
 - [ ] Brown CI0300 2023
 - [ ] [CS 61 (harvard.edu)](https://cs61.seas.harvard.edu/site/2022/#gsc.tab=0)
 
+- [ ] 华科数字逻辑实验完成
+- [ ] 台湾清华大学体系结构课程学习(MIPS COA)(理论) + CS61C(Sp15)
+- [ ] 华科计算机组成原理实验完成(MIPS COA)(实验)
+- [ ] UCB CS61C 2023
+- [ ] Nand2Tetris
 - [ ] MIT 6.004
+
+- [ ] [MIT 6.033 Spring 2021: Computer System 计算机系统\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV12T4y1R78D/?vd_source=85acf0a59ded02e4c75ae1158baca207)
+      MIT 6.039 [Syllabus | Computer System Engineering | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/)
+- [ ] [上海交通大学 CSE](https://ipads.se.sjtu.edu.cn/courses/cse/2022/)
+      [实验平台网址](https://ipads.se.sjtu.edu.cn:1312/lab/cse-2022-fall)
+- [ ] [CS 439, Spring 2013: Principles of Computer Systems (nyu.edu)](https://cs.nyu.edu/~mwalfish/classes/ut/s13-cs439/index.html)
+- [ ] [CS 439 Spring 2012 <BR>Principles of Computer Systems (utexas.edu)](https://www.cs.utexas.edu/~dahlin/Classes/439/index.html)
+- [ ] [Fall 2007 CS 194-3/16x: Introduction to Computer Systems. (berkeley.edu)](https://people.eecs.berkeley.edu/~adj/cs16x/)
+
+- [ ] [15-123 Systems Skills in C and Unix (cmu.edu)](https://www.cs.cmu.edu/~guna/15-123S11/)
+- [ ] [System programming in USTC](https://csslab-ustc.github.io/courses/sysprog/schedule.html)
+- [ ] [Formal Methods in USTC](https://csslab-ustc.github.io/courses/theory/index.html)
+- [ ] [IIT System Programming](https://moss.cs.iit.edu/cs351/)
+
+## 组成原理-> 目标: 用 Verilog 实现带五级流水的 CPU
+
 - [ ] [CIS 371 (upen edu)](https://acg.cis.upenn.edu/milom/cis371-Spring13/)
 - [ ] mit 6.175 + 6.375
 - [ ] 重庆大学 CPU 实验
@@ -255,20 +273,6 @@
 - [ ] 龙芯杯 CPU 赛道
 - [ ] 中科院计算所一生一芯
 
-- [ ] [上海交通大学 CSE](https://ipads.se.sjtu.edu.cn/courses/cse/2022/)
-      [实验平台网址](https://ipads.se.sjtu.edu.cn:1312/lab/cse-2022-fall)
-- [ ] MIT CSE
-- [ ] [CS 439, Spring 2013: Principles of Computer Systems (nyu.edu)](https://cs.nyu.edu/~mwalfish/classes/ut/s13-cs439/index.html)
-- [ ] [CS 439 Spring 2012 <BR>Principles of Computer Systems (utexas.edu)](https://www.cs.utexas.edu/~dahlin/Classes/439/index.html)
-- [ ] [CSE 333 23sp (washington.edu)](https://courses.cs.washington.edu/courses/cse333/23sp/) （已 fork，可做）
-- [ ] [Fall 2007 CS 194-3/16x: Introduction to Computer Systems. (berkeley.edu)](https://people.eecs.berkeley.edu/~adj/cs16x/)
-
-- [ ] [15-123 Systems Skills in C and Unix (cmu.edu)](https://www.cs.cmu.edu/~guna/15-123S11/)
-
-## 组成原理
-
-- [ ] 华科数字逻辑实验完成
-- [ ] 台湾清华大学体系结构课程学习(MIPS COA)(理论) + 华科计算机组成原理实验完成(MIPS COA)(实验)
 - [ ] DDCA 阅读 + DDCA 配套实验 + EECS151（ASIC）
 - [ ] MIT 6.175 + MIT 6.375
 - [ ] ETH Design of circuits
@@ -291,7 +295,7 @@
 - [ ] [FDU ICS](https://fducslg.github.io/Arch-2022Spring-FDU/)
 - [ ] [Cornell](https://www.csl.cornell.edu/courses/ece4750/index.html)
 
-## 操作系统
+## 操作系统 -> 目标:实现一个小型的操作系统
 
 一些博客：
 [c - 从零开始写 OS 内核 （序篇） - 个人文章 - SegmentFault 思否](https://segmentfault.com/a/1190000040124650)
@@ -312,6 +316,8 @@
 - [ ] [CS170: Operating Systems (undergrad) (ucsb.edu)](https://sites.cs.ucsb.edu/~trinabh/classes/w22/index.html)
 - [ ] [CSCI-UA.0202(-001): Operating Systems (Undergrad) (nyu.edu)](https://cs.nyu.edu/~mwalfish/classes/23sp/index.html)
 - [ ] **Harvard CS161**
+- [ ] https://www.eecs.harvard.edu/~cs161/
+- [ ] MIT 6.828
 - [ ] **MIT 6.S081 [6.1810 / Fall 2022 (mit.edu)](https://pdos.csail.mit.edu/6.828/2022/index.html) [简介 - MIT6.S081 (gitbook.io)](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/)**
 - [ ] [CS 140: Operating Systems (stanford.edu)](https://web.stanford.edu/~ouster/cgi-bin/cs140-spring20/index.php)
 - [ ] [6.5810: Operating Systems Research Seminar (abelay.github.io)](https://abelay.github.io/6828seminar/schedule.html)
@@ -327,17 +333,26 @@
 - [ ] [CSCI-UA.0202(-001): Operating Systems (Undergrad) (nyu.edu)](https://cs.nyu.edu/~mwalfish/classes/23sp/index.html)
 - [ ] [CS 140: Operating Systems (stanford.edu)](https://web.stanford.edu/~ouster/cgi-bin/cs140-spring20/index.php)
 - [ ] [CS240c Advanced Operating Systems Implementation (stanford.edu)](http://www.scs.stanford.edu/05au-cs240c/)
+- [ ] https://www.scs.stanford.edu/06au-cs240/
 - [ ] [CS240: Advanced Topics in Operating Systems (Spring 2023) | Stanford CS240](https://www.scs.stanford.edu/23sp-cs240/)
 - [ ] [Stanford CS240: Advanced Topics in Operating Systems](https://web.stanford.edu/class/cs240/old/sp2021/) [Gan-Tu/Stanford-CS240-SP21-Labs: Labs for Stanford CS240 (Spring 2021) - Advanced Topics in Operating Systems (github.com)](https://github.com/Gan-Tu/Stanford-CS240-SP21-Labs/tree/main)
+- [ ] [CS240](https://www.scs.stanford.edu/23sp-cs240/)
+- [ ] [CS261](https://read.seas.harvard.edu/cs261/2021/)
+- [ ] https://chriswjh.github.io/OSu/
+- [ ] [JHU OS](https://www.cs.jhu.edu/~huang/cs318/fall21/index.html)
+- [ ] [JHU Advanced OS](https://www.cs.jhu.edu/~huang/cs718/spring20/index.html)
+- [ ] [CS 380L Advanced Operating Systems Fall 2023](https://www.cs.utexas.edu/users/witchel/380L/index.html)
 - [ ] 南京大学 ICS PA + OS Lab
 - 套件 2：其他学习 OS
 - [ ] [CS 318: Principles of Operating Systems, Fall 2022 (jhu.edu)](https://www.cs.jhu.edu/~huang/cs318/fall22/index.html)
 - [ ] [CS4414: Operating Systems (virginia.edu)](https://www.cs.virginia.edu/~cr4bd/4414/S2022/) 课程代码：[University of Virginia cs4414 Course (github.com)](https://github.com/cs4414)
+- [ ] [Rust CS4414](https://rust-class.org/index.html)
 - [ ] [6.5810: Operating Systems Research Seminar (abelay.github.io)](https://abelay.github.io/6828seminar/index.html)
 - [ ] OS 2022 秋季操作系统研讨会
 - [ ] [CS-537: Intro to Operating Systems (wisc.edu)](https://pages.cs.wisc.edu/~remzi/Classes/537/Fall2022/)
 - [ ] [CSE 506 - Nima Honarmand (stonybrook.edu)](https://compas.cs.stonybrook.edu/~nhonarmand/courses/sp17/cse506/)OS
 - [ ] [CS170 -- Operating Systems (ucsb.edu)](https://sites.cs.ucsb.edu/~rich/class/cs170/)
+- [ ] [COS 318 Fa2016](https://www.cs.princeton.edu/courses/archive/fall16/cos318/schedule.html)
 - [ ] [COS 318, Fall 2021: Schedule (princeton.edu)](https://www.cs.princeton.edu/courses/archive/fall21/cos318/schedule.html)
 - [ ] [COMP 790, Spring 2020: Operating System Implementation (unc.edu)](https://www.cs.unc.edu/~porter/courses/comp790/s20/index.html)
 - [ ] [15-410, Operating System Design and Implementation (cmu.edu)](https://www.cs.cmu.edu/~410/)(理论)
@@ -366,8 +381,17 @@
 - [ ] [SJTU JOS](https://ipads.se.sjtu.edu.cn:1312/lab/jos-2019-spring)
 - [ ] [SJTU chCore](https://ipads.se.sjtu.edu.cn/courses/os/schedule.shtml)
 - [ ] [Cornell 高级系统研讨课](https://www.cs.cornell.edu/courses/cs614/2007fa/)
+- [ ] [Harvard Software System 研讨课](https://read.seas.harvard.edu/cs260r/2022/)
+- [ ] https://www.scs.stanford.edu/22wi-cs212/
 
-## 计算机网络
+# 科研方法论
+
+- [ ] [How to read papers](https://web.stanford.edu/class/cs114/reading-levis.pdf)
+- [ ] https://www.cse.iitb.ac.in/~biswa/courses/CS773/lectures/L2.pdf
+- [ ] https://systems.cs.columbia.edu/ds2-class/papers/keshav-paper.pdf
+- [ ] https://web.stanford.edu/group/nusselab/cgi-bin/lab/sites/default/files/How%20to%20read%20a%20paper.Tips_.pdf
+
+## 计算机网络 -> 目标:实现一些路由算法和协议栈
 
 - [ ] [計算機網路概論 Ch1-Computer Networks and the Internet - A\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1RJ411477Z/?p=1&vd_source=85acf0a59ded02e4c75ae1158baca207)
 - [ ] 计算机网络自顶向下官方课程
@@ -390,10 +414,11 @@
   - [ ] **MIT 6.829 [6.829 Computer Networks (Fall 2002) (mit.edu)](http://nms.csail.mit.edu/6.829-f02/)**
         [Computer Networks | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-829-computer-networks-fall-2002/)
   - [ ] **Stanford CS144**
+  - [ ] [Stanford Advanced Network CS244](https://2022-cs244.github.io/)
   - [ ] [CS 243, Fall 2019: Advanced Computer Networks (harvard.edu)](https://minlanyu.seas.harvard.edu/teach/cs243-fall19/index.html)
   - [ ] Caltech [cs/ee 143 Communication Networks (caltech.edu)](http://courses.cms.caltech.edu/cs143/)
 
-## 编译原理
+## 编译原理 -> 目标:实现一个小的编译器和各个语言的编译器
 
 - 套件 1：名校编译
 - [ ] **MIT 6.035**
@@ -476,8 +501,10 @@
   - [ ] [CS 6120: Advanced Compilers γ](https://www.cs.cornell.edu/courses/cs6120/2020fa/)
   - [ ] [CS153](https://github.com/udaiveerS/CS-153)
   - [ ] [CS153-Compilers](https://github.com/jeffreypersons/CS153-Compilers)
+  - [ ] [CS240H: Functional Systems in Haskell](https://www.scs.stanford.edu/16wi-cs240h/)
+  - [ ] [CS240H Functional System in Haskell](https://www.scs.stanford.edu/11au-cs240h/)
 
-## 数据库系统
+## 数据库系统 -> 目标:实现小型的 KV 数据库,关系型数据库和分布式数据库
 
 - pingcap github db 学习资源汇总
 - [ ] 台湾清华大学 DBMS
@@ -501,11 +528,14 @@
 - [ ] Cornell [Introduction to Database Systems](http://www.databaselecture.com/) by Prof. Trummer
 - [ ] [Advanced Database Systems Home Page (nyu.edu)](https://cs.nyu.edu/courses/fall07/G22.2434-001/)
 
-## 并行与分布式系统
+## 并行与分布式系统 -> 目标:实现多个分布式算法和分布式数据库
 
 - [ ] [新竹清华大学：并行计算与并行编程课程（"Parallel Programming"，"平行程式課程"）；先修课程：计算机组成原理、操作系统原理\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Yt411W7td/?spm_id_from=333.788.recommend_more_video.0&vd_source=85acf0a59ded02e4c75ae1158baca207)
 - [ ] [15-418/15-618: Parallel Computer Architecture and Programming, Spring 2023 (cmu.edu)](http://www.cs.cmu.edu/~418/)
 - 套件 1：名校分布式系统
+  - [ ] [CMU 15-712 Fa23](https://www.cs.cmu.edu/~15712/index.html)
+  - [ ] [CMU 15-712 Sp12](https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15712-s12/www/index.html)
+  - [ ] [CMU 15-440](https://www.synergylabs.org/courses/15-440/)
   - [ ] **MIT 6.824 [6.824 Home Page: Spring 2022 (mit.edu)](https://pdos.csail.mit.edu/6.824/)**
   - [ ] **CMU 15-418 [Distributed Systems (cmu.edu)](https://www.andrew.cmu.edu/course/15-440/)**
   - [ ] [Brown 分布式系统](https://cs.brown.edu/courses/csci1380/s22/index.html)
@@ -522,6 +552,7 @@
   - [ ] MIT 6.826 Principles of Computer Systems [6.826 / Fall 2020 (mit.edu)](https://6826.csail.mit.edu/2020/index.html)
   - [ ] MIT 6.827 [6.827 Algorithm Engineering Spring 2022 (mit.edu)](https://people.csail.mit.edu/jshun/6827-s22/)
   - [ ] 深度学习硬件设计 [6.812/6.825 Hardware Architecture for Deep Learning - Spring 2022 (mit.edu)](http://csg.csail.mit.edu/6.825/index.html)
+  - [ ] [Distributed Storage System](https://www.scs.stanford.edu/06wi-cs240d/)
 
 ## 系统安全
 

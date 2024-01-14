@@ -176,18 +176,36 @@
 
 ---
 
+> 今年定个小目标，坚持 github 365 天全绿。
+
 ## Week 10: 2024.1.1-2024.1.7
 
 ### 主要任务
 
-1. [CIT5950课程学习](./code/CIT5950/)
+1. [CIT5950 课程学习](./code/CIT5950/)
 
 ### Logs
 
 - [2024.1.1](./week10/journal/day1.md): 去看望爷爷奶奶
 - [2024.1.2](./week10/journal/day2.md): 见鬼，今天又摆了，怎么回事啊
 - [2024.1.3](./week10/journal/day3.md): 单线程和多线程版本图像模糊处理程序实现，今天还是挺摆的，明天加油！
-- [2024.1.4](./week10/journal/day4.md): Thread作业DoubleQueue实现
-- [2024.1.5](./week10/journal/day5.md): HW3 Page & PageTable虚拟内存模拟作业完成
-- [2024.1.6](./week10/journal/day6.md): C++语法复习，HW4 Pipe & Shell基本框架完成，Pipe读写端和STDIN及STDOUT的重定向尚未完成
-- [2024.1.7](./week10/journal/day7.md): Shell & Pipe实现
+- [2024.1.4](./week10/journal/day4.md): Thread 作业 DoubleQueue 实现
+- [2024.1.5](./week10/journal/day5.md): HW3 Page & PageTable 虚拟内存模拟作业完成
+- [2024.1.6](./week10/journal/day6.md): C++语法复习，HW4 Pipe & Shell 基本框架完成，Pipe 读写端和 STDIN 及 STDOUT 的重定向尚未完成
+- [2024.1.7](./week10/journal/day7.md): Shell & Pipe 实现
+
+## Week 11: 2024.1.8-2024.1.14
+
+### 主要任务
+
+1. [CIT5950 课程学习](./code/CIT5950/)
+
+### Logs
+
+- [2024.1.8](./week11/journal/day1.md): Final Project 的答案已经给了，做不了了。复习了一下 Socket 编程。因为这两天来例假了，所以效率不高，看了会儿《天使爱美丽》就睡了，明天加油！
+- [2024.1.9](./week11/journal/day2.md): 实现[多级 pipe](./code/CIT5950/Pipe/multi_pipe.cc)了！复习网络编程，完成 Socket 单进程互相发送消息程序。
+- [2024.1.10](./week11/journal/day3.md): 实现多进程 Socket 通信，今天主要是在休息
+- [2024.1.11](./week11/journal/day4.md): 休息
+- [2024.1.12](./week11/journal/day5.md): 休息
+- [2024.1.13](./week11/journal/day6.md): 和双胞胎出去玩
+- [2024.1.14](./week11/journal/day7.md): 休息
