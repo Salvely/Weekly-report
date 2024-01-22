@@ -112,5 +112,14 @@
 - Blocked
 - New
 - Terminated
+  ![Five-State-model](image.png)
 
 ### Swapping Processes to Disk
+
+![Advanced Five-State model](image-1.png)
+
+## IPC
+
+1. File System
+2. Message Passing
+3. Shared Memory

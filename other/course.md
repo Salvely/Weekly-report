@@ -28,10 +28,9 @@
 - [前后端开发](#前后端开发)
 - [数据结构与算法](#数据结构与算法)
   - [数据结构：目标 -\> 各个数据结构实现](#数据结构目标---各个数据结构实现)
-  - [算法：目标 -\> 各个OJ刷完，理论计算机学习](#算法目标---各个oj刷完理论计算机学习)
+  - [算法：目标 -\> 各个 OJ 刷完，理论计算机学习](#算法目标---各个-oj-刷完理论计算机学习)
 - [系统类](#系统类)
   - [系统入门 -\> 目标:写一些基本的小系统程序](#系统入门---目标写一些基本的小系统程序)
-  - [组成原理-\> 目标: 用 Verilog 实现带五级流水的 CPU](#组成原理--目标-用-verilog-实现带五级流水的-cpu)
   - [操作系统 -\> 目标:实现一个小型的操作系统](#操作系统---目标实现一个小型的操作系统)
 - [科研方法论](#科研方法论)
   - [计算机网络 -\> 目标:实现一些路由算法和协议栈](#计算机网络---目标实现一些路由算法和协议栈)
@@ -95,6 +94,9 @@
 
 - [ ] [Penn OCmal Course](https://www.seas.upenn.edu/~cis120/23fa/schedule/)
 - [ ] [Cover Page · Functional Programming in OCaml (cornell.edu)](https://courses.cs.cornell.edu/cs3110/2021sp/textbook/)
+- [ ] https://www.cs.princeton.edu/courses/archive/fall21/cos326/schedule.php
+- [ ] https://stanford-cs242.github.io/f19/
+- [ ] https://cs3110.github.io/textbook/cover.html
 
 ## Haskell
 
@@ -181,8 +183,9 @@
 - [ ] MIT 6.046 算法设计与分析
 - [ ] MIT 6.851 高级数据结构
 - [ ] Stanford CS106B/CS106X
+- [ ] [Introductory Data Structures and Algorithms](https://ilyasergey.net/YSC2229/index.html)
 
-## 算法：目标 -> 各个OJ刷完，理论计算机学习
+## 算法：目标 -> 各个 OJ 刷完，理论计算机学习
 
 +++
 其他算法资料
@@ -217,12 +220,48 @@
 - [ ] Coursera Algorithms I&&II [算法，第一部分 | Coursera](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [CIS 1890 (upenn.edu)](https://www.cis.upenn.edu/~cis1890/)
 - [ ] [CS 225 | Home (illinois.edu)](https://courses.engr.illinois.edu/cs225/sp2023/)(理论)
+- [ ] [Theoretical Computer Science Fa2020](https://madhu.seas.harvard.edu/courses/Fall2020/)
+- [ ] [Theoretical Computer Science Fall2023](https://cs121.boazbarak.org/)
 
 # 系统类
 
 ## 系统入门 -> 目标:写一些基本的小系统程序
 
 - [x] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/22fa/)
+- [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230)
+- [ ] CSAPP 所有课后习题刷完
+- [ ] 九曲阑干深入理解计算机系统导读 + 华盛顿大学 CSE351
+- [ ] 上海交通大学 ICS 课程所有期末习题刷完
+- [ ] [IIT System Programming](https://moss.cs.iit.edu/cs351/)
+- [ ] [计算机系统概论(加州理工学院，无字幕)：Caltech - Introduction to Computing Systems；公开课推荐：CMU 15-213\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/av8707332/?vd_source=85acf0a59ded02e4c75ae1158baca207)
+      [https://com.puter.systems/20fa/](https://com.puter.systems/20fa/) Caltech ICS
+      实验网址：[cs24-20fa · GitLab (caltech.edu)](https://gitlab.caltech.edu/cs24-20fa)
+- [ ] Brown CI0300 2023
+- [ ] [CS 61 (harvard.edu)](https://cs61.seas.harvard.edu/site/2022/#gsc.tab=0)
+
+- [ ] DDCA 数字逻辑阅读
+- [ ] [华科数字逻辑实验完成](https://www.educoder.net/shixuns/5q8f4lbg/challenges)
+- [ ] 台湾清华大学体系结构课程学习(MIPS COA)(理论) + CS61C(Sp15)
+- [ ] [华科计算机组成原理实验完成(MIPS COA)(实验)](https://www.educoder.net/paths/hvbz6g9i)
+- [ ] UCB CS61C 2023
+- [ ] Nand2Tetris
+- [ ] MIT 6.004
+- [ ] [中科大数字逻辑实验(Verilog)](https://soc.ustc.edu.cn/Digital/#_9)
+- [ ] DDCA 阅读 + DDCA 配套实验 + EECS151（ASIC）
+- [ ] [Digital Design & Computer Architecture](https://safari.ethz.ch/digitaltechnik/spring2023/doku.php?id=start)
+- [ ] [Computer Architecture](https://safari.ethz.ch/architecture/fall2022/doku.php?id=schedule)
+- [ ] [Seminar on Computer Architecture](https://safari.ethz.ch/architecture_seminar/spring2021/doku.php)
+- [ ] 重庆大学 CPU 实验
+- [ ] 雷自己动手写 CPU
+- [ ] [清华大学组成原理实验](https://lab.cs.tsinghua.edu.cn/cod-lab-docs/labs/1-overview/)
+- [ ] 普林斯顿计算机体系结构
+- [ ] 汪文详 CPU 设计实战
+- [ ] 姚勇斌 超标量处理器设计
+- [ ] 龙芯杯 CPU 设计
+- [ ] NJU ICS PA
+- [ ] UCB CS152
+- [ ] 中科院计算所一生一芯
+
 - [ ] Waterloo System Programming Slides 学完
 - [ ] [CIT 5950 (upenn edu)](https://www.seas.upenn.edu/~cit5950/23sp/)
 - [ ] CS110 Stanford(理论，已 fork)
@@ -232,22 +271,6 @@
 - [ ] Foundations of Computer Systems [CS 240: Calendar (wellesley.edu)](https://cs.wellesley.edu/~cs240/f22/)(理论)
 - [ ] [https://www.cs.swarthmore.edu/courses/CS31/F21/#current(理论)](<https://www.cs.swarthmore.edu/courses/CS31/F21/#current(%E7%90%86%E8%AE%BA)>)
 - [ ] [CS4414 Fall 2021 Schedule of lectures (cornell.edu)](https://www.cs.cornell.edu/courses/cs4414/2021fa/Schedule.htm)(理论)
-- [ ] [计算机系统概论(加州理工学院，无字幕)：Caltech - Introduction to Computing Systems；公开课推荐：CMU 15-213\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/av8707332/?vd_source=85acf0a59ded02e4c75ae1158baca207)
-      [https://com.puter.systems/20fa/](https://com.puter.systems/20fa/) Caltech ICS
-      实验网址：[cs24-20fa · GitLab (caltech.edu)](https://gitlab.caltech.edu/cs24-20fa)
-- [ ] 九曲阑干深入理解计算机系统导读 + 华盛顿大学 CSE351
-- [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230)
-- [ ] 上海交通大学 ICS 课程所有期末习题刷完
-- [ ] 考研复习资料所有指定题目刷完
-- [ ] Brown CI0300 2023
-- [ ] [CS 61 (harvard.edu)](https://cs61.seas.harvard.edu/site/2022/#gsc.tab=0)
-
-- [ ] 华科数字逻辑实验完成
-- [ ] 台湾清华大学体系结构课程学习(MIPS COA)(理论) + CS61C(Sp15)
-- [ ] 华科计算机组成原理实验完成(MIPS COA)(实验)
-- [ ] UCB CS61C 2023
-- [ ] Nand2Tetris
-- [ ] MIT 6.004
 
 - [ ] [MIT 6.033 Spring 2021: Computer System 计算机系统\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV12T4y1R78D/?vd_source=85acf0a59ded02e4c75ae1158baca207)
       MIT 6.039 [Syllabus | Computer System Engineering | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/)
@@ -258,42 +281,16 @@
 - [ ] [Fall 2007 CS 194-3/16x: Introduction to Computer Systems. (berkeley.edu)](https://people.eecs.berkeley.edu/~adj/cs16x/)
 
 - [ ] [15-123 Systems Skills in C and Unix (cmu.edu)](https://www.cs.cmu.edu/~guna/15-123S11/)
-- [ ] [System programming in USTC](https://csslab-ustc.github.io/courses/sysprog/schedule.html)
 - [ ] [Formal Methods in USTC](https://csslab-ustc.github.io/courses/theory/index.html)
-- [ ] [IIT System Programming](https://moss.cs.iit.edu/cs351/)
+- [ ] [Parallel, Concurrent and Distributed Programming](https://ilyasergey.net/YSC4231/index.html)
 
-## 组成原理-> 目标: 用 Verilog 实现带五级流水的 CPU
+<!-- ## 体系结构-> 目标: 用 Verilog 实现带五级流水的 CPU（没有板子，待定）
 
-- [ ] [CIS 371 (upen edu)](https://acg.cis.upenn.edu/milom/cis371-Spring13/)
 - [ ] mit 6.175 + 6.375
-- [ ] 重庆大学 CPU 实验
-- [ ] 雷自己动手写 CPU
-- [ ] 汪文详 CPU 设计实战
-- [ ] 姚勇斌 超标量处理器设计
-- [ ] 龙芯杯 CPU 赛道
-- [ ] 中科院计算所一生一芯
-
-- [ ] DDCA 阅读 + DDCA 配套实验 + EECS151（ASIC）
-- [ ] MIT 6.175 + MIT 6.375
-- [ ] ETH Design of circuits
-- [ ] ETH Digital Design and Computer Architecture 学习并完成实验
-- [ ] UCB CS152 [Home Page for UCB CS152/CS252, Spring 2020 (berkeley.edu)](https://inst.eecs.berkeley.edu/~cs152/sp20/)
-      [CS 152/252A | (Graduate) Computer Architecture and Engineering (berkeley.edu)](https://inst.eecs.berkeley.edu/~cs152/sp23/)
-
-        [Course Info for UCB CS152, Spring 2020 (berkeley.edu)](https://inst.eecs.berkeley.edu/~cs152/sp20/info.html)
-      [spring 2023](https://inst.eecs.berkeley.edu/~cs152/sp23/)
-
-- [ ] ETH Computer Architecture
-- [ ] 普林斯顿计算机体系结构
 - [ ] 东南大学体系结构课程学习
 - [ ] 芯动力——芯片加速
-- [ ] 雷思磊 自己动手写 CPU
-- [ ] CPU 设计实战阅读(MIPS)
-- [ ] 南京大学计算机系统基础课程学习+ ICS PA
-- [ ] 一生一芯项目完成
-- [ ] ETH Seminar on Computer Architecture
 - [ ] [FDU ICS](https://fducslg.github.io/Arch-2022Spring-FDU/)
-- [ ] [Cornell](https://www.csl.cornell.edu/courses/ece4750/index.html)
+- [ ] [Cornell](https://www.csl.cornell.edu/courses/ece4750/index.html) -->
 
 ## 操作系统 -> 目标:实现一个小型的操作系统
 
@@ -315,10 +312,10 @@
 - [ ] [CS167 Operating Systems (brown-cs1690.github.io)](https://brown-cs1690.github.io/brown-cs167-s23/#/)
 - [ ] [CS170: Operating Systems (undergrad) (ucsb.edu)](https://sites.cs.ucsb.edu/~trinabh/classes/w22/index.html)
 - [ ] [CSCI-UA.0202(-001): Operating Systems (Undergrad) (nyu.edu)](https://cs.nyu.edu/~mwalfish/classes/23sp/index.html)
-- [ ] **Harvard CS161**
+- [ ] Harvard CS161
 - [ ] https://www.eecs.harvard.edu/~cs161/
 - [ ] MIT 6.828
-- [ ] **MIT 6.S081 [6.1810 / Fall 2022 (mit.edu)](https://pdos.csail.mit.edu/6.828/2022/index.html) [简介 - MIT6.S081 (gitbook.io)](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/)**
+- [ ] MIT 6.S081 [6.1810 / Fall 2022 (mit.edu)](https://pdos.csail.mit.edu/6.828/2022/index.html) [简介 - MIT6.S081 (gitbook.io)](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/)
 - [ ] [CS 140: Operating Systems (stanford.edu)](https://web.stanford.edu/~ouster/cgi-bin/cs140-spring20/index.php)
 - [ ] [6.5810: Operating Systems Research Seminar (abelay.github.io)](https://abelay.github.io/6828seminar/schedule.html)
 - [ ] 清华 RCORE
@@ -420,13 +417,17 @@
 
 ## 编译原理 -> 目标:实现一个小的编译器和各个语言的编译器
 
+- [ ] [CS4212: Compiler Design (Autumn 2023)](https://ilyasergey.net/CS4212/#)
+- [ ] https://www.cs.princeton.edu/courses/archive/spring22/cos320/
+- [ ] https://dijkstra.eecs.umich.edu/eecs483/index.php
+- [ ] https://compilers.cool/
 - 套件 1：名校编译
-- [ ] **MIT 6.035**
-- [ ] **UCB Compiler**
-- [ ] **Brown CS1260**
-- [ ] **Stanford CS143**
+- [ ] MIT 6.035
+- [ ] UCB Compiler
+- [ ] Brown CS1260
+- [ ] Stanford CS143
 - [ ] [CS 242: Programming Languages, Fall 2019 (stanford-cs242.github.io)](https://stanford-cs242.github.io/f19/)
-- [ ] **北京大学编译原理实践课**
+- [ ] 北京大学编译原理实践课
 - [ ] [Formal Semantics of Programming Languages, Fall 2021 (nju.edu.cn)](https://cs.nju.edu.cn/hongjin/teaching/semantics/index.htm)
 - [ ] 6.822 [MIT 6.822, Spring 2022](https://frap.csail.mit.edu/main)
 - [ ] [Fall 2022: Programming Languages (brown.edu)](https://cs.brown.edu/courses/cs173/2022/)
@@ -583,6 +584,8 @@
 - [ ] [MIT 6.875 / Berkeley CS 276: Cryptography (Fall 2020)](https://inst.eecs.berkeley.edu/~cs276/fa20/) Graduate 密码学
 - [ ] [6.876J Advanced Topics in Cryptography (Fall 2015) (mit.edu)](https://people.csail.mit.edu/vinodv/6876-Fall2015/index.html)
 - [ ] 计算机和网络安全 [6.857: Computer and Network Security - Massachusetts Institute of Technology - Spring 2020 (mit.edu)](https://courses.csail.mit.edu/6.857/2020/)
+- [ ] [CMU Security Introduction](https://www.cs.cmu.edu/~rdriley/330/index.html)
+- [ ] [CMU Advanced Security](https://www.andrew.cmu.edu/course/18-330/2023s/lectures/)
 - 其他安全相关
 - [ ] [CSE 127: Intro to Computer Security (ucsd.edu)](<https://cseweb.ucsd.edu/~dstefan/cse127-fall21/#evaluationandgrading/programmingassignments(55%25)>)（不全）
       [CSE 127: Intro to Computer Security (ucsd.edu)](https://cseweb.ucsd.edu/~dstefan/cse127-fall21/)——实验可做
@@ -811,6 +814,8 @@ Stanford AI 系列课程：
 - [伯克利课程探索](https://www.zhihu.com/tardis/zm/art/392093161?source_id=1005)
 - [斯坦福课程合集](https://docs.google.com/spreadsheets/d/1zfw8nPvJeewxcFUBpKUKmAVE8PjnJI7H0CKimdQXxr0/htmlview)
 - [Gatech 课程合集](https://gt-student-wiki.org/mediawiki/index.php/Category:Courses)
+- [Cornell 课程合集](https://www.cs.cornell.edu/courseinfo/listofcscourses)
+- [Yale 课程合集](https://zoo.cs.yale.edu/classes/)
 
 # 其他资料
 

@@ -209,3 +209,21 @@
 - [2024.1.12](./week11/journal/day5.md): 休息
 - [2024.1.13](./week11/journal/day6.md): 和双胞胎出去玩
 - [2024.1.14](./week11/journal/day7.md): 休息
+
+## Week 12: 2023.1.15-2023.1.21
+
+> 养成规律作息，每天 11 点钟睡觉，早上 6 点起床
+
+### 主要任务
+
+- CMU 15-213
+
+### Logs
+
+- [2024.1.15](./week12/journal/day1.md): 休息
+- [2024.1.16](./week12/journal/day2.md): 摆烂
+- [2024.1.17](./week12/journal/day3.md): [IPC](./code/system_prog_exercise/IPC/)复习，[网络编程基础](./code/system_prog_exercise/Network/)复习
+- [2024.1.18](./week12/journal/day4.md): libcurl 安装 + 基础用法学习, 多线程基础复习
+- [2024.1.19](./week12/journal/day5.md): [CMU 15-213 & CSAPP](./code/15213/) Chapter 1,2 学习
+- [2024.1.20](./week12/journal/day6.md): [CMU 15-213 & CSAPP](./code/15213/) Chapter 2 学习
+- [2024.1.21](./week12/journal/day7.md): [CMU 15-213 & CSAPP](./code/15213/) Chapter 3 汇编学习，这几个星期效率真是低下
