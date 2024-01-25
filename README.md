@@ -210,13 +210,13 @@
 - [2024.1.13](./week11/journal/day6.md): 和双胞胎出去玩
 - [2024.1.14](./week11/journal/day7.md): 休息
 
-## Week 12: 2023.1.15-2023.1.21
+## Week 12: 2024.1.15-2024.1.21
 
 > 养成规律作息，每天 11 点钟睡觉，早上 6 点起床
 
 ### 主要任务
 
-- CMU 15-213
+- [CMU 15-213](./code/15213/)
 
 ### Logs
 
@@ -227,3 +227,24 @@
 - [2024.1.19](./week12/journal/day5.md): [CMU 15-213 & CSAPP](./code/15213/) Chapter 1,2 学习
 - [2024.1.20](./week12/journal/day6.md): [CMU 15-213 & CSAPP](./code/15213/) Chapter 2 学习
 - [2024.1.21](./week12/journal/day7.md): [CMU 15-213 & CSAPP](./code/15213/) Chapter 3 汇编学习，这几个星期效率真是低下
+
+## Week 13: 2024.1.22-2024.1.28
+
+### 主要任务
+
+> 将一切知识挖掘到最深处！
+> 本周工作：
+>
+> 1. 计算机，数学，物理课程刷完
+> 2. 图形学课程学完
+> 3. 英语能力提升
+> 4. 找到科研实习 & 实习 & 工作
+
+- [CMU 15-213](./code/15213/)
+
+### Logs
+
+- [2024.1.22](./week13/journal/day1.md): Machine Level Programming Lecture 学完
+- [2024.1.23](./week13/journal/day2.md): 摆烂
+- [2024.1.24](./week13/journal/day3.md): 摆烂
+- [2024.1.25](./week13/journal/day4.md): 
