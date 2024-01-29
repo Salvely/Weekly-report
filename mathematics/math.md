@@ -3,21 +3,29 @@
 - [ ] Multivariable Calculus
 - [ ] Calculus of Several Variables
 - [ ] Multivariable Calculus with Theory
+
 - [ ] Differential Equations
 - [ ] System Functions and the Laplace Transform
 - [ ] Honors Differential Equations
 - [ ] Differential Equations
+
 - [ ] Complex Variables with Applications
+
 - [ ] Introduction to Probability and Statistics
-- [ ] Linear Algebra
+
 - [ ] Mathematics for Computer Science
+
+- [ ] Linear Algebra
 - [ ] Matrix Methods in Data Analysis, Signal Processing, and Machine Learning
 - [ ] Linear Algebra - Communications Intensive
-- [ ] Linear Algebra
+
 - [ ] Advanced Calculus for Engineers
+
 - [ ] Computational Science and Engineering I
 - [ ] Mathematical Methods for Engineers II
+
 - [ ] Mathematical Exposition
+
 - [ ] Street-Fighting Mathematics
 
 - [ ] Real Analysis
@@ -25,24 +33,32 @@
 - [ ] Analysis I
 - [ ] Real Analysis
 - [ ] Analysis II
+
 - [ ] Introduction to Functional Analysis
 - [ ] Fourier Analysis
 - [ ] Seminar in Analysis: Applications to Number Theory
+
 - [ ] Functions of a Complex Variable
 - [ ] Topics in Several Complex Variables
+
 - [ ] Measure and Integration
+
 - [ ] Introduction to Partial Differential Equations
 - [ ] Introduction to Partial Differential Equations
 - [ ] Differential Analysis
 - [ ] Differential Analysis II: Partial Differential Equations and Fourier Analysis
 - [ ] Differential Analysis
+
 - [ ] Theory of Probability
 - [ ] Universal Random Structures in 2D
+
 - [ ] Algebraic Combinatorics
 - [ ] Graph Theory and Additive Combinatorics
 - [ ] Topics in Combinatorics: Analysis of Boolean Functions
 - [ ] Probabilistic Method in Combinatorics
+
 - [ ] Geometry and Quantum Field Theory
+
 - [ ] Linear Partial Differential Equations: Analysis and Numerics
 - [ ] Linear Partial Differential Equations
 - [ ] Seminar in Discrete Mathematics
@@ -51,22 +67,30 @@
 - [ ] Integral Equations
 - [ ] Principles of Discrete Applied Mathematics
 - [ ] Principles of Applied Mathematics
+
 - [ ] Combinatorial Analysis
 - [ ] Combinatorial Theory: Hyperplane Arrangements
 - [ ] Combinatorial Theory: Introduction to Graph Theory, Extremal and Enumerative Combinatorics
 - [ ] Topics in Algebraic Combinatorics
 - [ ] Geometric Combinatorics
+
 - [ ] Topics in Applied Mathematics: Waves and Imaging
 - [ ] Wavelets, Filter Banks and Applications
+
 - [ ] Introduction to Numerical Analysis
 - [ ] Introduction to Numerical Methods
 - [ ] Numerical Methods for Partial Differential Equations
+
 - [ ] Parallel Computing
+
 - [ ] Infinite Random Matrix Theory
+
 - [ ] Theoretical Environmental Analysis
+
 - [ ] Nonlinear Dynamics: Chaos
 - [ ] Nonlinear Dynamics I: Chaos
 - [ ] Nonlinear Dynamics II: Continuum Systems
+
 - [ ] Interfacial Phenomena
 - [ ] Random Walks and Diffusion
 - [ ] Mathematical Methods in Nanophotonics

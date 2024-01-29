@@ -1,32 +1,14 @@
 # Time log
 
-- 10:20:24 准备工作做好，开始数学学习
+- 10:20:24 准备工作做好，开始学习
+- 18:21:58 2.1 Information Storage 阅读完
 -
 
 # Minor-tasks
 
-> MIT 数学基础部分课程
-
-- [ ] Single Variable Calculus
-- [ ] Calculus with Theory
-- [ ] Multivariable Calculus
-- [ ] Calculus of Several Variables
-- [ ] Multivariable Calculus with Theory
-- [ ] Differential Equations
-- [ ] System Functions and the Laplace Transform
-- [ ] Honors Differential Equations
-- [ ] Differential Equations
-- [ ] Complex Variables with Applications
-- [ ] Introduction to Probability and Statistics
-- [ ] Linear Algebra
-- [ ] Mathematics for Computer Science
-- [ ] Matrix Methods in Data Analysis, Signal Processing, and Machine Learning
-- [ ] Linear Algebra - Communications Intensive
-- [ ] Linear Algebra
-- [ ] Advanced Calculus for Engineers
-- [ ] Computational Science and Engineering I
-- [ ] Mathematical Methods for Engineers II
-- [ ] Mathematical Exposition
-- [ ] Street-Fighting Mathematics
-
 # Summary
+
+- 先把课程全部学习完
+- 再把比赛都打了，项目都做了，接点外包或者通过其他方式（或者当导游）赚点钱
+- 然后找到工作/实习，用自己的钱去，这样父母就控制不了我了
+- 技术 -> 钱 -> 实习/工作 -> 学位
