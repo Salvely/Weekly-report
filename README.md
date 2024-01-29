@@ -232,19 +232,14 @@
 
 ### 主要任务
 
-> 将一切知识挖掘到最深处！
-> 本周工作：
->
-> 1. 计算机，数学，物理课程刷完
-> 2. 图形学课程学完
-> 3. 英语能力提升
-> 4. 找到科研实习 & 实习 & 工作
-
-- [CMU 15-213](./code/15213/)
+> 大部分时间在摆烂。
 
 ### Logs
 
 - [2024.1.22](./week13/journal/day1.md): Machine Level Programming Lecture 学完
 - [2024.1.23](./week13/journal/day2.md): 摆烂
 - [2024.1.24](./week13/journal/day3.md): 摆烂
-- [2024.1.25](./week13/journal/day4.md): 
+- [2024.1.25](./week13/journal/day4.md): 摆烂
+- [2024.1.26](./week13/journal/day5.md): 摆烂
+- [2024.1.27](./week13/journal/day6.md): 摆烂
+- [2024.1.28](./week13/journal/day7.md): 摆烂
