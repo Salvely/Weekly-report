@@ -284,7 +284,7 @@ int isLessOrEqual(int x, int y)
     * 1. sign of x = 1 and sign of y = 0
     * 2. sign of x and y equals, and magnitude of x <= y
     */
-   return (((!sign_bit) & sign_diff) | (!sign_diff) & mag_sign);
+   return (((!sign_bit) & sign_diff) | ((!sign_diff) & mag_sign));
 }
 
 // 4
@@ -438,7 +438,7 @@ int floatFloat2Int(unsigned uf)
    // first get the sign, exp and mag bit of the number
    unsigned sign = (uf >> 31) & 0x1;
    unsigned e = (uf >> 23) & ((1 << 8) - 1);
-   double f = (uf & ((1 << 23) - 1)) / (1 << 23);
+   float f = (uf & ((1 << 23) - 1)) / (1 << 23);
 
    // then get the exact sign, E and value of the number
    int s = 0;
@@ -448,7 +448,7 @@ int floatFloat2Int(unsigned uf)
       s = -1;
 
    int E = 0;
-   double frac = 0;
+   float frac = 0;
    int bias = 127;
    if (e == 0)
    {
