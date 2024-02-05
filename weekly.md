@@ -1,4 +1,4 @@
-## Week X: 2023.XX.XX-2023.XX.XX
+## Week X: 2024.XX.XX-2024.XX.XX
 
 ### 主要任务
 
@@ -7,4 +7,4 @@
 
 ### Logs
 
-- [2023.10.30](journal_link): daily summary
+- [2024.10.30](journal_link): daily summary

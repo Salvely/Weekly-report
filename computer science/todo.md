@@ -1,9 +1,11 @@
 # Computer Science Todos
 
+> 任务完成后应当学完 CSAPP 所有内容(课本，习题，lab，参考文献以及拓展领域所有内容)
+
 - [ ] CMU ICS 课程学完 + Waterloo System Programming 多线程，并发，死锁基础学习(主要是概念+接口) Lecture 11 - 25(学习的过程中可以深入探索某些内容，CSAPP 覆盖范围广，这是一个好机会，不一定要局限于课本)
   - [x] Chapter 2 Video 观看
   - [x] Lecture 2 Slides 阅读
-  - [ ] Chapter 2 阅读并完成对应课本习题
+  - [x] Chapter 2 阅读并完成对应课本习题
   - [ ] Data lab 完成（结合 Hacker's delight / Bit Twidding hacks）
   - [x] Chapter 3 Video 观看
   - [ ] Chapter 3 Slides 阅读
@@ -12,6 +14,7 @@
   - [ ] 系统课程中汇编相关内容学习 + Project 完成
   - [ ] 王爽《汇编语言》学习
   - [ ] Reverse Engineering 学习
+  - [ ] CTF 逆向工程学习
   <!-- - [ ] Windows 逆向学习 -->
   - [ ] Chapter 4 阅读并完成课本对应习题
   - [ ] Architecture lab & Architecture lab(Y86) 完成
@@ -66,13 +69,13 @@
   - [ ] Proxy lab 完成
   - [ ] 系统入门课程 Network 对应 Project 完成
   - [ ] Shardmaster 实现
-  - [ ] Web Server 实现
   - [ ] 计算机网络课程学习
   - [ ] TCP/IP 协议栈实现
+  - [ ] Web Server 实现
   - [ ] 并行与分布式系统课程学习
   - [ ] 分布式数据库实现
   - [ ] 系统安全课程学习
-  - [ ] CTF 入门
+  - [ ] Project based learning 所有相关项目实现
   - [ ] 2015 Spring 所有 Slides 复习
 - [ ] SJTU 计算机学院 OS 课程学习完并完成所有的 Assignment & Projects
 - [ ] [一个很棒的助教课程网站](https://www-users.cse.umn.edu/~kauffman/)

@@ -251,15 +251,16 @@
 - [ ] [Digital Design & Computer Architecture](https://safari.ethz.ch/digitaltechnik/spring2023/doku.php?id=start)
 - [ ] [Computer Architecture](https://safari.ethz.ch/architecture/fall2022/doku.php?id=schedule)
 - [ ] [Seminar on Computer Architecture](https://safari.ethz.ch/architecture_seminar/spring2021/doku.php)
+- [ ] UCB CS152
 - [ ] 重庆大学 CPU 实验
 - [ ] 雷自己动手写 CPU
 - [ ] [清华大学组成原理实验](https://lab.cs.tsinghua.edu.cn/cod-lab-docs/labs/1-overview/)
 - [ ] 普林斯顿计算机体系结构
 - [ ] 汪文详 CPU 设计实战
 - [ ] 姚勇斌 超标量处理器设计
+- [ ] 其他学校计算机体系结构课程学习
 - [ ] 龙芯杯 CPU 设计
 - [ ] NJU ICS PA
-- [ ] UCB CS152
 - [ ] 中科院计算所一生一芯
 
 - [ ] Waterloo System Programming Slides 学完

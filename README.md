@@ -242,4 +242,20 @@
 - [2024.1.25](./week13/journal/day4.md): 摆烂
 - [2024.1.26](./week13/journal/day5.md): 摆烂
 - [2024.1.27](./week13/journal/day6.md): 摆烂
-- [2024.1.28](./week13/journal/day7.md): 摆烂
+- [2024.1.28](./week13/journal/day7.md): 去医院看病
+
+## Week 14: 2024.1.29-2024.2.4
+
+### 主要任务
+
+- [CSAPP 阅读及 15-213 课程学习](./code/15213/)
+
+### Logs
+
+- [2024.1.29](./week14/journal/day1.md): 医院做核磁共振检查膝盖，排队 3 小时（麻了，以后不能自己在家里健身了，不然搞出问题来了）
+- [2024.1.30](./week14/journal/day2.md): 又去医院看了一天
+- [2024.1.31](./week14/journal/day3.md): Data Representations 复习
+- [2024.2.1](./week14/journal/day4.md): Mulplication & Division 部分学习 & Floating Point 部分学习
+- [2024.2.2](./week14/journal/day5.md): Data Representation 一章阅读完成，习题基本完成，Data lab 完成一半
+- [2024.2.3](./week14/journal/day6.md): Data lab 完成几个题
+- [2023.2.4](./week14/journal/day7.md): [Data lab](./code/15213/lab/lab1-datalab/)所有习题完成，Data lab recitation video 观看，Data lab 总结写了一半
