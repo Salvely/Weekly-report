@@ -6,7 +6,7 @@
   - [x] Chapter 2 Video 观看
   - [x] Lecture 2 Slides 阅读
   - [x] Chapter 2 阅读并完成对应课本习题
-  - [ ] Data lab 完成（结合 Hacker's delight / Bit Twidding hacks）
+  - [x] Data lab 完成（结合 Hacker's delight / Bit Twidding hacks）
   - [x] Chapter 3 Video 观看
   - [ ] Chapter 3 Slides 阅读
   - [ ] Chapter 3 阅读并完成课本对应习题

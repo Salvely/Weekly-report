@@ -259,3 +259,17 @@
 - [2024.2.2](./week14/journal/day5.md): Data Representation 一章阅读完成，习题基本完成，Data lab 完成一半
 - [2024.2.3](./week14/journal/day6.md): Data lab 完成几个题
 - [2023.2.4](./week14/journal/day7.md): [Data lab](./code/15213/lab/lab1-datalab/)所有习题完成，Data lab recitation video 观看，Data lab 总结写了一半
+
+## Week 15: 2024.2.5-2024.2.11
+
+### 主要任务
+
+### Logs
+
+- [2024.2.5](./week15/journal/day1.md): [分治法](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f23/www/recitations/rec01_solutions.pdf)还没有完全搞清楚, Data lab 总结写完
+- [2024.2.6](./week15/journal/day2.md): CSAPP Chapter 3 看了
+- [2024.2.7](./week15/journal/day3.md): Chapter 3 数据运算指令和控制阅读，来例假了，休息一下
+- [2024.2.8](./week15/journal/day4.md): Chapter 3 控制语句学习
+- [2024.2.9](./week15/journal/day5.md): 除夕，休息一下
+- [2024.2.10](./week15/journal/day6.md): Chapter 3 for,while 循环语句 & Switch 语句 & Procedure 学习
+- [2024.2.11](./week15/journal/day7.md): switch 语句复习，Procedure 继续学习，数组 & 内存布局学习

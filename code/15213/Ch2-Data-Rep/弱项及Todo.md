@@ -1,8 +1,0 @@
-- C 语言编译器 + JVM 虚拟机实现
-- Unsigned Overflow : x + y < x
-- Signed Overflow: x,y 为正，x + y 为负（或者反过来）
-- Negation
-  - Unsigned: x = 0 时 -x = 0
-  - Signed: x = TMin 时 -x = TMin
-- Signed Negation & Unsigned Negation
-- 2's complement mulplication

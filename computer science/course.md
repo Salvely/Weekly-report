@@ -228,7 +228,7 @@
 ## 系统入门 -> 目标:写一些基本的小系统程序
 
 - [x] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/22fa/)
-- [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230)
+- [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230) + Nand2Tetris
 - [ ] CSAPP 所有课后习题刷完
 - [ ] 九曲阑干深入理解计算机系统导读 + 华盛顿大学 CSE351
 - [ ] 上海交通大学 ICS 课程所有期末习题刷完
@@ -244,18 +244,18 @@
 - [ ] 台湾清华大学体系结构课程学习(MIPS COA)(理论) + CS61C(Sp15)
 - [ ] [华科计算机组成原理实验完成(MIPS COA)(实验)](https://www.educoder.net/paths/hvbz6g9i)
 - [ ] UCB CS61C 2023
-- [ ] Nand2Tetris
 - [ ] MIT 6.004
 - [ ] [中科大数字逻辑实验(Verilog)](https://soc.ustc.edu.cn/Digital/#_9)
 - [ ] DDCA 阅读 + DDCA 配套实验 + EECS151（ASIC）
 - [ ] [Digital Design & Computer Architecture](https://safari.ethz.ch/digitaltechnik/spring2023/doku.php?id=start)
 - [ ] [Computer Architecture](https://safari.ethz.ch/architecture/fall2022/doku.php?id=schedule)
 - [ ] [Seminar on Computer Architecture](https://safari.ethz.ch/architecture_seminar/spring2021/doku.php)
+- [ ] 普林斯顿计算机体系结构
+- [ ] 中科大计算机体系结构课程
 - [ ] UCB CS152
 - [ ] 重庆大学 CPU 实验
 - [ ] 雷自己动手写 CPU
 - [ ] [清华大学组成原理实验](https://lab.cs.tsinghua.edu.cn/cod-lab-docs/labs/1-overview/)
-- [ ] 普林斯顿计算机体系结构
 - [ ] 汪文详 CPU 设计实战
 - [ ] 姚勇斌 超标量处理器设计
 - [ ] 其他学校计算机体系结构课程学习
@@ -505,6 +505,7 @@
   - [ ] [CS153-Compilers](https://github.com/jeffreypersons/CS153-Compilers)
   - [ ] [CS240H: Functional Systems in Haskell](https://www.scs.stanford.edu/16wi-cs240h/)
   - [ ] [CS240H Functional System in Haskell](https://www.scs.stanford.edu/11au-cs240h/)
+  - [ ] Compilers.cool
 
 ## 数据库系统 -> 目标:实现小型的 KV 数据库,关系型数据库和分布式数据库
 
@@ -817,6 +818,7 @@ Stanford AI 系列课程：
 - [Gatech 课程合集](https://gt-student-wiki.org/mediawiki/index.php/Category:Courses)
 - [Cornell 课程合集](https://www.cs.cornell.edu/courseinfo/listofcscourses)
 - [Yale 课程合集](https://zoo.cs.yale.edu/classes/)
+- [上海交通大学 ACM 班](https://acm.sjtu.edu.cn/wiki/%E8%AF%BE%E7%A8%8B%E4%B8%AD%E5%BF%83)
 
 # 其他资料
 
