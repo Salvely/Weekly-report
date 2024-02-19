@@ -243,35 +243,68 @@
 - [ ] [华科数字逻辑实验完成](https://www.educoder.net/shixuns/5q8f4lbg/challenges)
 - [ ] 台湾清华大学体系结构课程学习(MIPS COA)(理论) + CS61C(Sp15)
 - [ ] [华科计算机组成原理实验完成(MIPS COA)(实验)](https://www.educoder.net/paths/hvbz6g9i)
-- [ ] UCB CS61C 2023
+- [ ] UCB CS61C 2023（RISC-V）
 - [ ] MIT 6.004
+- [ ] MIT 6.175 + 6.375
+- [ ] HDLBits 刷题
+- [ ] 中科大 Verilog OJ 刷题
 - [ ] [中科大数字逻辑实验(Verilog)](https://soc.ustc.edu.cn/Digital/#_9)
-- [ ] DDCA 阅读 + DDCA 配套实验 + EECS151（ASIC）
+- [ ] [中科大数字逻辑提高班](https://soc.ustc.edu.cn/Digital-Pro/)
+- [ ] [中科大计算机系统综合实验](https://soc.ustc.edu.cn/CECS/)
+- [ ] 东南大学系统综合实验
+- [ ] DDCA 阅读 + DDCA 配套实验 + EECS151
 - [ ] [Digital Design & Computer Architecture](https://safari.ethz.ch/digitaltechnik/spring2023/doku.php?id=start)
+- [ ] [CMU 18-447 Spring 2015](https://course.ece.cmu.edu/~ece447/s15/doku.php?id=start)
+- [ ] [清华大学组成原理实验](https://lab.cs.tsinghua.edu.cn/cod-lab-docs/labs/1-overview/)
+- [ ] 重庆大学 CPU 实验
+- [ ] [北理工计算机组成原理](https://zanpu.spencerwoo.com/)
+- [ ] 雷自己动手写 CPU
 - [ ] [Computer Architecture](https://safari.ethz.ch/architecture/fall2022/doku.php?id=schedule)
 - [ ] [Seminar on Computer Architecture](https://safari.ethz.ch/architecture_seminar/spring2021/doku.php)
 - [ ] 普林斯顿计算机体系结构
-- [ ] 中科大计算机体系结构课程
-- [ ] UCB CS152
-- [ ] 重庆大学 CPU 实验
-- [ ] 雷自己动手写 CPU
-- [ ] [清华大学组成原理实验](https://lab.cs.tsinghua.edu.cn/cod-lab-docs/labs/1-overview/)
+- [ ] [计算机体系结构基础教材](https://foxsen.github.io/archbase/)
 - [ ] 汪文详 CPU 设计实战
 - [ ] 姚勇斌 超标量处理器设计
-- [ ] 其他学校计算机体系结构课程学习
+- [ ] 芯动力——芯片加速
 - [ ] 龙芯杯 CPU 设计
-- [ ] NJU ICS PA
+- [ ] UCB CS152
+- [ ] CSAPP Chapter 3 x86_64 处理器设计学习
+- [ ] NJU ICS PA x86 赛道通关
+- [ ] 用 C 语言实现 Y86 处理器模拟器
+- [ ] NJU ICS PA 其他两个赛道通关
 - [ ] 中科院计算所一生一芯
+- [ ] [高级体系结构研讨会](https://github.com/shinezyy/micro-arch-training)
+- [ ] [进阶体系结构训练](https://github.com/shinezyy/micro-arch-training)
+- [ ] 自己实现一个 MIPS/ARM/X86/RISC-V 模拟器
 
-- [ ] Waterloo System Programming Slides 学完
-- [ ] [CIT 5950 (upenn edu)](https://www.seas.upenn.edu/~cit5950/23sp/)
-- [ ] CS110 Stanford(理论，已 fork)
-- [ ] [CS0330 | Brown University (cs0330-fall2022.github.io)](https://cs0330-fall2022.github.io/)（理论）
-- [ ] 上海交通大学 ICS (理论)
-- [ ] [CS 240: Introduction to Computer Systems (Spring 2022) (illinois.edu)](https://courses.grainger.illinois.edu/cs240/sp2022/)(理论)
-- [ ] Foundations of Computer Systems [CS 240: Calendar (wellesley.edu)](https://cs.wellesley.edu/~cs240/f22/)(理论)
-- [ ] [https://www.cs.swarthmore.edu/courses/CS31/F21/#current(理论)](<https://www.cs.swarthmore.edu/courses/CS31/F21/#current(%E7%90%86%E8%AE%BA)>)
-- [ ] [CS4414 Fall 2021 Schedule of lectures (cornell.edu)](https://www.cs.cornell.edu/courses/cs4414/2021fa/Schedule.htm)(理论)
+<!-- 理论部分参考资料 -->
+
+- [ ] [NJU 体系结构课程](https://cs.nju.edu.cn/swang/CA_16S/index.htm)
+- [ ] [CMU 计算机体系结构](https://course.ece.cmu.edu/~ece740/f10/doku.php?id=start)
+- [ ] [CMU 18-447](https://users.ece.cmu.edu/~jhoe/doku/doku.php?id=18-447_course_schedule_spring_2023)
+- [ ] [Upenn CIS4710](https://www.cis.upenn.edu/~cis5710/spring2023/)
+- [ ] [Cornell ECE4750](https://www.csl.cornell.edu/courses/ece4750fa22/schedule.html)
+- [ ] [ECE4750 Lab](https://github.com/cornell-ece4750)
+- [ ] [CS251a: Advanced Computer Architecture](https://polyarch.github.io/cs251a/)
+- [ ] [Wisc Computer architecture](https://pages.cs.wisc.edu/~sinclair/courses/cs752/fall2020/)
+- [ ] [IC Computer Architecture](https://www.doc.ic.ac.uk/~phjk/AdvancedCompArchitecture/Lectures/pdfs/)
+- [ ] [Computer Architecture](https://www.cs.utexas.edu/users/dahlin/Classes/GradArch/)
+- [ ] [Wisc ECE 752](https://ece752.ece.wisc.edu/)
+- [ ] [上海科技大学 CA](https://toast-lab.sist.shanghaitech.edu.cn/courses/CS110@ShanghaiTech/Spring-2023/index.html)
+- [ ] [上海科技大学高级计算机体系结构](https://toast-lab.sist.shanghaitech.edu.cn/courses/CS211@ShanghaiTech/)
+- [ ] [华盛顿大学计算机组成与汇编](https://courses.cs.washington.edu/courses/cse378/09wi/lectures.html)
+- [ ] [USTC 计算机体系结构课程](http://staff.ustc.edu.cn/~xhzhou/CA-Spring2020/CA.html)
+
+- [ ] Waterloo System Programming Slides 学完（主要讲并发）
+- [ ] [CIT 5950 (upenn edu)](https://www.seas.upenn.edu/~cit5950/23sp/)（最后 C++和网络部分还没看）
+- [ ] Stanford CS107
+- [ ] CS110 Stanford(理论，已 fork)（全看）
+- [ ] [CS0330 | Brown University (cs0330-fall2022.github.io)](https://cs0330-fall2022.github.io/)（理论）（全看）
+- [ ] 上海交通大学 ICS (理论)（全看）
+- [ ] [CS 240: Introduction to Computer Systems (Spring 2022) (illinois.edu)](https://courses.grainger.illinois.edu/cs240/sp2022/)(理论)（全看）
+- [ ] Foundations of Computer Systems [CS 240: Calendar (wellesley.edu)](https://cs.wellesley.edu/~cs240/f22/)(理论)（全看）
+- [ ] [https://www.cs.swarthmore.edu/courses/CS31/F21/#current(理论)](<https://www.cs.swarthmore.edu/courses/CS31/F21/#current(%E7%90%86%E8%AE%BA)>) （全看）
+- [ ] [CS4414 Fall 2021 Schedule of lectures (cornell.edu)](https://www.cs.cornell.edu/courses/cs4414/2021fa/Schedule.htm)(理论) （全看）
 
 - [ ] [MIT 6.033 Spring 2021: Computer System 计算机系统\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV12T4y1R78D/?vd_source=85acf0a59ded02e4c75ae1158baca207)
       MIT 6.039 [Syllabus | Computer System Engineering | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/)
@@ -284,14 +317,6 @@
 - [ ] [15-123 Systems Skills in C and Unix (cmu.edu)](https://www.cs.cmu.edu/~guna/15-123S11/)
 - [ ] [Formal Methods in USTC](https://csslab-ustc.github.io/courses/theory/index.html)
 - [ ] [Parallel, Concurrent and Distributed Programming](https://ilyasergey.net/YSC4231/index.html)
-
-<!-- ## 体系结构-> 目标: 用 Verilog 实现带五级流水的 CPU（没有板子，待定）
-
-- [ ] mit 6.175 + 6.375
-- [ ] 东南大学体系结构课程学习
-- [ ] 芯动力——芯片加速
-- [ ] [FDU ICS](https://fducslg.github.io/Arch-2022Spring-FDU/)
-- [ ] [Cornell](https://www.csl.cornell.edu/courses/ece4750/index.html) -->
 
 ## 操作系统 -> 目标:实现一个小型的操作系统
 
@@ -325,6 +350,9 @@
 - [ ] 上海交通大学 OS [SE315 / 2021 / Welcome (sjtu.edu.cn)](https://ipads.se.sjtu.edu.cn/courses/os/)
 - [ ] UCB CS162 [CS 162 — Spring 2023](https://cs162.org/)
 - [ ] NJU OS
+- [ ] [中山大学 OS](https://ysos.gzti.me/labs/0x00/)
+- [ ] https://gitee.com/goprime/sysu-2023-spring-operating-system
+- [ ] https://gitee.com/nelsoncheung/sysu-2021-spring-operating-system/tree/main/
 - [ ] [UCB CS262A](https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F21/index.html) [Fall 2022 CS262a: Graduate Computer Systems (berkeley.edu)](https://people.eecs.berkeley.edu/~kubitron/cs262/)
 - [ ] UCB CS262B [CS262B Sp20 (deculler.github.io)](https://deculler.github.io/cs262b-sp20/#)
 - [ ] 北京大学 OS [Schedule | Operating Systems (pku-os.github.io)](https://pku-os.github.io/sp22/)
@@ -418,10 +446,16 @@
 
 ## 编译原理 -> 目标:实现一个小的编译器和各个语言的编译器
 
+- [ ] https://ucsd-cse131-f19.github.io/
+- [ ] 视频:https://www.bilibili.com/video/BV1XJ411L7pv/?spm_id_from=333.337.search-card.all.click&vd_source=85acf0a59ded02e4c75ae1158baca207
 - [ ] [CS4212: Compiler Design (Autumn 2023)](https://ilyasergey.net/CS4212/#)
 - [ ] https://www.cs.princeton.edu/courses/archive/spring22/cos320/
 - [ ] https://dijkstra.eecs.umich.edu/eecs483/index.php
 - [ ] https://compilers.cool/
+- [ ] https://buaa-se-compiling.github.io/miniSysY-tutorial/
+- [ ] https://arcsysu.github.io/SYsU-lang/
+- [ ] https://s4plus.ustc.edu.cn/_upload/article/files/fa/b5/01fb8c6a4385a6b32996f9172801/4d2da5cf-6b91-4353-9ed6-7d485b5523ac.pdf
+- [ ] https://www.opensourceagenda.com/projects/minisysy-tutorial
 - 套件 1：名校编译
 - [ ] MIT 6.035
 - [ ] UCB Compiler
@@ -505,7 +539,8 @@
   - [ ] [CS153-Compilers](https://github.com/jeffreypersons/CS153-Compilers)
   - [ ] [CS240H: Functional Systems in Haskell](https://www.scs.stanford.edu/16wi-cs240h/)
   - [ ] [CS240H Functional System in Haskell](https://www.scs.stanford.edu/11au-cs240h/)
-  - [ ] Compilers.cool
+  - [ ] https://cdn.jsdelivr.net/gh/it-ebooks-0/it-ebooks-2017-04to06/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E8%AE%B2%E4%B9%89.pdf
+  - [ ] https://compiler-sdu.github.io/
 
 ## 数据库系统 -> 目标:实现小型的 KV 数据库,关系型数据库和分布式数据库
 
@@ -601,6 +636,8 @@
 - [ ] [Low-Level Software Security for Compiler Developers (llsoftsec.github.io)](https://llsoftsec.github.io/llsoftsecbook/?ref=nicholi.me#introduction)
 - [ ] [mobisec lab](https://mobisec.reyammer.io/)
 - [ ] [mobisec challenges](https://challs.reyammer.io/)
+- [ ] pwn college
+- [ ] [SEED Labs](https://seedsecuritylabs.org/index.html)
 
 # AI 类
 
@@ -819,6 +856,7 @@ Stanford AI 系列课程：
 - [Cornell 课程合集](https://www.cs.cornell.edu/courseinfo/listofcscourses)
 - [Yale 课程合集](https://zoo.cs.yale.edu/classes/)
 - [上海交通大学 ACM 班](https://acm.sjtu.edu.cn/wiki/%E8%AF%BE%E7%A8%8B%E4%B8%AD%E5%BF%83)
+- [浙江大学图灵班](https://zju-turing.github.io/TuringCourses/)
 
 # 其他资料
 

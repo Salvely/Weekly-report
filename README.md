@@ -264,6 +264,8 @@
 
 ### 主要任务
 
+- 15213: Data lab 结束，Machine Programming 复习
+
 ### Logs
 
 - [2024.2.5](./week15/journal/day1.md): [分治法](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f23/www/recitations/rec01_solutions.pdf)还没有完全搞清楚, Data lab 总结写完
@@ -273,3 +275,17 @@
 - [2024.2.9](./week15/journal/day5.md): 除夕，休息一下
 - [2024.2.10](./week15/journal/day6.md): Chapter 3 for,while 循环语句 & Switch 语句 & Procedure 学习
 - [2024.2.11](./week15/journal/day7.md): switch 语句复习，Procedure 继续学习，数组 & 内存布局学习
+
+## Week 16: 2024.2.12-2024.2.18
+
+### 主要任务
+
+- 过年，顺带学习一部分 CSAPP
+
+### Logs
+
+- 2024.2.12-2024.2.14: 在老家过年，复习了一部分 Machine Programming，一直到 buffer overflow 和栈随机化处，感觉 Procedure 调用部分讲的不是太清楚
+- [2024.2.15](./week16/journal/day4.md): 家里来亲戚了，休息
+- [2024.2.16](./week16/journal/day5.md): 去东湖爬山，休息
+- [2024.2.17](./week16/journal/day6.md): 摆烂休息
+- [2024.2.18](./week16/journal/day7.md): 摆烂休息

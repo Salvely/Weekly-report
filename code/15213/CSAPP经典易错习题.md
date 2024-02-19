@@ -23,3 +23,5 @@
   - 000 0001
 - 2.53 NEG_ZERO = (-1.0/POS_INFINITY)
 - 2.54 G: DBL_MAX + DBL_MAX = INF
+
+## Chapter 3
