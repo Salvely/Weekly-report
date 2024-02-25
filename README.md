@@ -289,3 +289,21 @@
 - [2024.2.16](./week16/journal/day5.md): 去东湖爬山，休息
 - [2024.2.17](./week16/journal/day6.md): 摆烂休息
 - [2024.2.18](./week16/journal/day7.md): 摆烂休息
+
+## Week 17: 2024.2.19-2024.2.25
+
+> 这星期过后，进化成一个不一样的自己！
+
+### 主要任务
+
+- CSAPP + [15213](./code/15213/)学习
+
+### Logs
+
+- [2024.2.19](./week17/journal/day1.md): Procedure 调用过程复习，栈防护和攻击手段学习，变长栈帧汇编指令学习，浮点指令学习
+- [2024.2.20](./week17/journal/day2.md): Machine Programming Basics & Control & Procedure Slides 复习，并完成[Basics Activity](./code/15213/Ch3%20Machine%20Level%20Programming/gdb-and-assembly/README.md),[Control Activity](./code/15213/Ch3%20Machine%20Level%20Programming/machine-control/README.md)完成了一半
+- [2024.2.21](./week17/journal/day3.md): Procedure & Data & Advanced Topics Slides 阅读完，粗浅的学习了一下 return-oriented programmming attacks，[Design & Debugging 方法论](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f23/www/lectures/08-design-debugging.pdf)的 Slides 粗浅的阅读了一下，[GDB & Valgrind 使用说明](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f23/www/bootcamps/lab2_slides.pdf)粗浅的看了一下，[Control](./code/15213/Ch3%20Machine%20Level%20Programming/machine-control/README.md) & [Procedure](./code/15213/Ch3%20Machine%20Level%20Programming/machine-procedures/README.md) Activity 全部完成
+- [2024.2.22](./week17/journal/day4.md): [Machine Programming: Data Activity](../../code/15213/Ch3%20Machine%20Level%20Programming/machine-data/README.md) 做完，[Machine Advanced Activity](../../code/15213/Ch3%20Machine%20Level%20Programming/machine-advanced/README.md)完成了一半，[Bomb lab recitation](../../code/15213/Ch3%20Machine%20Level%20Programming/rec4/README.md)除了第 4 个还没完成以外其他全部完成
+- [2024.2.23](./week17/journal/day5.md): [gdb lab](../../code/15213/Ch3%20Machine%20Level%20Programming/lab2_handout/README.md)完成，[attack recitation](../../code/15213/Ch3%20Machine%20Level%20Programming/rec5/README.md)完成，复习 & 实战了几种 buffer overflow 攻击方式，Bomb lab phase 1-4 完成，5 & 6 进行了反汇编但是还没看
+- [2024.2.24](./week17/journal/day6.md): Bomb lab phase 5 完成
+- [2024.2.25](./week17/journal/day7.md): Bomb lab phase 6 彻底弄清楚，secret phase & func 7 做了下反汇编，今天很爽了

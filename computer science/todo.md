@@ -1,5 +1,7 @@
 # Computer Science Todos
 
+## 系统
+
 > 任务完成后应当学完 CSAPP 所有内容(课本，习题，lab，参考文献以及拓展领域所有内容)
 
 - [ ] CMU ICS 课程学完 + Waterloo System Programming 多线程，并发，死锁基础学习(主要是概念+接口) Lecture 11 - 25(学习的过程中可以深入探索某些内容，CSAPP 覆盖范围广，这是一个好机会，不一定要局限于课本)
@@ -8,8 +10,8 @@
   - [x] Chapter 2 阅读并完成对应课本习题
   - [x] Data lab 完成（结合 Hacker's delight / Bit Twidding hacks）
   - [x] Chapter 3 Video 观看
-  - [ ] Chapter 3 Slides 阅读
-  - [ ] Chapter 3 阅读并完成课本对应习题
+  - [x] Chapter 3 Slides 阅读
+  - [x] Chapter 3 阅读并完成课本对应习题
   - [ ] Bomb lab & Attack lab & Buffer Lab 完成
   - [ ] 系统课程中汇编相关内容学习 + Project 完成
   - [ ] 王爽《汇编语言》学习
@@ -120,3 +122,17 @@
 - [ ] Harvard CS61 课程学完
 - [ ] 上海交通大学 ICS 课程学完 + 教材课后习题刷完
 - [ ] 知乎回答汇总器
+
+## 数学
+
+## 理论计算机
+
+数据结构 + 算法 + OI + 理论计算机
+
+## AI
+
+## 物理
+
+## 图形学
+
+## 系统安全: 课程 -> 书籍 -> CTF -> CVE -> Security Bounty

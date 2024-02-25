@@ -228,8 +228,11 @@
 ## 系统入门 -> 目标:写一些基本的小系统程序
 
 - [x] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/22fa/)
+- [ ] [清华大学计算机系科协引导文档](https://docs.net9.org/)
+- [ ] [USTC LUG 协会培训](https://101.ustclug.org/)
 - [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230) + Nand2Tetris
 - [ ] CSAPP 所有课后习题刷完
+- [ ] CSAPP 所有笔记整理
 - [ ] 九曲阑干深入理解计算机系统导读 + 华盛顿大学 CSE351
 - [ ] 上海交通大学 ICS 课程所有期末习题刷完
 - [ ] [IIT System Programming](https://moss.cs.iit.edu/cs351/)
@@ -250,6 +253,7 @@
 - [ ] 中科大 Verilog OJ 刷题
 - [ ] [中科大数字逻辑实验(Verilog)](https://soc.ustc.edu.cn/Digital/#_9)
 - [ ] [中科大数字逻辑提高班](https://soc.ustc.edu.cn/Digital-Pro/)
+- [ ] 清华大学数字逻辑实验完成
 - [ ] [中科大计算机系统综合实验](https://soc.ustc.edu.cn/CECS/)
 - [ ] 东南大学系统综合实验
 - [ ] DDCA 阅读 + DDCA 配套实验 + EECS151
@@ -315,6 +319,7 @@
 - [ ] [Fall 2007 CS 194-3/16x: Introduction to Computer Systems. (berkeley.edu)](https://people.eecs.berkeley.edu/~adj/cs16x/)
 
 - [ ] [15-123 Systems Skills in C and Unix (cmu.edu)](https://www.cs.cmu.edu/~guna/15-123S11/)
+- [ ] System programming in C in USTC
 - [ ] [Formal Methods in USTC](https://csslab-ustc.github.io/courses/theory/index.html)
 - [ ] [Parallel, Concurrent and Distributed Programming](https://ilyasergey.net/YSC4231/index.html)
 
@@ -446,6 +451,7 @@
 
 ## 编译原理 -> 目标:实现一个小的编译器和各个语言的编译器
 
+- [ ] https://ustc-compiler-principles.github.io/2023/
 - [ ] https://ucsd-cse131-f19.github.io/
 - [ ] 视频:https://www.bilibili.com/video/BV1XJ411L7pv/?spm_id_from=333.337.search-card.all.click&vd_source=85acf0a59ded02e4c75ae1158baca207
 - [ ] [CS4212: Compiler Design (Autumn 2023)](https://ilyasergey.net/CS4212/#)
