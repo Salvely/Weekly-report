@@ -307,3 +307,21 @@
 - [2024.2.23](./week17/journal/day5.md): [gdb lab](../../code/15213/Ch3%20Machine%20Level%20Programming/lab2_handout/README.md)完成，[attack recitation](../../code/15213/Ch3%20Machine%20Level%20Programming/rec5/README.md)完成，复习 & 实战了几种 buffer overflow 攻击方式，Bomb lab phase 1-4 完成，5 & 6 进行了反汇编但是还没看
 - [2024.2.24](./week17/journal/day6.md): Bomb lab phase 5 完成
 - [2024.2.25](./week17/journal/day7.md): Bomb lab phase 6 彻底弄清楚，secret phase & func 7 做了下反汇编，今天很爽了
+
+## Week 18: 2024.2.26-2024.3.3
+
+> 重新出发，继续努力，加油！
+
+### 主要任务
+
+- CSAPP + [15213](./code/15213/)学习
+
+### Logs
+
+- [2024.2.26](./week18/journal/day1.md): Bomb lab 完全解决，Attack lab phase 1 完成，phase 2 还没有完全 debug 完成
+- [2024.2.27](./week18/journal/day2.md): Attack lab Phase 2-3 完成，phase 4 分析了一半
+- [2024.2.28](./week18/journal/day3.md): Attack lab phase 4 完成，phase 5 完成
+- [2024.2.29](./week18/journal/day4.md): Attack lab 整理到博客，CSAPP Chapter 1 读书笔记更新完成，第二章完成了一半，Chapter 3 的 Activity 更新完成
+- [2024.3.1](./week18/journal/day5.md): 今天休息一天
+- [2024.3.2](./week18/journal/day6.md): 今天去东湖梨园跑步 6km + 骑行 7 km + 从东湖梨园骑回家用时 1 小时 48 分（今儿晚上陶喆 Soul Power II 武汉第一站 day 1 喔）
+- [2024.3.3](./week18/journal/day7.md): 今天去东湖梨园跑步 6km + 步行 6 km，不骑行回家了，坐地铁回家（今儿晚上陶喆 Soul Power II 武汉第一站 day 2 喔）

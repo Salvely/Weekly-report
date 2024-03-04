@@ -916,13 +916,16 @@ Disassembly of section .text:
   401626:	e8 e5 f4 ff ff       	callq  400b10 <puts@plt>
   40162b:	b8 00 00 00 00       	mov    $0x0,%eax
   401630:	e8 0d fc ff ff       	callq  401242 <secret_phase>
+  
   401635:	bf 58 25 40 00       	mov    $0x402558,%edi
   40163a:	e8 d1 f4 ff ff       	callq  400b10 <puts@plt>
+  
   40163f:	48 8b 44 24 68       	mov    0x68(%rsp),%rax
   401644:	64 48 33 04 25 28 00 	xor    %fs:0x28,%rax
   40164b:	00 00 
   40164d:	74 05                	je     401654 <phase_defused+0x90>
   40164f:	e8 dc f4 ff ff       	callq  400b30 <__stack_chk_fail@plt>
+  
   401654:	48 83 c4 78          	add    $0x78,%rsp
   401658:	c3                   	retq   
   401659:	90                   	nop

@@ -1,0 +1,7 @@
+1. rax = rsp(48 89 e0) -> 401a06
+2. rdi = rax(<setval_210> 中的 48 89 c7) -> 4019c5
+3. 偏移量存储在栈上；popq %eax；-> 4019ab edx = eax；(89 c2)-> 4019dd ecx = edx；(89 d1)-> 401a69 rsi = ecx(89 ce) -> 401a13
+4. rax = rdi + rsi（lea指令） -> 4019d6
+5. rdi = rax(<setval_210> 中的 48 89 c7)
+6. ret
+7. 将攻击字符串放在%rsp + offset 处

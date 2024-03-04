@@ -12,7 +12,7 @@
   - [x] Chapter 3 Video 观看
   - [x] Chapter 3 Slides 阅读
   - [x] Chapter 3 阅读并完成课本对应习题
-  - [ ] Bomb lab & Attack lab & Buffer Lab 完成
+  - [x] Bomb lab & Attack lab & Buffer Lab 完成
   - [ ] 系统课程中汇编相关内容学习 + Project 完成
   - [ ] 王爽《汇编语言》学习
   - [ ] Reverse Engineering 学习

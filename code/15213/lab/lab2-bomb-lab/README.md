@@ -17,6 +17,7 @@
     - [Proc 6](#proc-6)
   - [secret phase 分析:](#secret-phase-分析)
   - [总结](#总结)
+  - [参考资料](#参考资料)
 
 ## 前言
 
@@ -36,9 +37,10 @@ No VICTIM may debug, reverse-engineer, run "strings" on, decompile, decrypt, or 
 Border relations with Canada have never been better.
 1 2 4 8 16 32
 0 207
-0 0
+0 0 DrEvil
 IONEFG
 4 3 2 1 6 5
+20
 
 ```
 
@@ -1329,14 +1331,72 @@ seg3:
 其过程如下：
 
 1. 压入`%rbx`
-2. 读入一行
+2. 读入一行 -> 估计结果存储在 rax 中，也就是字符串的起始位置
 3. `edx = 0xa`，`esi = 0`，`rdi = rax`
-4. 打印
-5. `rbx = rax`
+4. 调用`strtol`
+5. `rbx = rax` -> rbx = 字符串转化出的数值
 6. `eax = rax - 1`
 7. 如果`eax <= 0x3e8`，跳转到 seg 2；否则炸弹爆炸
 8. `esi = ebx`，`edi = 0x6030f0`，调用`fun7`
 9. 如果`eax == 0x2`，跳转到 seg 3（炸弹解除），否则炸弹爆炸
+
+将其转化为 C 语言：
+
+```c
+int secret_phase(char* buf)
+{
+    // 压入rbx
+    rax = call read_line
+    edx = 0xa
+    esi = 0
+    rdi = rax
+    call strtol
+    rbx = rax
+    eax = rax - 1 //输入数字必须小于等于 1000
+    if(eax <= 0x3e8) {
+        // seg2
+        esi = ebx
+        edi = 0x6030f0
+        call fun7
+        if(eax == 0x2) {
+            return eax;
+        }
+        else {
+            call bomb_explode
+        }
+    }
+    else {
+        call bomb_explode
+    }
+}
+```
+
+我们首先解读一下`secret_phase`：
+一开始几个寄存器的值如下：
+
+```
+rax - read line 返回的字符串地址
+edx - 0xa
+esi - 0
+rdi - read line 返回的字符串地址
+```
+
+调用`strtol`后几个寄存器的值如下：
+
+```
+rax - strtol 返回的字符串转化出的数值
+rbx - strtol 返回的字符串转化出的数值
+eax - 数值 - 1
+```
+
+如果该数值 - 1 > 0x3e8(1000)，炸弹爆炸，否则进入 seg 2。
+
+seg 2 中完成了如下工作：
+
+1. `esi = strtol 返回的字符串转化出的数值`（这个数必须小于等于 1001）
+2. `edi = 0x6030f0`(一个地址)
+3. 调用`fun7`
+4. 如果`fun7`返回 2，退出，否则炸弹爆炸
 
 这其中调用了一个叫`fun7`的函数，其反汇编结果如下：
 
@@ -1368,7 +1428,257 @@ seg4:
   401241:	c3                   	retq
 ```
 
-根据反汇编可以看出`%rdi`是传入参数，`%eax`是返回值。
+根据反汇编可以看出`%rdi`(`0x6030f0`)和`%esi`(输入的数值)是传入参数，`%eax`是返回值。其中还包括了一次递归调用。`fun7`的 C 语言实现如下：
+
+```c
+int fun7()
+{
+    // rsp留出8个字节的空间
+    if(rdi == 0) {
+        // seg3
+        eax = 0xffffffff
+    }
+    else {
+        edx = *rdi
+        if(edx <= esi) {
+            // seg2
+            eax = 0
+            if(edx != esi) {
+                rdi = *(rdi + 16)
+                call fun7
+                eax = 2 * rax + 1
+            }
+        }
+        else {
+            rdi = *(rdi + 8)
+            call fun7
+            eax = eax * 2
+        }
+    }
+    // seg4
+    // rsp栈空间恢复
+    return eax;
+}
+```
+
+`fun7`的内容翻译成 C 语言是如下内容：
+
+1. 如果传入的`rdi = 0`，那么返回`0xffffffff`
+2. 否则，`edx`的值为`rdi`指向地址的值。
+3. 如果`edx > 传入的esi`，rdi 跳转到下一个位置（左节点的值）（这里大概率又是个链表），返回`2 * fun7()`
+4. 否则，`eax = 0`，如果`edx == 传入的esi`，返回 0；否则就跳转到下下个位置（右节点的值），返回`2 * fun7() + 1`
+
+为什么能推测出来这里的左节点和右节点呢？我们在`0x6030f0`打印 32 个字节的值看看：
+
+```
+(gdb) x/32bx 0x6030f0
+0x6030f0 <n1>:          0x24    0x00    0x00    0x00    0x00    0x00    0x00    0x00
+0x6030f8 <n1+8>:        0x10    0x31    0x60    0x00    0x00    0x00    0x00    0x00
+0x603100 <n1+16>:       0x30    0x31    0x60    0x00    0x00    0x00    0x00    0x00
+```
+
+这里有 n+8 和 n+16，可以看出来这也是两个地址。
+
+这里对`fun7`的要求是必须在传入地址的值为`0x6030f0`，输入的`%esi <= 1000`的情况下返回 2。
+
+我们打印一下这个链表各个结点的值：
+
+```
+(gdb) x/32bx 0x6030f0
+0x6030f0 <n1>:          0x24    0x00    0x00    0x00    0x00    0x00    0x00    0x00
+0x6030f8 <n1+8>:        0x10    0x31    0x60    0x00    0x00    0x00    0x00    0x00
+0x603100 <n1+16>:       0x30    0x31    0x60    0x00    0x00    0x00    0x00    0x00
+```
+
+我们打印它左节点(node 21)：
+
+```
+(gdb) x/32bx 0x603110
+0x603110 <n21>: 0x08    0x00    0x00    0x00    0x00    0x00    0x00    0x00
+0x603118 <n21+8>:       0x90    0x31    0x60    0x00    0x00    0x00    0x00    0x00
+0x603120 <n21+16>:      0x50    0x31    0x60    0x00    0x00    0x00    0x00    0x00
+0x603128:       0x00    0x00    0x00    0x00    0x00    0x00    0x00    0x00
+```
+
+再打印右节点(node 22)：
+
+```
+(gdb) x/32bx 0x603130
+0x603130 <n22>: 0x32    0x00    0x00    0x00    0x00    0x00    0x00    0x00
+0x603138 <n22+8>:       0x70    0x31    0x60    0x00    0x00    0x00    0x00    0x00
+0x603140 <n22+16>:      0xb0    0x31    0x60    0x00    0x00    0x00    0x00    0x00
+0x603148:       0x00    0x00    0x00    0x00    0x00    0x00    0x00    0x00
+```
+
+现在的迷惑之处在于`fun7`到底返回的是什么东西。从`fun7`的内容来看，其主要目的是一直找到`esi`的值在二叉树中的位置。如果`esi < edx`，就找左边那颗二叉树，返回`2 * fun7()`，否则就找右边那颗二叉树，返回`2 * fun7() + 1`。从`0x6030f0`这个位置开始找，最后`fun7()`必须返回 2。从我们之前学习数据结构的经验来说，如果一个结点的标号为 n，那么它的左孩子就是 2 _ n,右孩子就是 2 _ n + 1。
+
+二叉树的结构如下：
+
+![fun7](fun7.png)
+
+那么首先`edx`的值为根节点的地址，我们从根开始遍历，一直到`%esi`的值所在的位置。我们对每个结点进行排查，那么能让最后返回 2 的`%esi`只有 0x16 和 0x14。
+
+但是`secret_phase`在哪里启动呢？我们来看看！欸，在`phase_defused`中启动！我们看到在`callq secret_phase`前有这样一段代码：
+
+```
+  401621:	bf 20 25 40 00       	mov    $0x402520,%edi
+  401626:	e8 e5 f4 ff ff       	callq  400b10 <puts@plt>
+  40162b:	b8 00 00 00 00       	mov    $0x0,%eax
+  401630:	e8 0d fc ff ff       	callq  401242 <secret_phase>
+```
+
+这段汇编首先把一个看起来像地址的`0x402520`放进了`%edi`寄存器，然后调用`puts`，将`eax`设置为 0。我们来看看`0x402520`处放了啥：
+
+```
+(gdb) x/s 0x402520
+0x402520:       "But finding it and solving it are quite different..."
+```
+
+这个地址是否出现在别的地方呢？好像没有。但是这段代码后面还有一段：
+
+```
+  401626:	e8 e5 f4 ff ff       	callq  400b10 <puts@plt>
+  40162b:	b8 00 00 00 00       	mov    $0x0,%eax
+  401630:	e8 0d fc ff ff       	callq  401242 <secret_phase>
+  401635:	bf 58 25 40 00       	mov    $0x402558,%edi
+  40163a:	e8 d1 f4 ff ff       	callq  400b10 <puts@plt>
+  40163f:	48 8b 44 24 68       	mov    0x68(%rsp),%rax
+  401644:	64 48 33 04 25 28 00 	xor    %fs:0x28,%rax
+```
+
+这里又出现了一个新地址，`0x402558`，我们来看看这里是啥：
+
+```
+(gdb) x/s 0x402558
+0x402558:       "Congratulations! You've defused the bomb!"
+```
+
+额，是恭喜我们拆除炸弹。。。
+
+我想这么看可能是看不出来的，那么我们来把`phase_defused`详细拆解看看(nop 指令省去)：
+
+```
+00000000004015c4 <phase_defused>:
+seg1:
+  4015c4:	48 83 ec 78          	sub    $0x78,%rsp -> 留出栈位置
+  4015c8:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+  4015cf:	00 00
+  4015d1:	48 89 44 24 68       	mov    %rax,0x68(%rsp) -> *(rsp + 104) = rax
+  4015d6:	31 c0                	xor    %eax,%eax -> 将eax置0
+  4015d8:	83 3d 81 21 20 00 06 	cmpl   $0x6,0x202181(%rip)        # 603760 <num_input_strings>
+  4015df:	75 5e                	jne    40163f <phase_defused+0x7b>
+  4015e1:	4c 8d 44 24 10       	lea    0x10(%rsp),%r8
+  4015e6:	48 8d 4c 24 0c       	lea    0xc(%rsp),%rcx
+  4015eb:	48 8d 54 24 08       	lea    0x8(%rsp),%rdx
+  4015f0:	be 19 26 40 00       	mov    $0x402619,%esi
+  4015f5:	bf 70 38 60 00       	mov    $0x603870,%edi
+  4015fa:	e8 f1 f5 ff ff       	callq  400bf0 <__isoc99_sscanf@plt>
+  4015ff:	83 f8 03             	cmp    $0x3,%eax
+  401602:	75 31                	jne    401635 <phase_defused+0x71>
+  401604:	be 22 26 40 00       	mov    $0x402622,%esi
+  401609:	48 8d 7c 24 10       	lea    0x10(%rsp),%rdi
+  40160e:	e8 25 fd ff ff       	callq  401338 <strings_not_equal>
+  401613:	85 c0                	test   %eax,%eax
+  401615:	75 1e                	jne    401635 <phase_defused+0x71>
+  401617:	bf f8 24 40 00       	mov    $0x4024f8,%edi
+  40161c:	e8 ef f4 ff ff       	callq  400b10 <puts@plt>
+  401621:	bf 20 25 40 00       	mov    $0x402520,%edi
+  401626:	e8 e5 f4 ff ff       	callq  400b10 <puts@plt>
+  40162b:	b8 00 00 00 00       	mov    $0x0,%eax
+  401630:	e8 0d fc ff ff       	callq  401242 <secret_phase>
+seg2:
+  401635:	bf 58 25 40 00       	mov    $0x402558,%edi
+  40163a:	e8 d1 f4 ff ff       	callq  400b10 <puts@plt>
+seg3:
+  40163f:	48 8b 44 24 68       	mov    0x68(%rsp),%rax
+  401644:	64 48 33 04 25 28 00 	xor    %fs:0x28,%rax
+  40164b:	00 00
+  40164d:	74 05                	je     401654 <phase_defused+0x90>
+  40164f:	e8 dc f4 ff ff       	callq  400b30 <__stack_chk_fail@plt>
+seg4:
+  401654:	48 83 c4 78          	add    $0x78,%rsp
+  401658:	c3                   	retq
+```
+
+其中 seg 3 和 4 主要是一些收尾工作（检查`canary`的值之类的），seg2 是打印恭喜字符串，其核心部分在 seg 1。
+
+seg 1 的工作如下：
+
+1. 留出栈的位置，放置`canary`
+2. 获取输入的字符串的个数，如果不等于 6，跳转到收尾工作
+3. 设置以下几个值：
+   ```
+    4015e1:	4c 8d 44 24 10       	lea    0x10(%rsp),%r8 // r8 = rsp + 16
+    4015e6:	48 8d 4c 24 0c       	lea    0xc(%rsp),%rcx // rcx = rsp + 12
+    4015eb:	48 8d 54 24 08       	lea    0x8(%rsp),%rdx // rdx = rsp + 8
+    4015f0:	be 19 26 40 00       	mov    $0x402619,%esi // esi = 0x402619
+    4015f5:	bf 70 38 60 00       	mov    $0x603870,%edi // edi = 0x603870
+   ```
+   这里`0x402619`是`sscanf`的格式化输入的字符串的保存地址：
+   ```
+   0x402619:       "%d %d %s"
+   ```
+   而`0x603870`是输入的字符串的保存地址：
+   ```
+   (gdb) x/s 0x603870
+    0x603870 <input_strings+240>:   ""
+   ```
+4. 调用 sscanf 获取输入字符串，其个数存储在`%eax`中，判断其是否等于 3，如果不是进入收尾工作
+5. 接下来我们需要判断`0x402622`处的字符串和输入的字符串是否相等，该处的字符串为`DrEvil`，如果相等的话，打印如下指令，然后进入 secret phase:
+
+```
+(gdb) x/s 0x4024f8
+0x4024f8:       "Curses, you've found the secret phase!"
+(gdb) x/s 0x402520
+0x402520:       "But finding it and solving it are quite different..."
+```
+
+但是什么时候会`sscanf`到`0x603870`处呢？只有`phase_3`和`phase_4`调用了`sscanf`，且输入的字符串的地址都存储在`$rdi`中，我们对他们打断点进行分析看看：
+
+```
+Breakpoint 1, 0x0000000000400f43 in phase_3 ()
+(gdb) p $rdi
+$1 = 6305824
+(gdb) p /x $rdi
+$2 = 0x603820
+(gdb) n
+Single stepping until exit from function phase_3,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:90
+warning: Source file is more recent than executable.
+90          /* I guess this is too easy so far.  Some more complex code will
+(gdb)
+91           * confuse people. */
+(gdb)
+Halfway there!
+94          phase_defused();
+(gdb)
+0 207
+95          printf("Halfway there!\n");
+(gdb) n
+
+Breakpoint 2, 0x000000000040100c in phase_4 ()
+(gdb) p /x $rdi
+$3 = 0x603870
+```
+
+在`phase_4`中`$rdi = 0x603870`，这个字符串是在这里输入的！那么这里应该输入第三个字符串来触发 secret_phase，也就是`DrEvil`，并且 secret phase 的答案是 0x16 和 0x14。
+
+最后成功啦！
+
+```
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+Halfway there!
+So you got that one.  Try this one.
+Good work!  On to the next...
+Curses, you've found the secret phase!
+But finding it and solving it are quite different...
+Wow! You've defused the secret stage!
+Congratulations! You've defused the bomb!
+```
 
 ## 总结
 
@@ -1377,4 +1687,9 @@ seg4:
 3. `Phase 4`那个`func`没看出来是啥，蒙了个`0 0`过了，需要搞懂
 4. `Phase 5`一开始没想到给那几个 16 进制的值加偏移量，使其为合法的`ASCII码`字符，是后来加查了 1 个题解晓得的。
 5. `Phase 6`费大力气终于解决啦！当然我一开始没留意到是第`ecx`个数的`rdx`存储在地址数组的第`rsi`位，所以还以为链表的结点都是顺序排列的。解除 phase6 的经历也告诉我，看见汇编不要一开始上来就将它转化成 C 语言，要首先根据跳转目标对其进行分段，用流程图分析他的跳转，然后再将其拆解为各个小的过程（拆解的过程中尽量把循环放在一起，控制一下过程的规模），一步步的分析他，不要一上来就看题解/暴力反汇编。而且要留意题意！比如第 5 题那个 ASCII 码字符，第 6 题要把顺序转化为`7 - 原来的值`，这都是容易做错的地方。
-6. `secret_phase`
+6. `secret_phase`顺利完结！二叉树的结构精妙极了！但是`secret_phase`的入口不好找，因为输入的字符串都在`%rdi`中，需要通过`gdb`查看哪个 phase 的 rdi 寄存器的值 = 0x603870，这点很难。
+
+## 参考资料
+
+- [手把手教你拆解 CSAPP 的 炸弹实验室 BombLab](https://zhuanlan.zhihu.com/p/451623574)
+- [CSAPP bomblab 隐藏关卡 secret_phase 拆弹记录](https://zhuanlan.zhihu.com/p/561068445)

@@ -1,4 +1,4 @@
-## Bomb lab recitation
+# Bomb lab recitation
 
 ## act1
 
