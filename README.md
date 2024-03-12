@@ -325,3 +325,19 @@
 - [2024.3.1](./week18/journal/day5.md): 今天休息一天
 - [2024.3.2](./week18/journal/day6.md): 今天去东湖梨园跑步 6km + 骑行 7 km + 从东湖梨园骑回家用时 1 小时 48 分（今儿晚上陶喆 Soul Power II 武汉第一站 day 1 喔）
 - [2024.3.3](./week18/journal/day7.md): 今天去东湖梨园跑步 6km + 步行 6 km，不骑行回家了，坐地铁回家（今儿晚上陶喆 Soul Power II 武汉第一站 day 2 喔）
+
+## Week 19: 2024.3.4-2024.3.10
+
+### 主要任务
+
+- CSAPP 阅读学习
+
+### Logs
+
+- [2024.3.4](./week19/journal/day1.md): 休息一天
+- [2024.3.5](./week19/journal/day2.md): Y86_64 指令集学习，跑步 5.3km，骑行 1.22km，步行 1.25km
+- [2024.3.6](./week19/journal/day3.md): Y86_64 指令分析完成，顺序结构的 Y86_64 处理器设计时钟信号设计完成
+- [2024.3.7](./week19/journal/day4.md): 东湖骑车游玩
+- [2024.3.8](./week19/journal/day5.md): 看了《第二十条》
+- [2024.3.9](./week19/journal/day6.md): Y86_64 流水线结构处理器设计入门
+- [2024.3.10](./week19/journal/day7.md): CSAPP Chapter 4 流水线处理器设计 & Chapter 6 开头阅读

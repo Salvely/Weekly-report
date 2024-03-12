@@ -177,13 +177,13 @@
   - [other semester](https://courses.engr.illinois.edu/cs225/sp2022/)
   - [lab](https://github.com/cs225-illinois)
 - [ ] [CMSC Data strcture](https://www.cs.umd.edu/class/fall2019/cmsc420-0201/index.html)
+- [ ] Stanford CS106B/CS106X
 - [ ] UCB CS61B sp18
 - [ ] CS61B Sp21
 - [ ] 清华大学邓俊辉 数据结构学习
 - [ ] MIT 6.046 算法设计与分析
 - [ ] MIT 6.851 高级数据结构
-- [ ] Stanford CS106B/CS106X
-- [ ] [Introductory Data Structures and Algorithms](https://ilyasergey.net/YSC2229/index.html)
+- [ ] [Introductory Data Structures and Algorithms](https://ilyasergey.net/YSC2229/index.html)（OCmal）
 
 ## 算法：目标 -> 各个 OJ 刷完，理论计算机学习
 
@@ -235,7 +235,6 @@
 - [ ] CSAPP 所有笔记整理
 - [ ] 九曲阑干深入理解计算机系统导读 + 华盛顿大学 CSE351
 - [ ] 上海交通大学 ICS 课程所有期末习题刷完
-- [ ] [IIT System Programming](https://moss.cs.iit.edu/cs351/)
 - [ ] [计算机系统概论(加州理工学院，无字幕)：Caltech - Introduction to Computing Systems；公开课推荐：CMU 15-213\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/av8707332/?vd_source=85acf0a59ded02e4c75ae1158baca207)
       [https://com.puter.systems/20fa/](https://com.puter.systems/20fa/) Caltech ICS
       实验网址：[cs24-20fa · GitLab (caltech.edu)](https://gitlab.caltech.edu/cs24-20fa)
@@ -254,6 +253,7 @@
 - [ ] [中科大数字逻辑实验(Verilog)](https://soc.ustc.edu.cn/Digital/#_9)
 - [ ] [中科大数字逻辑提高班](https://soc.ustc.edu.cn/Digital-Pro/)
 - [ ] 清华大学数字逻辑实验完成
+- [ ] 清华大学组成原理实验完成
 - [ ] [中科大计算机系统综合实验](https://soc.ustc.edu.cn/CECS/)
 - [ ] 东南大学系统综合实验
 - [ ] DDCA 阅读 + DDCA 配套实验 + EECS151
@@ -266,6 +266,10 @@
 - [ ] [Computer Architecture](https://safari.ethz.ch/architecture/fall2022/doku.php?id=schedule)
 - [ ] [Seminar on Computer Architecture](https://safari.ethz.ch/architecture_seminar/spring2021/doku.php)
 - [ ] 普林斯顿计算机体系结构
+- [ ] https://course.ece.cmu.edu/~ece740/f13/doku.php?id=home
+- [ ] https://compas.cs.stonybrook.edu/~nhonarmand/courses/sp15/cse502/
+- [ ] https://pages.cs.wisc.edu/~sinclair/courses/cs752/fall2020/
+
 - [ ] [计算机体系结构基础教材](https://foxsen.github.io/archbase/)
 - [ ] 汪文详 CPU 设计实战
 - [ ] 姚勇斌 超标量处理器设计
@@ -334,6 +338,7 @@
 - [ ] [Lecture 1~2: Getting started with kernel and kernel debugging\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1qt411B7NF?p=1&vd_source=85acf0a59ded02e4c75ae1158baca207)
 - [ ] [~~台湾清华大学 - 操作系统 Operating Systems - 黄能富教授 - 全 149p\_哔哩哔哩\_bilibili~~](https://www.bilibili.com/video/BV1nb411K7DT/?spm_id_from=333.788.recommend_more_video.3&vd_source=85acf0a59ded02e4c75ae1158baca207)
 - 套件 1：名校 OS
+- [ ] [Wellesley OS](https://cs.wellesley.edu/~cs341/f20/)
 - [ ] [CSE 451 (washington.edu)](https://courses.cs.washington.edu/courses/cse451/21au/) 实验：[cse451 / xv6-21au · GitLab (washington.edu)](https://gitlab.cs.washington.edu/cse451/xv6-21au)
 - [ ] 进阶讨论：[CSE481A - Operating Systems Capstone (washington.edu)](https://courses.cs.washington.edu/courses/cse481a/23sp/)
 - [ ] [CSE 120: Principles of Computer Operating Systems (ucsd.edu)](https://cseweb.ucsd.edu/classes/sp23/cse120-a/)
@@ -448,6 +453,7 @@
   - [ ] [Stanford Advanced Network CS244](https://2022-cs244.github.io/)
   - [ ] [CS 243, Fall 2019: Advanced Computer Networks (harvard.edu)](https://minlanyu.seas.harvard.edu/teach/cs243-fall19/index.html)
   - [ ] Caltech [cs/ee 143 Communication Networks (caltech.edu)](http://courses.cms.caltech.edu/cs143/)
+  - [ ] 清华大学网络实验
 
 ## 编译原理 -> 目标:实现一个小的编译器和各个语言的编译器
 
