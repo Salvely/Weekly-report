@@ -341,3 +341,16 @@
 - [2024.3.8](./week19/journal/day5.md): 看了《第二十条》
 - [2024.3.9](./week19/journal/day6.md): Y86_64 流水线结构处理器设计入门
 - [2024.3.10](./week19/journal/day7.md): CSAPP Chapter 4 流水线处理器设计 & Chapter 6 开头阅读
+
+## Week 20: 2024.3.11-2024.3.17
+
+- CSAPP Chapter 4 阅读学习
+
+### Logs
+
+- [2024.3.11](./week20/journal/day1.md): 看了《周处除三害》，其他时间摆烂
+- [2024.3.12](./week20/journal/day2.md): 九曲阑干 CSAPP 第 4 章 & 第 6 章学习
+- [2024.3.13](./week20/journal/day3.md): 摆烂的一天
+- [2024.3.14](./week20/journal/day4.md): 摆烂的第二天
+- [2024.3.15](./week20/journal/day5.md): Y86_64 顺序结构处理器设计
+- 2024.3.16 - 2024.3.17: 摆烂两天

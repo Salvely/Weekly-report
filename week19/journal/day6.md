@@ -1,40 +1,5 @@
 # Time log
 
-# CSAPP Todo
-
-> 每隔 2 个小时进行一次健身运动
->
-> 学习顺序为：CSAPP 等入门知识 -> 该课程概念知识（如《操作系统概念》）-> 理论课程（配上《OSTEP》等讲解更详细的书籍） -> 实践书籍(如《Oranges:一个操作系统的实现》) + 实践课程 -> 经典课程 -> 其他进阶工作
->
-> 书籍，课程，Leetcode, OI, CTF, 数学，物理等积极写博客
->
-> 效率拉的越高越好，不要太将就自己
-
-> CSAPP 博客内容：课本阅读总结 + 课本练习 + activity + lab
->
-> 不要被动的去接受知识，要主动的去学习它！抱着热爱学习它！
-
-- [ ] Chapter 4 课本阅读并完成所有练习
-- [ ] Chapter 4 Architecture lab 完成并整理
-- [ ] Chapter 6 课本阅读并完成所有练习
-- [ ] Chapter 6 video 观看
-- [ ] Chapter 6 acitivity 完成
-- [ ] Chapter 6 Slides 复习
-- [ ] Chapter 6 Cache lab 完成
-
-- [ ] 观看[Lecture](https://www.usenix.org/conference/usenix-security-11/q-exploit-hardening-made-easy)
-- [ ] 阅读论文[Q: Exploit Hardening Made Easy](https://www.usenix.org/legacy/events/sec11/tech/full_papers/Schwartz.pdf)并做笔记
-- [ ] 阅读论文[Return-Oriented Programming:Systems, Languages, and Applications](https://hovav.net/ucsd/dist/rop.pdf)并做笔记
-- [ ] Chapter 2 课本总结
-- [ ] Chapter 3 课本总结
-- [ ] Chapter 2 错题整理
-- [ ] Chapter 3 完成所有习题
-- [ ] Chapter 3 错题整理
-- [ ] Chapter 4 课本阅读总结
-- [ ] Chapter 4 错题整理
-- [ ] Chapter 6 课本阅读总结
-- [ ] Chapter 6 错题整理
-
 # Minor-tasks
 
 > 今日任务，CSAPP 涉及到的内容全部过完（体系结构，编译原理，程序优化，操作系统，计算机网络，并行与分布式系统，安全）

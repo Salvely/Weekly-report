@@ -230,7 +230,7 @@
 - [x] [CIS 2400 (upenn.edu)](https://www.seas.upenn.edu/~cis2400/22fa/)
 - [ ] [清华大学计算机系科协引导文档](https://docs.net9.org/)
 - [ ] [USTC LUG 协会培训](https://101.ustclug.org/)
-- [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230) + Nand2Tetris
+- [ ] CMU 15-213 / [cs230 / cs230 · GitLab (kaist.ac.kr)](https://cp-git.kaist.ac.kr/cs230/cs230)
 - [ ] CSAPP 所有课后习题刷完
 - [ ] CSAPP 所有笔记整理
 - [ ] 九曲阑干深入理解计算机系统导读 + 华盛顿大学 CSE351
@@ -241,6 +241,9 @@
 - [ ] Brown CI0300 2023
 - [ ] [CS 61 (harvard.edu)](https://cs61.seas.harvard.edu/site/2022/#gsc.tab=0)
 
+- [ ] Nand2Tetris 完成
+- [ ] 台湾清华大学 数位逻辑设计
+- [ ] verilog 数字逻辑设计 学习
 - [ ] DDCA 数字逻辑阅读
 - [ ] [华科数字逻辑实验完成](https://www.educoder.net/shixuns/5q8f4lbg/challenges)
 - [ ] 台湾清华大学体系结构课程学习(MIPS COA)(理论) + CS61C(Sp15)
@@ -254,21 +257,21 @@
 - [ ] [中科大数字逻辑提高班](https://soc.ustc.edu.cn/Digital-Pro/)
 - [ ] 清华大学数字逻辑实验完成
 - [ ] 清华大学组成原理实验完成
+- [ ] 重庆大学 CPU 实验
+- [ ] [北理工计算机组成原理](https://zanpu.spencerwoo.com/)
+- [ ] 雷自己动手写 CPU
 - [ ] [中科大计算机系统综合实验](https://soc.ustc.edu.cn/CECS/)
-- [ ] 东南大学系统综合实验
 - [ ] DDCA 阅读 + DDCA 配套实验 + EECS151
 - [ ] [Digital Design & Computer Architecture](https://safari.ethz.ch/digitaltechnik/spring2023/doku.php?id=start)
 - [ ] [CMU 18-447 Spring 2015](https://course.ece.cmu.edu/~ece447/s15/doku.php?id=start)
 - [ ] [清华大学组成原理实验](https://lab.cs.tsinghua.edu.cn/cod-lab-docs/labs/1-overview/)
-- [ ] 重庆大学 CPU 实验
-- [ ] [北理工计算机组成原理](https://zanpu.spencerwoo.com/)
-- [ ] 雷自己动手写 CPU
 - [ ] [Computer Architecture](https://safari.ethz.ch/architecture/fall2022/doku.php?id=schedule)
 - [ ] [Seminar on Computer Architecture](https://safari.ethz.ch/architecture_seminar/spring2021/doku.php)
 - [ ] 普林斯顿计算机体系结构
 - [ ] https://course.ece.cmu.edu/~ece740/f13/doku.php?id=home
 - [ ] https://compas.cs.stonybrook.edu/~nhonarmand/courses/sp15/cse502/
 - [ ] https://pages.cs.wisc.edu/~sinclair/courses/cs752/fall2020/
+- [ ] 东南大学系统综合实验
 
 - [ ] [计算机体系结构基础教材](https://foxsen.github.io/archbase/)
 - [ ] 汪文详 CPU 设计实战
