@@ -159,9 +159,6 @@
 
 ### 主要任务
 
-> 本周内刷完所有相关课程，加油！本周先把工作和语言成绩确定下来！
-> 人生还很长，要向前看！
-
 - 休息
 
 ### Logs
@@ -175,8 +172,6 @@
 - [2023.12.31](./week9/journal/day7.md): 和别人一块去东湖落雁岛玩
 
 ---
-
-> 今年定个小目标，坚持 github 365 天全绿。
 
 ## Week 10: 2024.1.1-2024.1.7
 
@@ -369,3 +364,60 @@
 - [2024.3.22](./week21/journal/day5.md): CSAPP Chapter 4 阅读完成
 - [2024.3.23](./week21/journal/day6.md): Chapater 4 HCL 代码阅读，其他时间摆烂
 - [2024.3.24](./week21/journal/day7.md): 去梦时代逛街了
+
+## Week 22: 2024.3.25-2024.3.31
+
+### 主要任务
+
+- x86_64 Procedure 调用复习，Virtual Memory 部分学习，Nand2Tetris Project 1-3 完成
+- 由于生病效率不高
+
+### Logs
+
+- [2024.3.25](./week22/journal/day1.md): 摆烂
+- [2024.3.26](./week22/journal/day2.md): 去东湖骑车了，architecture lab 实现了一部分
+- [2024.3.27](./week22/journal/day3.md): x86-64 procedure 调用过程复习，Cache 的出现及其组成学习，异常控制流学习，Process 学完了
+- [2024.3.28](./week22/journal/day4.md): CSE351 Virtual Memory 部分学习
+- [2024.3.29](./week22/journal/day5.md): 省人民医院看病，Nand2Tetris Project 1 完成
+- [2024.3.30](./week22/journal/day6.md): Nand2Tetris Project 2,3 完成，其他时间生病休息
+- 2024.3.31: 生病休息
+
+## Week 23: 2024.4.1-2024.4.7
+
+### 主要任务
+
+- Nand2Tetris Project 4 - 6 完成
+
+### Logs
+
+- 2024.4.1-2024.4.2: 搭建了博客
+- [2024.4.3](./week23/journal/day3.md): Nand2Tetris Project 4 完成
+- [2024.4.4](./week23/journal/day4.md): Nand2Tetris Project 5 完成
+- 2024.4.5-2024.4.6：清明节休息
+- 2024.4.7: Nand2Tetris Project 6 完成
+
+## Week 24: 2024.4.8-2024.4.14
+
+### 主要任务
+
+- Nand2Tetris
+
+### Logs
+
+- [2024.4.8](./week24/journal/day1.md): Nand2Tetris Proejct 7 框架搭建完成 + Project 8 部分视频观看
+- [2024.4.9](./week24/journal/day2.md): Chapter 8 阅读完成+Project 8 视频看完+Project 8 框架搭完
+- 2024.4.10 - [2024.4.13](./week24/journal/day6.md): Projct 7-8 完成
+
+## Week 25 - Week 27
+
+- 2024.4.14 - 2024.4.27: Nand2Tetris Project 9-12 完成(完结撒花！)
+- 2024.4.28 - 2024.5.5: 五一劳动节休息，中途复习数字逻辑电路
+
+## Week 28: 2024.5.6-2024.5.12
+
+### 主要任务
+
+### Logs
+
+- [2024.5.6](./week28/journal/day1.md): DDCA 第三章内容总结完成，Vivado 安装+Vscode 配置，项目仿真成功，各触发器的特性方程和其之间的转换总结
+- [2024.5.7](./week28/journal/day2.md):

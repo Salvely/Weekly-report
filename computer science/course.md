@@ -243,10 +243,15 @@
 
 - [ ] Nand2Tetris 完成
 - [ ] 台湾清华大学 数位逻辑设计
+- [ ] [华科数字逻辑实验完成](https://www.educoder.net/shixuns/5q8f4lbg/challenges)
 - [ ] verilog 数字逻辑设计 学习
 - [ ] DDCA 数字逻辑阅读
-- [ ] [华科数字逻辑实验完成](https://www.educoder.net/shixuns/5q8f4lbg/challenges)
 - [ ] 台湾清华大学体系结构课程学习(MIPS COA)(理论) + CS61C(Sp15)
+- [ ] DDCA 组成原理所有章节阅读完成
+- [ ] DDCA 所有实验完成
+- [ ] MIPS 单周期处理器设计
+- [ ] MIPS 多周期处理器设计
+- [ ] MIPS 流水线结构处理器设计
 - [ ] [华科计算机组成原理实验完成(MIPS COA)(实验)](https://www.educoder.net/paths/hvbz6g9i)
 - [ ] UCB CS61C 2023（RISC-V）
 - [ ] MIT 6.004
@@ -261,7 +266,8 @@
 - [ ] [北理工计算机组成原理](https://zanpu.spencerwoo.com/)
 - [ ] 雷自己动手写 CPU
 - [ ] [中科大计算机系统综合实验](https://soc.ustc.edu.cn/CECS/)
-- [ ] DDCA 阅读 + DDCA 配套实验 + EECS151
+- [ ] DDCA 阅读 + DDCA 配套实验
+- [ ] EECS151
 - [ ] [Digital Design & Computer Architecture](https://safari.ethz.ch/digitaltechnik/spring2023/doku.php?id=start)
 - [ ] [CMU 18-447 Spring 2015](https://course.ece.cmu.edu/~ece447/s15/doku.php?id=start)
 - [ ] [清华大学组成原理实验](https://lab.cs.tsinghua.edu.cn/cod-lab-docs/labs/1-overview/)
@@ -272,6 +278,7 @@
 - [ ] https://compas.cs.stonybrook.edu/~nhonarmand/courses/sp15/cse502/
 - [ ] https://pages.cs.wisc.edu/~sinclair/courses/cs752/fall2020/
 - [ ] 东南大学系统综合实验
+- [ ] 其他计算机体系结构资料整理 & 学习
 
 - [ ] [计算机体系结构基础教材](https://foxsen.github.io/archbase/)
 - [ ] 汪文详 CPU 设计实战
@@ -286,7 +293,8 @@
 - [ ] 中科院计算所一生一芯
 - [ ] [高级体系结构研讨会](https://github.com/shinezyy/micro-arch-training)
 - [ ] [进阶体系结构训练](https://github.com/shinezyy/micro-arch-training)
-- [ ] 自己实现一个 MIPS/ARM/X86/RISC-V 模拟器
+- [ ] 实现 MIPS/ARM/X86/RISC-V 模拟器
+- [ ] 自己实现一个 MIPS/ARM/X86/RISC-V CPU 模拟器
 
 <!-- 理论部分参考资料 -->
 
