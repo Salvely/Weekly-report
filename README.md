@@ -419,5 +419,7 @@
 
 ### Logs
 
-- [2024.5.6](./week28/journal/day1.md): DDCA 第三章内容总结完成，Vivado 安装+Vscode 配置，项目仿真成功，各触发器的特性方程和其之间的转换总结
-- [2024.5.7](./week28/journal/day2.md):
+- [2024.5.6](./week28/journal/day1.md): DDCA 第三章内容总结完成，Vivado 安装+Vscode 配置，项目仿真成功，各触发器的特性方程和其之间的转换总结，第三章习题完成一部分
+- [2024.5.7](./week28/journal/day2.md): Logisim 实现一些基础触发器，异步时序逻辑电路`preset & clear`机制学习，FSM 设计复习，DFA 学习
+- [2024.5.8](./week28/journal/day3.md): FSM 相关内容复习，总体来说效率不高
+- [2024.5.9](./week28/journal/day4.md): 今天是我的生日！生日快乐！
