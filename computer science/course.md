@@ -241,7 +241,7 @@
 - [ ] Brown CI0300 2023
 - [ ] [CS 61 (harvard.edu)](https://cs61.seas.harvard.edu/site/2022/#gsc.tab=0)
 
-- [ ] Nand2Tetris 完成
+- [x] Nand2Tetris 完成
 - [ ] 台湾清华大学 数位逻辑设计
 - [ ] [华科数字逻辑实验完成](https://www.educoder.net/shixuns/5q8f4lbg/challenges)
 - [ ] verilog 数字逻辑设计 学习
