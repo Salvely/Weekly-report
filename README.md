@@ -434,3 +434,17 @@
 - [2024.5.10](./week28/journal/day5.md): 微积分微分方程的解法复习
 - [2024.5.11](./week28/journal/day6.md): 休息
 - [2024.5.12](./week28/journal/day7.md): 学习离散数学，实现了小型推理引擎 tie 的一部分
+
+## Week 29: 2024.5.13-2024.5.19
+
+> 啊！又是摆烂的一周！就只复习了点微积分！啊！太尴尬了，我都想关掉这个 weekly report，重新开一个新的。但是不能，我要坚持下去，第 30 周会是一个崭新的开始！加油奥里给！
+
+### Logs
+
+- [2024.5.13](./week29/journal/day1.md): 离散数学第一章学了一部分，感觉没有数理基础还是不行，准备回去学习数理基础了
+- [2024.5.14](./week29/journal/day2.md): 积分的应用，积分技巧总结
+- [2024.5.15](./week29/journal/day3.md): Ron Larson Calculus Chapter 7-8 复习
+- [2024.5.16](./week29/journal/day4.md): Ron Larson Calculus Chapter 11 向量、三维空间、点乘、叉乘复习
+- [2024.5.17](./week29/journal/day5.md): Ron Larson 空间中的直线和平面及其距离公式复习
+- [2024.5.18](./week29/journal/day6.md): 周末休息
+- [2024.5.19](./week29/journal/day7.md): 周末休息
