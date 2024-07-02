@@ -473,13 +473,18 @@
 - [2024.5.30](./week31/journal/day4.md): Chapter 12 笔记整理完成，Chapter 13 笔记整理了一半
 - [2024.5.31](./week31/journal/day5.md): Chapter 12 微分，多变量链式法则，方向导数和梯度，切平面和法线复习
 - [2024.6.1](./week31/journal/day6.md): 利用 mkdocs-material 搭建书籍推荐网
-- [2024.6.2](./week31/journal/day7.md): 书籍推荐网
+- [2024.6.2](./week31/journal/day7.md): 书籍推荐网实现
 
-## Week 32: 2024.6.3-2024.6.9
+## Week 32 - Week 35: 2024.6.3-2024.7.2
+
+> 这个月没有怎么详细记录，主要是在复习数学基础，尤其是弄懂微积分中的一些不太明白的部分，把他们全部推理完成
 
 ### 主要任务
+
+- Ron Larson Calculus Chapter 13-15, Chapter 9-10 五章学习完成（微积分学习完成）
+- Gilbert Strang Introduction to Linear Algebra Chapter 1-2 阅读完成
 
 ### Logs
 
 - 2024.6.2: 摆烂一天
-- [2024.6.3](./week32/journal/day2.md): 
+- [2024.6.3](./week32/journal/day2.md): Ron Larson Chapter 13 总结完成
