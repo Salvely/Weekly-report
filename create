@@ -4,6 +4,6 @@ if [ $# -ne 1 ]; then
     exit 1
 fi
 
-mkdir week$1
-cp -r template week$1/journal
+# mkdir week$1
+cp -r template week$1
 cat weekly.md >>README.md
