@@ -1,3 +1,0 @@
-# Time log
-
-# Minor-tasks

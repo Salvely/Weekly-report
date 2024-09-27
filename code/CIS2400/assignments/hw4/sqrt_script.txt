@@ -1,6 +1,0 @@
-reset 
-as sqrt sqrt
-ld sqrt
-set PC 0
-set R0 26
-break set END

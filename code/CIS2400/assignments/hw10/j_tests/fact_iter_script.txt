@@ -1,8 +1,0 @@
-clear
-reset
-as os os
-as fact_iter libc printnum fact_iter
-ld os
-ld fact_iter
-break set TRAP_HALT
-quit

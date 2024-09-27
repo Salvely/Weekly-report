@@ -1,4 +1,0 @@
-/home/gwen/Documents/courses/Bonn_CPP/assignments/hw4/build/CMakeFiles/rebuild_cache.dir
-/home/gwen/Documents/courses/Bonn_CPP/assignments/hw4/build/CMakeFiles/edit_cache.dir
-/home/gwen/Documents/courses/Bonn_CPP/assignments/hw4/build/CMakeFiles/main.dir
-/home/gwen/Documents/courses/Bonn_CPP/assignments/hw4/build/CMakeFiles/vector.dir

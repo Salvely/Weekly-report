@@ -1,6 +1,0 @@
-- [x] 编写makefile
-- [x] 实现`jc.c`程序结构
-- [x] 实现`token.h` & `token.c`
-- [ ] 在`compile.h` & `compile.c`中实现各条指令
-- [ ] 实现汉诺塔程序
-- [ ] 测试

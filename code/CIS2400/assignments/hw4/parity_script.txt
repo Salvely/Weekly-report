@@ -1,6 +1,0 @@
-reset
-as parity parity
-ld parity
-set PC 0
-set R0 255
-break set END

@@ -1,5 +1,0 @@
-reset 
-as reverse_array reverse_array
-ld reverse_array
-set PC 0
-break set END
