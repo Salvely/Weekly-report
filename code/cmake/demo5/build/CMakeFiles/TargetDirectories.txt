@@ -1,8 +1,0 @@
-/home/gwen/Documents/courses/cmake/demo5/build/CMakeFiles/install/local.dir
-/home/gwen/Documents/courses/cmake/demo5/build/CMakeFiles/install.dir
-/home/gwen/Documents/courses/cmake/demo5/build/CMakeFiles/list_install_components.dir
-/home/gwen/Documents/courses/cmake/demo5/build/CMakeFiles/rebuild_cache.dir
-/home/gwen/Documents/courses/cmake/demo5/build/CMakeFiles/edit_cache.dir
-/home/gwen/Documents/courses/cmake/demo5/build/CMakeFiles/main.dir
-/home/gwen/Documents/courses/cmake/demo5/build/CMakeFiles/install/strip.dir
-/home/gwen/Documents/courses/cmake/demo5/build/CMakeFiles/greet.dir

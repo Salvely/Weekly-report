@@ -1,3 +1,0 @@
-/home/gwen/Documents/courses/cmake/demo5/install/bin/main
-/home/gwen/Documents/courses/cmake/demo5/install/lib/libgreet.so
-/home/gwen/Documents/courses/cmake/demo5/install/./include/shared/greet.hh

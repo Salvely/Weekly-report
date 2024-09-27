@@ -3,7 +3,7 @@
 > 循此苦旅，以达天际
 >
 > 这是本人的学习周报记录，参考的是[Skr-Learning](https://github.com/Kiprey/Skr_Learning)学习周报。这里定期记录一些学习的内容与进度。
-> 输入`./create [周数]`生成下一周
+> 输入 `./create [周数]`生成下一周
 
 ## Week 1: 2023.10.30-2023.11.5
 
@@ -14,11 +14,11 @@
 ### Logs
 
 - [2023.10.30](./week1/journal/day1.md): 哎哟，啥也没干，郁闷。。。
-- [2023.10.31](./week1/journal/day2.md): 用`STL`实现了[贪吃蛇小游戏](./code/snake/)
-- [2023.11.1](./week1/journal/day3.md): 完成了`STL Vectors`一章的`Reading`,今天因为出去了，效率不是太高
-- [2023.11.2](./week1/journal/day4.md): `STL Associative Containers Reading`完成，用`STL Multimap`实现了一个[`NFA`](./code/nfa/)
+- [2023.10.31](./week1/journal/day2.md): 用 `STL`实现了[贪吃蛇小游戏](./code/snake/)
+- [2023.11.1](./week1/journal/day3.md): 完成了 `STL Vectors`一章的 `Reading`,今天因为出去了，效率不是太高
+- [2023.11.2](./week1/journal/day4.md): `STL Associative Containers Reading`完成，用 `STL Multimap`实现了一个[`NFA`](./code/nfa/)
 - [2023.11.3](./week1/journal/day5.md): 杂事很多，很累，今天摆烂了。。。
-- [2023.11.4](./week1/journal/day6.md): 阅读了`STL Algorithms`
+- [2023.11.4](./week1/journal/day6.md): 阅读了 `STL Algorithms`
 - [2023.11.5](./week1/journal/day7.md): 身体不太舒服，没有学习。。。
 
 ## Week 2: 2023.11.6-2023.11.12
@@ -32,12 +32,12 @@
 ### Logs
 
 - [2023.11.6](./week2/journal/day1.md): 又摆烂了，郁闷。。。
-- [2023.11.7](./week2/journal/day2.md): 学习了 C++ 编译系统和`CMake`基础，对虚拟机空间进行了一些清理，先使用命令行和`build.sh`脚本手动编译了一个工程项目，而后又使用`CMake`构建项目并`make`编译，其中`library output path`需要特别声明，留待明早完成。
-- [2023.11.8](./week2/journal/day3.md): 实现了`CMake`多文件多目录项目构建，了解了基本的一些`CMAKE_DIR`,`CMake shared library`构建，以及`CMake install`，了解了一些`GDB`高级用法
-- [2023.11.9](./week2/journal/day4.md): 学习了`C++ Functions`，以及`clang-format`和`clang-tidy`的用法
-- [2023.11.10](./week2/journal/day5.md): 学习了`C++ Containers & Iterators & Algorithms`，完成了`Bonn Modern C++ hw3`和一部分`hw4`
-- [2023.11.11](./week2/journal/day6.md): 实现`hw4`，还需要参考一下《STL 源码剖析》中的实现，按照作业测试来看他的需求就是在自己的实现里面套壳，没什么意思，就不管他了
-- [2023.11.12](./week2/journal/day7.md): 学习了一些`C++ Utilities & Library & Classes & visual words & opencv tutorial`，不是很多，下周加油！
+- [2023.11.7](./week2/journal/day2.md): 学习了 C++ 编译系统和 `CMake`基础，对虚拟机空间进行了一些清理，先使用命令行和 `build.sh`脚本手动编译了一个工程项目，而后又使用 `CMake`构建项目并 `make`编译，其中 `library output path`需要特别声明，留待明早完成。
+- [2023.11.8](./week2/journal/day3.md): 实现了 `CMake`多文件多目录项目构建，了解了基本的一些 `CMAKE_DIR`,`CMake shared library`构建，以及 `CMake install`，了解了一些 `GDB`高级用法
+- [2023.11.9](./week2/journal/day4.md): 学习了 `C++ Functions`，以及 `clang-format`和 `clang-tidy`的用法
+- [2023.11.10](./week2/journal/day5.md): 学习了 `C++ Containers & Iterators & Algorithms`，完成了 `Bonn Modern C++ hw3`和一部分 `hw4`
+- [2023.11.11](./week2/journal/day6.md): 实现 `hw4`，还需要参考一下《STL 源码剖析》中的实现，按照作业测试来看他的需求就是在自己的实现里面套壳，没什么意思，就不管他了
+- [2023.11.12](./week2/journal/day7.md): 学习了一些 `C++ Utilities & Library & Classes & visual words & opencv tutorial`，不是很多，下周加油！
 
 ## Week 3: 2023.11.13-2023.11.19
 
@@ -53,9 +53,9 @@
 
 ### Logs
 
-- [2023.11.13](./week3/journal/day1.md): `googletest`使用学习，`C++ Classes`，修复了`hw4`的一些小问题，安装了`opencv`
-- [2023.11.14](./week3/journal/day2.md): 学习了`C++ Inheritance, Static, Numbers, Arrays, Pointers, Stack and Heap, Memory Leak, Smart Pointers`，今天主要是在看 lecture, assignment 倒没怎么做。
-- [2023.11.15](./week3/journal/day3.md): `Modern C++ Basics`理论部分全部学完，`opencv`环境配置完成，尚未测试，，`CIS1900 C++`前三个`lecture`复习。今天效率不是很高。
+- [2023.11.13](./week3/journal/day1.md): `googletest`使用学习，`C++ Classes`，修复了 `hw4`的一些小问题，安装了 `opencv`
+- [2023.11.14](./week3/journal/day2.md): 学习了 `C++ Inheritance, Static, Numbers, Arrays, Pointers, Stack and Heap, Memory Leak, Smart Pointers`，今天主要是在看 lecture, assignment 倒没怎么做。
+- [2023.11.15](./week3/journal/day3.md): `Modern C++ Basics`理论部分全部学完，`opencv`环境配置完成，尚未测试，，`CIS1900 C++`前三个 `lecture`复习。今天效率不是很高。
 - [2023.11.16](./week3/journal/day4.md): 身体不太舒服，头有点疼，可能是昨天睡太晚了，效率不高，今天早点睡。
 - [2023.11.17](./week3/journal/day5.md): 效率不高，搞虚拟机搞了半天，明天加油！
 - [2023.11.18](./week3/journal/day6.md): 复习了点系统基础，其他的啥也没干，又是摆烂的一天。唉，运动多了，膝盖搞疼了，明天一定要加油！早睡早起，打起精神来！
@@ -71,7 +71,7 @@
 ### Logs
 
 - [2023.11.20](./week4/journal/day1.md): LC4 数据通路和信号，完成指令译码，学习 I/O 设备和控制器，Memory Mapped I/O, Subroutines, TRAP 指令过程以及 TRAP 指令和 JSR 指令的比较，巩固 C 基础
-- [2023.11.21](./week4/journal/day2.md): I/O Memory Mapped Console & Video Display 部分复习，完成`hw6`，复习 Memory leaks & C 程序结构 & 预处理过程 & makefile
+- [2023.11.21](./week4/journal/day2.md): I/O Memory Mapped Console & Video Display 部分复习，完成 `hw6`，复习 Memory leaks & C 程序结构 & 预处理过程 & makefile
 - [2023.11.22](./week4/journal/day3.md): Makefiles & Command Line Arguments & File I/O & Binary Files & Endianness 复习，完成 hw7，总体效率不高
 - [2023.11.23](./week4/journal/day4.md): 完成了反汇编器的大部分工作，还有一些立即数和打印的问题需要修改一下。
 - [2023.11.24](./week4/journal/day5.md): 实现反汇编器，修复了指令结构打印，立即数等一些问题
@@ -219,9 +219,9 @@
 - [2024.1.16](./week12/journal/day2.md): 摆烂
 - [2024.1.17](./week12/journal/day3.md): [IPC](./code/system_prog_exercise/IPC/)复习，[网络编程基础](./code/system_prog_exercise/Network/)复习
 - [2024.1.18](./week12/journal/day4.md): libcurl 安装 + 基础用法学习, 多线程基础复习
-- [2024.1.19](./week12/journal/day5.md): [CMU 15-213 & CSAPP](./code/15213/) Chapter 1,2 学习
-- [2024.1.20](./week12/journal/day6.md): [CMU 15-213 & CSAPP](./code/15213/) Chapter 2 学习
-- [2024.1.21](./week12/journal/day7.md): [CMU 15-213 & CSAPP](./code/15213/) Chapter 3 汇编学习，这几个星期效率真是低下
+- [2024.1.19](./week12/journal/day5.md): [CMU 15-213 &amp; CSAPP](./code/15213/) Chapter 1,2 学习
+- [2024.1.20](./week12/journal/day6.md): [CMU 15-213 &amp; CSAPP](./code/15213/) Chapter 2 学习
+- [2024.1.21](./week12/journal/day7.md): [CMU 15-213 &amp; CSAPP](./code/15213/) Chapter 3 汇编学习，这几个星期效率真是低下
 
 ## Week 13: 2024.1.22-2024.1.28
 
@@ -297,7 +297,7 @@
 
 - [2024.2.19](./week17/journal/day1.md): Procedure 调用过程复习，栈防护和攻击手段学习，变长栈帧汇编指令学习，浮点指令学习
 - [2024.2.20](./week17/journal/day2.md): Machine Programming Basics & Control & Procedure Slides 复习，并完成[Basics Activity](./code/15213/Ch3%20Machine%20Level%20Programming/gdb-and-assembly/README.md),[Control Activity](./code/15213/Ch3%20Machine%20Level%20Programming/machine-control/README.md)完成了一半
-- [2024.2.21](./week17/journal/day3.md): Procedure & Data & Advanced Topics Slides 阅读完，粗浅的学习了一下 return-oriented programmming attacks，[Design & Debugging 方法论](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f23/www/lectures/08-design-debugging.pdf)的 Slides 粗浅的阅读了一下，[GDB & Valgrind 使用说明](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f23/www/bootcamps/lab2_slides.pdf)粗浅的看了一下，[Control](./code/15213/Ch3%20Machine%20Level%20Programming/machine-control/README.md) & [Procedure](./code/15213/Ch3%20Machine%20Level%20Programming/machine-procedures/README.md) Activity 全部完成
+- [2024.2.21](./week17/journal/day3.md): Procedure & Data & Advanced Topics Slides 阅读完，粗浅的学习了一下 return-oriented programmming attacks，[Design &amp; Debugging 方法论](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f23/www/lectures/08-design-debugging.pdf)的 Slides 粗浅的阅读了一下，[GDB &amp; Valgrind 使用说明](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f23/www/bootcamps/lab2_slides.pdf)粗浅的看了一下，[Control](./code/15213/Ch3%20Machine%20Level%20Programming/machine-control/README.md) & [Procedure](./code/15213/Ch3%20Machine%20Level%20Programming/machine-procedures/README.md) Activity 全部完成
 - [2024.2.22](./week17/journal/day4.md): [Machine Programming: Data Activity](../../code/15213/Ch3%20Machine%20Level%20Programming/machine-data/README.md) 做完，[Machine Advanced Activity](../../code/15213/Ch3%20Machine%20Level%20Programming/machine-advanced/README.md)完成了一半，[Bomb lab recitation](../../code/15213/Ch3%20Machine%20Level%20Programming/rec4/README.md)除了第 4 个还没完成以外其他全部完成
 - [2024.2.23](./week17/journal/day5.md): [gdb lab](../../code/15213/Ch3%20Machine%20Level%20Programming/lab2_handout/README.md)完成，[attack recitation](../../code/15213/Ch3%20Machine%20Level%20Programming/rec5/README.md)完成，复习 & 实战了几种 buffer overflow 攻击方式，Bomb lab phase 1-4 完成，5 & 6 进行了反汇编但是还没看
 - [2024.2.24](./week17/journal/day6.md): Bomb lab phase 5 完成
@@ -428,7 +428,7 @@
 ### Logs
 
 - [2024.5.6](./week28/journal/day1.md): DDCA 第三章内容总结完成，Vivado 安装+Vscode 配置，项目仿真成功，各触发器的特性方程和其之间的转换总结，第三章习题完成一部分
-- [2024.5.7](./week28/journal/day2.md): Logisim 实现一些基础触发器，异步时序逻辑电路`preset & clear`机制学习，FSM 设计复习，DFA 学习
+- [2024.5.7](./week28/journal/day2.md): Logisim 实现一些基础触发器，异步时序逻辑电路 `preset & clear`机制学习，FSM 设计复习，DFA 学习
 - [2024.5.8](./week28/journal/day3.md): FSM 状态简化复习，总体来说效率不高
 - [2024.5.9](./week28/journal/day4.md): 今天是我的生日！生日快乐！休息一天！
 - [2024.5.10](./week28/journal/day5.md): 微积分微分方程的解法复习
@@ -475,16 +475,57 @@
 - [2024.6.1](./week31/journal/day6.md): 利用 mkdocs-material 搭建书籍推荐网
 - [2024.6.2](./week31/journal/day7.md): 书籍推荐网实现
 
-## Week 32 - Week 35: 2024.6.3-2024.7.2
+## Week 32 - Week 34: 2024.6.3-2024.7.2
 
 > 这个月没有怎么详细记录，主要是在复习数学基础，尤其是弄懂微积分中的一些不太明白的部分，把他们全部推理完成
 
 ### 主要任务
 
 - Ron Larson Calculus Chapter 13-15, Chapter 9-10 五章学习完成（微积分学习完成）
-- Gilbert Strang Introduction to Linear Algebra Chapter 1-2 阅读完成
 
 ### Logs
 
 - 2024.6.2: 摆烂一天
 - [2024.6.3](./week32/journal/day2.md): Ron Larson Chapter 13 总结完成
+
+## Week 35: 2024-6-23 至 2024-6-30
+
+> 计划有变：原本应该 28 号左右来例假，结果现在 25 号就来例假了。26 号可能会量比较大，身体比较虚一点。这几天要多喝枸杞水。还是在 28 号之前把数学、物理、计算机课程学完。
+
+近期几个重要的时间节点如下：
+
+- [x] 2024-6-23：数学+物理学习
+- [x] 2024-6-24：上午湖北省图书馆闭馆，去把智齿拔掉。下午继续省图书馆学习。
+
+本周完成：
+
+- [x] 微积分复习完成
+- [x] 《Introduction to Linear Algebra》前两章阅读完成
+
+## Week 36-Week 37: 2024-7-1 至 2024-7-14
+
+> 突然发现数学很有趣啊！打算认真学习一下，我的预期数学学习路线在这里：[我的数学旅程——基于 MIT Roadmap | Salvely&#39;s Blog](https://salvely.github.io/science/math/)
+
+### 近期重要的时间节点如下
+
+- [x] 7 月 15 日
+
+  - [x] 5 点半起床
+  - [x] 6 点 20 出发去东湖，7 点 20 到达
+  - [x] 变速跑 30 分钟+骑行回来
+  - [x] 9 点之前出发回家，10 点到家
+
+### Todos
+
+- [x] 2024-7-3 上午：医院拆线
+- [x] Mathexchange 搜索其他的线性代数教材并整理
+
+### Logs
+
+- 2024-7-2：MIT Linear Algebra 课程 5-8 节观看
+- 2024-7-3：医院拆线，MIT Linear Algebra 课程 9-10 节观看（这两天下雨，天气都不是很好）
+- 2024-7-4：MIT 18.06 11-13 节暂时跳过，14 节看完。数学的具体学习过程记录在这里：[数学旅程——基于 MIT Roadmap](https://salvely.github.io/science/math/)，这里只记录重大的学习节点和其他任务完成情况。ElegantBook latex 模板下载。
+- [2024-7-5](./week36/journal/day5.md)：MIT Linear Algebra Lecture Notes 3-7 课学习总结完成
+- [2024-7-6](./week36/journal/day6.md): MIT Linear Algebra 8-10 课学习总结完成
+- [2024-7-7](./week36/journal/day7.md): 啥也没干，很颓
+- 2024-7-8 至 2024-7-13：感冒发烧了，休息

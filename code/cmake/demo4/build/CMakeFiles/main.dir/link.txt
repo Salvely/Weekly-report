@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/main.dir/src/main.cpp.o  -o main  -Wl,-rpath,/home/gwen/Documents/courses/cmake/demo4/build libgreet.so 

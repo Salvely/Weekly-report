@@ -176,8 +176,9 @@
 - [ ] [Illionis Data Structure](https://courses.engr.illinois.edu/cs225/fa2022/pages/lectures.html)
   - [other semester](https://courses.engr.illinois.edu/cs225/sp2022/)
   - [lab](https://github.com/cs225-illinois)
-- [ ] [CMSC Data strcture](https://www.cs.umd.edu/class/fall2019/cmsc420-0201/index.html)
-- [ ] Stanford CS106B/CS106X
+
+<!-- - [ ] [CMSC Data strcture](https://www.cs.umd.edu/class/fall2019/cmsc420-0201/index.html) -->
+<!-- - [ ] Stanford CS106B/CS106X -->
 - [ ] UCB CS61B sp18
 - [ ] CS61B Sp21
 - [ ] 清华大学邓俊辉 数据结构学习
