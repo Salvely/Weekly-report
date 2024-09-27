@@ -1,0 +1,5 @@
+reset
+as sum_numbers sum_numbers
+ld sum_numbers
+set PC 0
+break set END

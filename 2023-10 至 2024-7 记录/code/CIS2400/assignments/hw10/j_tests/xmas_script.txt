@@ -1,0 +1,8 @@
+as os os
+as xmas libc xmas
+ld os
+ld xmas
+break set TRAP_HALT
+continue
+dump xC300 xFE00 xmas_dump.txt
+quit

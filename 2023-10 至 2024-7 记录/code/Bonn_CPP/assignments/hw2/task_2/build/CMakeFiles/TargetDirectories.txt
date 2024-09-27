@@ -1,0 +1,3 @@
+/home/gwen/Documents/courses/Bonn_CPP/assignments/hw2/task_2/build/CMakeFiles/rebuild_cache.dir
+/home/gwen/Documents/courses/Bonn_CPP/assignments/hw2/task_2/build/CMakeFiles/edit_cache.dir
+/home/gwen/Documents/courses/Bonn_CPP/assignments/hw2/task_2/build/CMakeFiles/task_2.dir

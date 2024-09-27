@@ -1,0 +1,7 @@
+as os os
+as simple_if libc simple_if
+ld os
+ld simple_if
+break set TRAP_HALT
+continue
+dump xC300 xFE00 simple_if_dump.txt

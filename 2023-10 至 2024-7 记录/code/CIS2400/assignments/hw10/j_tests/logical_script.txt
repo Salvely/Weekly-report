@@ -1,0 +1,7 @@
+as os os
+as logical libc logical
+ld os
+ld logical
+break set TRAP_HALT
+continue
+dump xC300 xFE00 logical_dump.txt

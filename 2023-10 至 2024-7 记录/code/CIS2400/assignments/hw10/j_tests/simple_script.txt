@@ -1,0 +1,5 @@
+as os os
+as simple libc printnum simple
+ld os
+ld simple
+quit

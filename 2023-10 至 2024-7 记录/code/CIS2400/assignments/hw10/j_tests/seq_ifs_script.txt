@@ -1,0 +1,7 @@
+as os os
+as seq_ifs libc seq_ifs
+ld os
+ld seq_ifs
+break set TRAP_HALT
+continue
+dump xC300 xFE00 seq_ifs_dump.txt

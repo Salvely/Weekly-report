@@ -1,0 +1,5 @@
+as os os
+as only_arith libc printnum only_arith
+ld os
+ld only_arith
+quit

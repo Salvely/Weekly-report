@@ -1,0 +1,8 @@
+clear
+reset
+as os os
+as gcd libc printnum gcd
+ld os
+ld gcd
+break set TRAP_HALT
+quit

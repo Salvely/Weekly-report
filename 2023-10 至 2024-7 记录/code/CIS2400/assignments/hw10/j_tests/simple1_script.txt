@@ -1,0 +1,8 @@
+clear
+reset
+as os os
+as simple1 libc printnum simple1
+ld os
+ld simple1
+break set TRAP_HALT
+quit

@@ -1,0 +1,161 @@
+The total number of students in the class = 11
+
+UNDERGRADUATE STUDENT INFORMATION
+---------------------------------
+STUDENT DETAILS:
+Id = 2
+Name = Amal Shalini
+Age = 23
+Assignments = [55, 71, 71, 63, 60, 78, 83]
+Project = 89
+Total = 74.8
+Grade = CR
+Type = Undergraduate Student
+Residence Hall = Sellery
+Year in College = Senior
+
+STUDENT DETAILS:
+Id = 3
+Name = Diya Rajesh
+Age = 21
+Assignments = [92, 66, 77, 95, 90, 96, 59]
+Project = 97
+Total = 86.6
+Grade = CR
+Type = Undergraduate Student
+Residence Hall = Ogg
+Year in College = Junior
+
+STUDENT DETAILS:
+Id = 6
+Name = Vinodh Balasubramaniam
+Age = 28
+Assignments = [100, 54, 100, 83, 94, 53, 79]
+Project = 59
+Total = 74
+Grade = CR
+Type = Undergraduate Student
+Residence Hall = Waters
+Year in College = Sophomore
+
+STUDENT DETAILS:
+Id = 7
+Name = Bharathi Sriramulu
+Age = 24
+Assignments = [66, 76, 93, 66, 50, 89, 69]
+Project = 59
+Total = 68.6
+Grade = N
+Type = Undergraduate Student
+Residence Hall = Waters
+Year in College = Sophomore
+
+STUDENT DETAILS:
+Id = 8
+Name = Kaviya Lakshmipathy
+Age = 20
+Assignments = [60, 87, 80, 68, 70, 80, 92]
+Project = 91
+Total = 81
+Grade = CR
+Type = Undergraduate Student
+Residence Hall = Leopold
+Year in College = Freshman
+
+STUDENT DETAILS:
+Id = 11
+Name = Shiyam
+Age = 27
+Assignments = [72, 96, 57, 55, 40, 96, 99]
+Project = 47
+Total = 65.6
+Grade = N
+Type = Undergraduate Student
+Residence Hall = Ogg
+Year in College = Junior
+
+UNDERGRADUATE STUDENT STATISTICS
+--------------------------------
+Number of students = 6
+The mean of the total score = 75.1
+The sorted list of students (id, name, total, grade) in descending order of total:
+3, Diya Rajesh, 86.6, CR
+8, Kaviya Lakshmipathy, 81, CR
+2, Amal Shalini, 74.8, CR
+6, Vinodh Balasubramaniam, 74, CR
+7, Bharathi Sriramulu, 68.6, N
+11, Shiyam, 65.6, N
+
+GRADUATE STUDENT INFORMATION
+----------------------------
+STUDENT DETAILS:
+Id = 1
+Name = Soosai Raj
+Age = 16
+Assignments = [80, 91, 75, 91, 93, 92, 95]
+Project = 97
+Total = 92.5714
+Grade = CR
+Type = Graduate Student
+Research Area = Teacher Education
+Advisor = Thomas
+
+STUDENT DETAILS:
+Id = 4
+Name = Kasama Ketsuriyonk
+Age = 23
+Assignments = [94, 63, 59, 55, 72, 54, 63]
+Project = 95
+Total = 80.3571
+Grade = CR
+Type = Graduate Student
+Research Area = Aerospace
+Advisor = Rob
+
+STUDENT DETAILS:
+Id = 5
+Name = N.R.Auxilia
+Age = 23
+Assignments = [51, 75, 87, 71, 88, 85, 68]
+Project = 89
+Total = 82
+Grade = CR
+Type = Graduate Student
+Research Area = Food Science
+Advisor = Rayappa
+
+STUDENT DETAILS:
+Id = 9
+Name = Hemanthkumar Santhamoorthy
+Age = 19
+Assignments = [51, 57, 73, 80, 69, 97, 57]
+Project = 69
+Total = 69.0714
+Grade = N
+Type = Graduate Student
+Research Area = Operating Systems
+Advisor = Remzi Arpaci-Dusseau
+
+STUDENT DETAILS:
+Id = 10
+Name = Rex Fernando
+Age = 19
+Assignments = [57, 90, 81, 96, 80, 95, 78]
+Project = 68
+Total = 75.2143
+Grade = N
+Type = Graduate Student
+Research Area = Cryptography
+Advisor = Amit Sahai
+
+GRADUATE STUDENT STATISTICS
+---------------------------
+Number of students = 5
+The mean of the total score = 79.8429
+The sorted list of students (id, name, total, grade) in descending order of total:
+1, Soosai Raj, 92.5714, CR
+5, N.R.Auxilia, 82, CR
+4, Kasama Ketsuriyonk, 80.3571, CR
+10, Rex Fernando, 75.2143, N
+9, Hemanthkumar Santhamoorthy, 69.0714, N
+

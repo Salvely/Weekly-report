@@ -1,0 +1,7 @@
+as os os
+as func libc func
+ld os
+ld func
+break set TRAP_HALT
+continue
+dump xC300 xFE00 func_dump.txt

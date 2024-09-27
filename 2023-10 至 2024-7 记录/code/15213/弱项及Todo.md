@@ -1,0 +1,34 @@
+## Todo
+
+- [ ] Chapter 2 错题复习
+- [ ] Chapter 2 剩下习题写完
+- [ ] Chapter 2 参考文献阅读
+- [ ] Chapter 3 错题复习
+- [ ] Chapter 3 剩下习题做完
+- [ ] Chapter 3 参考文献阅读
+- C 语言编译器 + JVM 虚拟机实现
+- 链接器实现
+- 调试器
+- 汇编器
+- 反汇编器
+- RISC-V / X86 / MIPS 模拟器实现
+- Rust/C 实现操作系统
+- MIPS & X86 & RICS-V 体系结构实现
+- 组成原理
+- 处理器设计及分支预测
+- 用条件传送来实现条件分支
+- C 语言内联汇编学习
+- CPU 浮点指令实现
+- Error Code Correction 实现
+- 编译系统与存储系统的关系
+- Unsigned Overflow : x + y < x
+- Signed Overflow: x,y 为正，x + y 为负（或者反过来）
+- Negation
+  - Unsigned: x = 0 时 -x = 0
+  - Signed: x = TMin 时 -x = TMin
+- Signed Negation & Unsigned Negation
+- 2's complement mulplication
+- 无符号和有符号数的比较，CMPQ 及 SETE/L 等指令，无符号数/有符号数计算时的溢出及其条件码设置，SF^OF & ZF 设置
+- rep & repz 的作用？不是很清楚？
+- switch 语句
+- 程序运行时的内存分配，caller 和 callee 的调用惯例

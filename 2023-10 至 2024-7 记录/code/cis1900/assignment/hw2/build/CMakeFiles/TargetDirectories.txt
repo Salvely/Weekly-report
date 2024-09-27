@@ -1,0 +1,4 @@
+/home/gwen/Documents/report/code/cis1900/assignment/hw2/build/CMakeFiles/rebuild_cache.dir
+/home/gwen/Documents/report/code/cis1900/assignment/hw2/build/CMakeFiles/edit_cache.dir
+/home/gwen/Documents/report/code/cis1900/assignment/hw2/build/CMakeFiles/main.dir
+/home/gwen/Documents/report/code/cis1900/assignment/hw2/build/CMakeFiles/shape.dir

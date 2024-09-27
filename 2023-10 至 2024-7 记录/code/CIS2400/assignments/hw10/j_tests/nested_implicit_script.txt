@@ -1,0 +1,8 @@
+as os os
+as nested_implicit libc nested_implicit
+ld os
+ld nested_implicit
+break set TRAP_HALT
+continue
+dump xC300 xFE00 nested_implicit_dump.txt
+quit

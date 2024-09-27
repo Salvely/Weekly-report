@@ -1,0 +1,8 @@
+clear
+reset
+as os os
+as nested_while libc printnum nested_while
+ld os
+ld nested_while
+break set TRAP_HALT
+quit

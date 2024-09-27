@@ -1,0 +1,8 @@
+clear
+reset
+as os os
+as nested_ifs libc printnum nested_ifs
+ld os
+ld nested_ifs
+break set TRAP_HALT
+quit
